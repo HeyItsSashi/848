@@ -104,7 +104,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Phone</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+1 (127) 001-5000</span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+91 (000) 000-50000</span>
                   </p>
                 </div>
               </div>
