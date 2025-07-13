@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Infinity, ChevronDown } from 'lucide-react';
+import { Menu, X, Infinity, ChevronDown, LogOut } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -16,6 +16,10 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLogout = () => {
+    localStorage.removeItem('848labs-authenticated');
+    window.location.reload();
+  };
   const industries = [
     {
       name: "Manufacturing",
@@ -216,6 +220,15 @@ const Header = () => {
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
             </Link>
+            
+            <button
+              onClick={handleLogout}
+              className="text-gray-700 hover:text-red-600 transition-all duration-300 relative group hover:scale-105 flex items-center space-x-1"
+              title="Logout"
+            >
+              <LogOut className="w-4 h-4" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </button>
           </nav>
 
           <button
@@ -298,6 +311,13 @@ const Header = () => {
                 Contact
               </Link>
             )}
+            <button
+              onClick={handleLogout}
+              className="block py-2 text-gray-700 hover:text-red-600 transition-colors duration-200 flex items-center space-x-2"
+            >
+              <LogOut className="w-4 h-4" />
+              <span>Logout</span>
+            </button>
           </nav>
         </div>
       </div>
