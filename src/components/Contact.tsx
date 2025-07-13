@@ -209,11 +209,11 @@ Your Next Intelligent Move Starts Here.
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
             <span>200@848labs.com</span>
             <span className="hidden md:block">•</span>
-            <span>+1 (127) 001-5000</span>
+            <span>+91 (000) 000-0000</span>
             <span className="hidden md:block">•</span>
             <span>AI Product Engineering & Tech Consulting</span>
             <span className="hidden md:block">•</span>
-            <span>© 2024 848Labs.</span>
+            <span>© 2025 848Labs.</span>
             </div>
           </div>
         </div>
