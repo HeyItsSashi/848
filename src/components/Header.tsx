@@ -133,7 +133,7 @@ const Header = () => {
                     className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
                   >
                     {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
                   </a>
                 ))}
                 
@@ -145,7 +145,7 @@ const Header = () => {
                   <button className="flex items-center space-x-1 text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105">
                     <span>Industries</span>
                     <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isIndustriesOpen ? 'rotate-180' : ''}`} />
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
                   </button>
                   
                   <div className={`absolute top-full left-1/2 transform -translate-x-1/2 mt-2 transition-all duration-300 ${
@@ -182,7 +182,7 @@ const Header = () => {
                     className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
                   >
                     {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
                   </a>
                 ))}
               </>
@@ -192,7 +192,7 @@ const Header = () => {
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
                 Home
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
               </Link>
             )}
             
@@ -201,7 +201,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Stack
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
             </Link>
             <Link
               to="/careers"
@@ -209,7 +209,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Careers
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
             </Link>
             
             <Link
@@ -218,7 +218,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Contact
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
             </Link>
             
             <button

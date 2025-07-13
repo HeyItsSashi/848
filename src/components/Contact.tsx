@@ -92,8 +92,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Email</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="hover:scale-105 transition-transform duration-300">200@848labs.com</span>
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">200@848labs.com</span>
                   </p>
                 </div>
               </div>
@@ -105,8 +104,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Phone</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="hover:scale-105 transition-transform duration-300">+1 (127) 001-5000</span>
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+1 (127) 001-5000</span>
                   </p>
                 </div>
               </div>
@@ -118,8 +116,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Location</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="hover:scale-105 transition-transform duration-300">Global • Remote First</span>
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Global • Remote First</span>
                   </p>
                 </div>
               </div>

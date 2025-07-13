@@ -58,8 +58,7 @@ const Services = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-black mb-3 transition-colors duration-300 relative group cursor-pointer">
-                    <span className="hover:scale-105 transition-transform duration-300">{service.title}</span>
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">{service.title}</span>
                   </h3>
                   <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
                   <ul className="space-y-2">

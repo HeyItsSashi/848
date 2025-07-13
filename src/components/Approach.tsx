@@ -32,11 +32,9 @@ const Approach = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             From <span className="relative group cursor-pointer">
-              <span className="hover:scale-105 transition-transform duration-300">Vision</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+              <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
             </span> to <span className="relative group cursor-pointer">
-              <span className="hover:scale-105 transition-transform duration-300">Impact</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+              <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Impact</span>
             </span> — A structured methodology that ensures every project 
             delivers meaningful results.
           </p>
