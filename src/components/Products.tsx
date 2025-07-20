@@ -29,7 +29,7 @@ const Products = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-            Our Vertical AI Engines
+            Our Vertical AI Apps
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl leading-relaxed">
             At 848Labs, we are building intelligent, <HighlightOnScroll>industry-focused</HighlightOnScroll> engines powered by data and analytics 
