@@ -1,11 +1,11 @@
 import React from 'react';
-import { Camera, BarChart3, Heart, Shield, Eye, Brain, Zap } from 'lucide-react';
+import { Camera, BarChart3, CheckCircle, Stethoscope, Eye, Brain, Zap } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Products = () => {
   const products = [
     {
-      icon: Shield,
+      icon: CheckCircle,
       name: "Tics",
       description: "Trust Intelligence Platform",
       color: "bg-gray-100 text-gray-600"
@@ -17,7 +17,7 @@ const Products = () => {
       color: "bg-gray-100 text-gray-600"
     },
     {
-      icon: Heart,
+      icon: Stethoscope,
       name: "MedTics",
       description: "Comprehensive Healthcare Platform",
       color: "bg-gray-100 text-gray-600"
