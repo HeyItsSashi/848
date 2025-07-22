@@ -99,6 +99,17 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- Hidden form for Netlify Forms detection -->
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" style="display: none;">
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <!-- Honeypot field for spam protection -->
+      <input name="bot-field" />
+    </form>
+    
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
