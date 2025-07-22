@@ -104,7 +104,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Phone</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+91 (000) 000-50000</span>
+                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+91 91210 04266</span>
                   </p>
                 </div>
               </div>
@@ -209,7 +209,7 @@ Your Next Intelligent Move Starts Here.
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
             <span>200@848labs.com</span>
             <span className="hidden md:block">•</span>
-            <span>+91 (000) 000-0000</span>
+            <span>+91 91210 04266</span>
             <span className="hidden md:block">•</span>
             <span>AI Product Engineering & Tech Consulting</span>
             <span className="hidden md:block">•</span>
