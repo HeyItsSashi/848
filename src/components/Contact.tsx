@@ -18,19 +18,22 @@ const Contact = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
+    // Don't prevent default - let Netlify handle the submission
+    // e.preventDefault(); // Commented out to allow Netlify to process the form
     
-    // Show confirmation modal
-    setShowConfirmation(true);
+    // Show confirmation modal after a brief delay
+    setTimeout(() => {
+      setShowConfirmation(true);
+    }, 100);
     
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
+    // Reset form after submission
+    setTimeout(() => {
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+    }, 1000);
   };
 
   const closeConfirmation = () => {
@@ -126,7 +129,24 @@ Your Next Intelligent Move Starts Here.
           <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
             <h3 className="text-xl font-bold mb-6 text-gray-800">Start Your Project</h3>
             
-            <form className="space-y-4" onSubmit={handleSubmit}>
+            <form 
+              className="space-y-4" 
+              onSubmit={handleSubmit}
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              {/* Hidden input for Netlify Forms */}
+              <input type="hidden" name="form-name" value="contact" />
+              
+              {/* Honeypot field for spam protection */}
+              <div style={{ display: 'none' }}>
+                <label>
+                  Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+              </div>
+
               <div>
                 <input
                   type="text"
