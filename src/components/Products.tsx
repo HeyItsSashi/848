@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, BarChart3, Heart, Eye, Brain, Zap } from 'lucide-react';
+import { Camera, BarChart3, Heart, Shield, Eye, Brain, Zap } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Products = () => {
@@ -21,6 +21,12 @@ const Products = () => {
       name: "MedTics",
       description: "Comprehensive Healthcare Platform",
       color: "bg-gray-100 text-gray-600"
+    },
+    {
+      icon: Shield,
+      name: "Tics",
+      description: "Trust Intelligence Platform",
+      color: "bg-gray-100 text-gray-600"
     }
   ];
 
@@ -37,7 +43,7 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {products.map((product, index) => (
             <div
               key={index}
