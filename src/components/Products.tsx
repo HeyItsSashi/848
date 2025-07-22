@@ -5,15 +5,15 @@ import HighlightOnScroll from './HighlightOnScroll';
 const Products = () => {
   const products = [
     {
-      icon: Camera,
-      name: "CamTics",
-      description: "Camera & Analytics Platform",
+      icon: Shield,
+      name: "Tics",
+      description: "Trust Intelligence Platform",
       color: "bg-gray-100 text-gray-600"
     },
     {
-      icon: BarChart3,
-      name: "AppTics",
-      description: "Application Analytics Platform",
+      icon: Camera,
+      name: "CamTics",
+      description: "Camera & Analytics Platform",
       color: "bg-gray-100 text-gray-600"
     },
     {
@@ -23,9 +23,9 @@ const Products = () => {
       color: "bg-gray-100 text-gray-600"
     },
     {
-      icon: Shield,
-      name: "Tics",
-      description: "Trust Intelligence Platform",
+      icon: BarChart3,
+      name: "AppTics",
+      description: "Application Analytics Platform",
       color: "bg-gray-100 text-gray-600"
     }
   ];
