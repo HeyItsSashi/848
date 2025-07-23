@@ -35,7 +35,7 @@ const Approach = () => {
               <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
             </span> to <span className="relative group cursor-pointer">
               <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Impact</span>
-            </span> — A structured methodology that ensures every project 
+            </span>  A structured methodology that ensures every project 
             delivers meaningful results.
           </p>
         </div>
