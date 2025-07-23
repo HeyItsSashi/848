@@ -43,8 +43,6 @@ const Services = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             We build <HighlightOnScroll>End-to-End Intelligence</HighlightOnScroll> across systems from Edge to Enterprise that sense, think, decide, and act.
-
-           
           </p>
         </div>
 
