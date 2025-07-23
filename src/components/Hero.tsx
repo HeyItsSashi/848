@@ -54,7 +54,9 @@ See it in Action            </span>
         </div>
 
         <div className="mt-16 text-left">
-          <p className="text-gray-500 text-sm mb-4">Scroll to discover our approach</p>
+          <p className="text-gray-500 text-sm mb-4">Explore the thinking behind the technology.
+
+</p>
           <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group">
             <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
           </div>
