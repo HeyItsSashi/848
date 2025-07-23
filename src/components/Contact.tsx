@@ -78,8 +78,7 @@ Your Next Intelligent Move Starts Here.
 
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Let's discuss how 848Labs can help transform your business with intelligent, 
-            scalable solutions that drive real-world impact.
+            Partner with 848Labs to move faster, work smarter, and scale impact—powered by purposeful AI and actionable insight            scalable solutions that drive real-world impact.
           </p>
         </div>
 
