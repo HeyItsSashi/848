@@ -1,0 +1,7 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: *
+Disallow:
+
+Sitemap: https://848labs.com/sitemap.xml
