@@ -11,21 +11,9 @@ const Products = () => {
       color: "bg-gray-100 text-gray-600"
     },
     {
-      icon: Camera,
-      name: "CamTics",
-      description: "Camera & Analytics Platform",
-      color: "bg-gray-100 text-gray-600"
-    },
-    {
-      icon: Stethoscope,
-      name: "MedTics",
-      description: "Comprehensive Healthcare Platform",
-      color: "bg-gray-100 text-gray-600"
-    },
-    {
       icon: BarChart3,
-      name: "AppTics",
-      description: "Application Analytics Platform",
+      name: "SMTics",
+      description: "Sales Automation Platform",
       color: "bg-gray-100 text-gray-600"
     }
   ];
