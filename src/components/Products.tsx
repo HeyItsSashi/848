@@ -4,18 +4,7 @@ import HighlightOnScroll from './HighlightOnScroll';
 
 const Products = () => {
   const products = [
-    {
-      icon: CheckCircle,
-      name: "Tics",
-      description: "Trust Intelligence Platform",
-      color: "bg-gray-100 text-gray-600"
-    },
-    {
-      icon: BarChart3,
-      name: "SMTics",
-      description: "Sales Automation Platform",
-      color: "bg-gray-100 text-gray-600"
-    }
+   
   ];
 
   return (
