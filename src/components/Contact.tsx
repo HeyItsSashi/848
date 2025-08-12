@@ -232,7 +232,7 @@ Your Next Intelligent Move Starts Here.
             <span className="hidden md:block">•</span>
             <span>AI Product Engineering & Tech Consulting</span>
             <span className="hidden md:block">•</span>
-            <span>© 2025 848Labs.</span>
+            <span>© 2025 Codesigns Business Solutions.</span>
             </div>
           </div>
         </div>
