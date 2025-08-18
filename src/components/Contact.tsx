@@ -228,7 +228,7 @@ Your Next Intelligent Move Starts Here.
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
             <span>200@848labs.com</span>
             <span className="hidden md:block">•</span>
-            <span>+91 91210 04266</span>
+            <span>+91 6304108601</span>
             <span className="hidden md:block">•</span>
             <span>AI Product Engineering & Tech Consulting</span>
             <span className="hidden md:block">•</span>
