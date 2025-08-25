@@ -76,7 +76,7 @@ const DataAIEngineering = () => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Back Navigation */}
         <Link 
-          to="/#services" 
+          to="/services" 
           className="inline-flex items-center space-x-2 text-gray-600 hover:text-black transition-colors duration-300 mb-8 group"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
