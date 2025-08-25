@@ -105,6 +105,11 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
@@ -177,6 +182,7 @@ const Header = () => {
                 
                 <Link
                   to="/services"
+                  onClick={handleScrollToTop}
                   className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
                 >
                   Services
@@ -194,6 +200,7 @@ const Header = () => {
             ) : (
               <Link
                 to="/"
+                onClick={handleScrollToTop}
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
                 Home
@@ -203,6 +210,7 @@ const Header = () => {
             
             <Link
               to="/stack"
+              onClick={handleScrollToTop}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Stack
@@ -266,8 +274,8 @@ const Header = () => {
                 </a>
                 <Link
                   to="/services"
+                  onClick={handleScrollToTop}
                   className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
                 >
                   Services
                 </Link>
@@ -282,16 +290,16 @@ const Header = () => {
             ) : (
               <Link
                 to="/"
+                onClick={handleScrollToTop}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
             )}
             <Link
               to="/stack"
+              onClick={handleScrollToTop}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-              onClick={() => setIsMenuOpen(false)}
             >
               Stack
             </Link>

@@ -5,6 +5,10 @@ import ParticleBackground from '../../components/ParticleBackground';
 import HighlightOnScroll from '../../components/HighlightOnScroll';
 
 const EdgeSystems = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const features = [
     {
       icon: Eye,
@@ -51,6 +55,7 @@ const EdgeSystems = () => {
         <div className="mb-8">
           <Link 
             to="/services" 
+            onClick={handleScrollToTop}
             className="inline-flex items-center space-x-3 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-lg text-gray-700 hover:text-black transition-all duration-300 group hover:scale-105 hover:shadow-md"
           >
             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
@@ -192,6 +197,7 @@ const EdgeSystems = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <Link
               to="/#contact"
+              onClick={handleScrollToTop}
               className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Start Your Project</span>
@@ -199,6 +205,7 @@ const EdgeSystems = () => {
             </Link>
             <Link
               to="/services"
+              onClick={handleScrollToTop}
               className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
               <span>View All Services</span>

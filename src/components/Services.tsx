@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const services = [
     {
       icon: Bot,
@@ -56,6 +60,7 @@ const Services = () => {
             <Link
               to={service.link}
               key={index}
+              onClick={handleScrollToTop}
               className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02] block"
             >
               <div className="flex items-start space-x-4">

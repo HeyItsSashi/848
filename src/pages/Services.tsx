@@ -5,6 +5,10 @@ import ParticleBackground from '../components/ParticleBackground';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 
 const ServicesPage = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const services = [
     {
       icon: Bot,
@@ -63,6 +67,7 @@ const ServicesPage = () => {
             <Link
               key={index}
               to={service.link}
+              onClick={handleScrollToTop}
               className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02] block"
             >
               <div className="flex items-start space-x-4">
@@ -100,6 +105,7 @@ const ServicesPage = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <Link
               to="/#contact"
+              onClick={handleScrollToTop}
               className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Start Your Project</span>
@@ -107,6 +113,7 @@ const ServicesPage = () => {
             </Link>
             <Link
               to="/"
+              onClick={handleScrollToTop}
               className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
               <span>Back to Home</span>
