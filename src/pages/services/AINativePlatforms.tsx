@@ -45,13 +45,15 @@ const AINativePlatforms = () => {
       
       <div className="max-w-6xl mx-auto px-6">
         {/* Back Navigation */}
-        <Link 
-          to="/services" 
-          className="inline-flex items-center space-x-2 text-gray-600 hover:text-black transition-colors duration-300 mb-8 group"
-        >
-          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-          <span>Back to Services</span>
-        </Link>
+        <div className="mb-8">
+          <Link 
+            to="/services" 
+            className="inline-flex items-center space-x-3 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-lg text-gray-700 hover:text-black transition-all duration-300 group hover:scale-105 hover:shadow-md"
+          >
+            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
+            <span className="font-medium">Back to Services</span>
+          </Link>
+        </div>
 
         {/* Hero Section */}
         <div className="text-left mb-16">
