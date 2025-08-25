@@ -175,16 +175,21 @@ const Header = () => {
                   </div>
                 </div>
                 
-                {['Services', 'Products'].map((item) => (
-                  <a
-                    key={item}
-                    href={`#${item.toLowerCase()}`}
-                    className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-                  >
-                    {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
-                  </a>
-                ))}
+                <Link
+                  to="/services"
+                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+                >
+                  Services
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+                </Link>
+                
+                <a
+                  href="#products"
+                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+                >
+                  Products
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+                </a>
               </>
             ) : (
               <Link
@@ -259,16 +264,20 @@ const Header = () => {
                 >
                   Industries
                 </a>
-                {['Services', 'Products'].map((item) => (
-                  <a
-                    key={item}
-                    href={`#${item.toLowerCase()}`}
-                    className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {item}
-                  </a>
-                ))}
+                <Link
+                  to="/services"
+                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Services
+                </Link>
+                <a
+                  href="#products"
+                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Products
+                </a>
               </>
             ) : (
               <Link
