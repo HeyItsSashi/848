@@ -195,7 +195,7 @@ const EdgeSystems = () => {
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1"><10ms</div>
+                      <div className="text-2xl font-bold text-black mb-1">{"<10ms"}</div>
                       <div className="text-sm text-gray-600">Decision latency</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
@@ -275,7 +275,7 @@ const EdgeSystems = () => {
           <div className="bg-gray-900 rounded-3xl p-12 text-white">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2"><1ms</div>
+                <div className="text-4xl font-bold text-gray-100 mb-2">{"<1ms"}</div>
                 <div className="text-gray-300">Processing Latency</div>
                 <div className="text-sm text-gray-400 mt-1">Ultra-low response times</div>
               </div>
