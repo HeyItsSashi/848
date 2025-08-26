@@ -9,7 +9,9 @@ const EdgeSystems = () => {
 
   const handleBackToHome = () => {
     navigate('/');
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   };
 
   const capabilities = [
@@ -65,14 +67,13 @@ const EdgeSystems = () => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Back Navigation */}
         <div className="mb-8">
-          <Link
-            to="/"
+          <button
             onClick={handleBackToHome}
             className="inline-flex items-center space-x-2 text-gray-600 hover:text-black transition-all duration-300 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300" />
             <span>Back to Home</span>
-          </Link>
+          </button>
         </div>
 
         {/* Hero Section */}
@@ -94,20 +95,20 @@ const EdgeSystems = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
-            <a
-              href="#contact"
+            <button
+              onClick={handleBackToHome}
               className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Deploy Edge Intelligence</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </a>
+            </button>
             
-            <a
-              href="#contact"
+            <button
+              onClick={handleBackToHome}
               className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
               <span>Schedule Consultation</span>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -206,13 +207,13 @@ const EdgeSystems = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <a
-              href="#contact"
+            <button
+              onClick={handleBackToHome}
               className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Start Your Project</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </a>
+            </button>
             
             <button
               onClick={handleBackToHome}
