@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock } from 'lucide-react';
 
 const EnterpriseSolutions = () => {
   const scrollToTop = () => {
