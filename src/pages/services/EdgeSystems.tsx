@@ -219,9 +219,9 @@ const EdgeSystems = () => {
 
         {/* Industry Applications */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Industry Applications</h2>
+          <h2 className="text-4xl font-bold text-black mb-8">Future Industry Applications</h2>
           <p className="text-xl text-gray-600 mb-12 max-w-4xl">
-            Edge systems are transforming industries where real-time processing and reliable operation are mission-critical
+            Edge systems will transform industries where real-time processing and reliable operation are mission-critical
           </p>
 
           <div className="space-y-8">
@@ -231,22 +231,22 @@ const EdgeSystems = () => {
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Autonomous Vehicles</h3>
+                  <h3 className="text-2xl font-bold text-black mb-4">Next-Gen Autonomous Systems</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Safety-critical AI systems that process sensor data in real-time with ultra-low latency. Every millisecond counts when lives are at stake.
+                    Future safety-critical AI systems could process sensor data with ultra-low latency, where every millisecond could save lives.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">{"<10ms"}</div>
-                      <div className="text-sm text-gray-600">Decision latency</div>
+                      <div className="text-2xl font-bold text-black mb-1">{"<5ms"}</div>
+                      <div className="text-sm text-gray-600">Target latency</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
                       <div className="text-2xl font-bold text-black mb-1">360°</div>
-                      <div className="text-sm text-gray-600">Sensor coverage</div>
+                      <div className="text-sm text-gray-600">Vision capability</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">99.99%</div>
-                      <div className="text-sm text-gray-600">Reliability</div>
+                      <div className="text-2xl font-bold text-black mb-1">99.9%+</div>
+                      <div className="text-sm text-gray-600">Target reliability</div>
                     </div>
                   </div>
                 </div>
@@ -259,22 +259,22 @@ const EdgeSystems = () => {
                   <Camera className="w-8 h-8 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Smart Manufacturing</h3>
+                  <h3 className="text-2xl font-bold text-black mb-4">Intelligent Manufacturing</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Real-time quality control and predictive maintenance using edge AI to monitor equipment performance and detect anomalies instantly.
+                    Envisioned edge AI systems could enable real-time quality control and predictive maintenance, monitoring equipment with instant anomaly detection.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">99.5%</div>
-                      <div className="text-sm text-gray-600">Quality detection rate</div>
+                      <div className="text-2xl font-bold text-black mb-1">95%+</div>
+                      <div className="text-sm text-gray-600">Expected accuracy</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">75%</div>
-                      <div className="text-sm text-gray-600">Downtime reduction</div>
+                      <div className="text-2xl font-bold text-black mb-1">70%+</div>
+                      <div className="text-sm text-gray-600">Potential reduction</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
                       <div className="text-2xl font-bold text-black mb-1">24/7</div>
-                      <div className="text-sm text-gray-600">Monitoring</div>
+                      <div className="text-sm text-gray-600">Continuous watch</div>
                     </div>
                   </div>
                 </div>
@@ -287,22 +287,22 @@ const EdgeSystems = () => {
                   <Shield className="w-8 h-8 text-white" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Smart Cities & Infrastructure</h3>
+                  <h3 className="text-2xl font-bold text-black mb-4">Future Smart Infrastructure</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    Traffic optimization, environmental monitoring, and public safety systems that operate continuously even during network outages.
+                    Anticipated traffic optimization and environmental monitoring systems could operate continuously, maintaining public safety even during network disruptions.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">40%</div>
-                      <div className="text-sm text-gray-600">Traffic improvement</div>
+                      <div className="text-2xl font-bold text-black mb-1">35%+</div>
+                      <div className="text-sm text-gray-600">Expected improvement</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">85%</div>
-                      <div className="text-sm text-gray-600">Energy savings</div>
+                      <div className="text-2xl font-bold text-black mb-1">80%+</div>
+                      <div className="text-sm text-gray-600">Target efficiency</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
                       <div className="text-2xl font-bold text-black mb-1">100%</div>
-                      <div className="text-sm text-gray-600">Uptime guarantee</div>
+                      <div className="text-sm text-gray-600">Uptime goal</div>
                     </div>
                   </div>
                 </div>

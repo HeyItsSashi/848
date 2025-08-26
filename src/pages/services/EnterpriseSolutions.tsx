@@ -197,9 +197,9 @@ const EnterpriseSolutions = () => {
 
         {/* Industry Success Stories */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Industry Success Stories</h2>
+          <h2 className="text-4xl font-bold text-black mb-8">Envisioned Enterprise Impact</h2>
           <p className="text-xl text-gray-600 mb-12 max-w-4xl">
-            See how leading organizations across industries have transformed their operations with our enterprise solutions
+            Explore how organizations could transform their operations with our comprehensive enterprise AI solutions
           </p>
 
           <div className="space-y-8">
@@ -210,28 +210,28 @@ const EnterpriseSolutions = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Global Financial Services</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Fortune 100</span>
+                    <h3 className="text-2xl font-bold text-black">Enterprise Financial Vision</h3>
+                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Large Scale</span>
                   </div>
                   <p className="text-lg text-gray-700 mb-6">
-                    Transformed fraud detection and risk assessment systems, processing millions of transactions daily with AI-powered real-time analysis.
+                    AI-powered enterprise solutions could revolutionize fraud detection and risk assessment, processing millions of transactions with intelligent real-time analysis.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">97%</div>
-                      <div className="text-sm text-gray-600">Fraud detection accuracy</div>
+                      <div className="text-3xl font-bold text-black mb-1">95%+</div>
+                      <div className="text-sm text-gray-600">Target accuracy</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">$50M</div>
-                      <div className="text-sm text-gray-600">Annual savings</div>
+                      <div className="text-3xl font-bold text-black mb-1">$40M+</div>
+                      <div className="text-sm text-gray-600">Projected value</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">80%</div>
-                      <div className="text-sm text-gray-600">Faster processing</div>
+                      <div className="text-3xl font-bold text-black mb-1">75%+</div>
+                      <div className="text-sm text-gray-600">Speed target</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
                       <div className="text-3xl font-bold text-black mb-1">24/7</div>
-                      <div className="text-sm text-gray-600">Monitoring</div>
+                      <div className="text-sm text-gray-600">Continuous operation</div>
                     </div>
                   </div>
                 </div>
@@ -245,28 +245,28 @@ const EnterpriseSolutions = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Manufacturing Conglomerate</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Global Operations</span>
+                    <h3 className="text-2xl font-bold text-black">Manufacturing Intelligence Future</h3>
+                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Multi-Site Vision</span>
                   </div>
                   <p className="text-lg text-gray-700 mb-6">
-                    Implemented enterprise-wide automation and predictive maintenance across 50+ facilities, reducing downtime and optimizing production efficiency.
+                    Envisioned enterprise automation could enable predictive maintenance across multiple facilities, potentially reducing downtime and optimizing production efficiency.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">65%</div>
-                      <div className="text-sm text-gray-600">Downtime reduction</div>
+                      <div className="text-3xl font-bold text-black mb-1">60%+</div>
+                      <div className="text-sm text-gray-600">Potential reduction</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
                       <div className="text-3xl font-bold text-black mb-1">30%</div>
-                      <div className="text-sm text-gray-600">Efficiency increase</div>
+                      <div className="text-sm text-gray-600">Expected gain</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">$25M</div>
-                      <div className="text-sm text-gray-600">Cost savings</div>
+                      <div className="text-3xl font-bold text-black mb-1">$20M+</div>
+                      <div className="text-sm text-gray-600">Target savings</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">99.7%</div>
-                      <div className="text-sm text-gray-600">Quality rate</div>
+                      <div className="text-3xl font-bold text-black mb-1">99%+</div>
+                      <div className="text-sm text-gray-600">Quality goal</div>
                     </div>
                   </div>
                 </div>
@@ -280,28 +280,28 @@ const EnterpriseSolutions = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Healthcare Network</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Multi-State</span>
+                    <h3 className="text-2xl font-bold text-black">Healthcare Security Vision</h3>
+                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
                   </div>
                   <p className="text-lg text-gray-700 mb-6">
-                    Deployed AI-powered security and compliance system across 200+ healthcare facilities, ensuring HIPAA compliance and patient data protection.
+                    Future AI-powered security systems could protect healthcare networks with intelligent compliance monitoring and automated patient data safeguards.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
                       <div className="text-3xl font-bold text-black mb-1">100%</div>
-                      <div className="text-sm text-gray-600">HIPAA compliance</div>
+                      <div className="text-sm text-gray-600">Compliance target</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
                       <div className="text-3xl font-bold text-black mb-1">0</div>
-                      <div className="text-sm text-gray-600">Security breaches</div>
+                      <div className="text-sm text-gray-600">Breach goal</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">45%</div>
-                      <div className="text-sm text-gray-600">Admin time saved</div>
+                      <div className="text-3xl font-bold text-black mb-1">40%+</div>
+                      <div className="text-sm text-gray-600">Time savings</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">2M+</div>
-                      <div className="text-sm text-gray-600">Records secured</div>
+                      <div className="text-3xl font-bold text-black mb-1">1M+</div>
+                      <div className="text-sm text-gray-600">Records capacity</div>
                     </div>
                   </div>
                 </div>
