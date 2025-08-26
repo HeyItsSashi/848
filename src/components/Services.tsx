@@ -68,7 +68,6 @@ const Services = () => {
                   <service.icon className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-black mb-3 transition-colors duration-300 group-hover:text-blue-600">
                   <h3 className="text-xl font-semibold text-black mb-3 transition-colors duration-300 group-hover:text-stone-600">
                     {service.title}
                   </h3>
