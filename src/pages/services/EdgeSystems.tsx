@@ -328,6 +328,7 @@ const EdgeSystems = () => {
         </div>
       </div>
     </div>
+  )
   );
 };
 
