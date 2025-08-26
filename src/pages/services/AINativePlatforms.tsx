@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Bot, Brain, Zap, CheckCircle, ArrowRight } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
 import HighlightOnScroll from '../../components/HighlightOnScroll';
@@ -9,7 +9,9 @@ const AINativePlatforms = () => {
 
   const handleBackToHome = () => {
     navigate('/');
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   };
 
   const capabilities = [
