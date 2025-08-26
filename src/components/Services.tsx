@@ -4,6 +4,10 @@ import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const services = [
     {
       icon: Bot,
@@ -55,6 +59,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Link
               to={service.link}
+              onClick={handleLinkClick}
               key={index}
               className="block bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02]"
             >

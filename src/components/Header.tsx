@@ -57,6 +57,11 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
@@ -82,6 +87,7 @@ const Header = () => {
                   <a
                     key={item}
                     href={`#${item.toLowerCase()}`}
+                    onClick={handleLinkClick}
                     className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
                   >
                     {item}
@@ -92,7 +98,7 @@ const Header = () => {
             ) : (
               <Link
                 to="/"
-                onClick={handleScrollToTop}
+                onClick={handleLinkClick}
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
                 Home
@@ -102,7 +108,7 @@ const Header = () => {
             
             <Link
               to="/stack"
-              onClick={handleScrollToTop}
+              onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Stack
@@ -110,7 +116,7 @@ const Header = () => {
             </Link>
             <Link
               to="/careers"
-              onClick={handleCareersClick}
+              onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Careers
@@ -152,8 +158,8 @@ const Header = () => {
               <>
                 <a
                   href="#about"
+                  onClick={handleLinkClick}
                   className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
                 >
                   About
                 </a>
@@ -161,7 +167,7 @@ const Header = () => {
             ) : (
               <Link
                 to="/"
-                onClick={handleScrollToTop}
+                onClick={handleLinkClick}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
               >
                 Home
@@ -169,23 +175,23 @@ const Header = () => {
             )}
             <Link
               to="/stack"
-              onClick={handleScrollToTop}
+              onClick={handleLinkClick}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
               Stack
             </Link>
             <Link
               to="/careers"
+              onClick={handleLinkClick}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-              onClick={handleCareersClick}
             >
               Careers
             </Link>
             {location.pathname === '/' && (
               <a
                 href="#contact"
+                onClick={handleLinkClick}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </a>
@@ -193,8 +199,8 @@ const Header = () => {
             {location.pathname !== '/' && (
               <Link
                 to="/#contact"
+                onClick={handleLinkClick}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
