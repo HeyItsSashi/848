@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock } from 'lucide-react';
 
 const EnterpriseSolutions = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen pt-20 bg-white">
       {/* Back Button - Right Side */}

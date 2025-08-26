@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Satellite, Eye, Cpu, Wifi, Shield, Zap, Camera, MapPin } from 'lucide-react';
 
 const EdgeSystems = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen pt-20 bg-white">
       {/* Back Button - Right Side */}
