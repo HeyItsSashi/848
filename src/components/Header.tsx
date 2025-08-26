@@ -265,13 +265,6 @@ const Header = () => {
                 >
                   Industries
                 </a>
-                <Link
-                  to="/services"
-                  onClick={handleScrollToTop}
-                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                >
-                  Services
-                </Link>
               </>
             ) : (
               <Link
