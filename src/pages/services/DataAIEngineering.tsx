@@ -9,9 +9,7 @@ const DataAIEngineering = () => {
 
   const handleBackToHome = () => {
     navigate('/');
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 100);
+    window.scrollTo(0, 0);
   };
 
   const capabilities = [
