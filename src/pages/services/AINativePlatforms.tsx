@@ -13,6 +13,7 @@ const EnterpriseSolutions = () => {
       <div className="fixed top-24 right-6 z-50">
         <Link
           to="/"
+          onClick={scrollToTop}
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
@@ -362,6 +363,7 @@ const EnterpriseSolutions = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <Link
               to="/#contact"
+              onClick={scrollToTop}
               className="group bg-white text-purple-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
             >
               <span>Schedule Enterprise Consultation</span>
