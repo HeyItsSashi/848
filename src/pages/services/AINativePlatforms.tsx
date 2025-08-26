@@ -9,52 +9,8 @@ const AINativePlatforms = () => {
 
   const handleBackToHome = () => {
     navigate('/');
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 100);
+    window.scrollTo(0, 0);
   };
-
-  const capabilities = [
-    {
-      icon: Brain,
-      title: "Intelligent Decision Making",
-      description: "AI systems that learn from data patterns and make autonomous decisions with human-like reasoning."
-    },
-    {
-      icon: Zap,
-      title: "Real-Time Adaptation",
-      description: "Platforms that continuously evolve and adapt to changing conditions without manual intervention."
-    },
-    {
-      icon: Bot,
-      title: "Conversational Interfaces",
-      description: "Natural language processing for seamless human-AI interaction across all touchpoints."
-    }
-  ];
-
-  const features = [
-    "AI Consulting & Solution Design",
-    "Custom AI Model Development", 
-    "AI System Integration",
-    "Performance Optimization",
-    "Continuous Learning Implementation",
-    "AI Ethics & Compliance"
-  ];
-
-  const useCases = [
-    {
-      title: "Customer Service Automation",
-      description: "Deploy intelligent chatbots and voice agents that understand context and provide personalized responses."
-    },
-    {
-      title: "Predictive Analytics Platform",
-      description: "Build systems that forecast trends, identify risks, and recommend actions based on historical data."
-    },
-    {
-      title: "Content Intelligence System",
-      description: "Automatically analyze, categorize, and generate content with AI-powered understanding."
-    }
-  ];
 
   return (
     <div className="min-h-screen pt-20 relative">
@@ -112,86 +68,35 @@ const AINativePlatforms = () => {
         <div className="mb-20">
           <h2 className="text-3xl font-bold text-black mb-12">Core Capabilities</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {capabilities.map((capability, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-gray-100 hover:border-blue-200 hover:scale-[1.02]"
-              >
-                <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                  <capability.icon className="w-6 h-6" />
-                </div>
-                <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
-                  {capability.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">{capability.description}</p>
+            <div className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-gray-100 hover:border-blue-200 hover:scale-[1.02]">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                <Brain className="w-6 h-6" />
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* What We Deliver */}
-        <div className="mb-20">
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-3xl font-bold text-black mb-6">What We Deliver</h2>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Our AI-native platforms are built from the ground up to be intelligent, adaptive, and scalable. 
-                We don't just integrate AI features—we architect entire systems around AI capabilities.
-              </p>
-              
-              <div className="grid grid-cols-2 gap-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
-                  </div>
-                ))}
-              </div>
+              <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                Intelligent Decision Making
+              </h3>
+              <p className="text-gray-600 leading-relaxed">AI systems that learn from data patterns and make autonomous decisions with human-like reasoning.</p>
             </div>
-            
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <h3 className="text-xl font-bold text-black mb-6">Technology Stack</h3>
-              <div className="space-y-4">
-                <div>
-                  <span className="font-medium text-black">AI/ML Frameworks:</span>
-                  <span className="text-gray-600 ml-2">TensorFlow, PyTorch, Hugging Face</span>
-                </div>
-                <div>
-                  <span className="font-medium text-black">Language Models:</span>
-                  <span className="text-gray-600 ml-2">GPT, Claude, Custom LLMs</span>
-                </div>
-                <div>
-                  <span className="font-medium text-black">Cloud Platforms:</span>
-                  <span className="text-gray-600 ml-2">AWS, Azure, GCP</span>
-                </div>
-                <div>
-                  <span className="font-medium text-black">Vector Databases:</span>
-                  <span className="text-gray-600 ml-2">Pinecone, Weaviate, Chroma</span>
-                </div>
-                <div>
-                  <span className="font-medium text-black">Orchestration:</span>
-                  <span className="text-gray-600 ml-2">Kubernetes, Docker, MLOps</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        {/* Use Cases */}
-        <div className="mb-20">
-          <h2 className="text-3xl font-bold text-black mb-12">Real-World Applications</h2>
-          <div className="space-y-8">
-            {useCases.map((useCase, index) => (
-              <div
-                key={index}
-                className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-1 cursor-pointer hover:border-blue-200"
-              >
-                <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
-                  {useCase.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">{useCase.description}</p>
+            <div className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-gray-100 hover:border-blue-200 hover:scale-[1.02]">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                <Zap className="w-6 h-6" />
               </div>
-            ))}
+              <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                Real-Time Adaptation
+              </h3>
+              <p className="text-gray-600 leading-relaxed">Platforms that continuously evolve and adapt to changing conditions without manual intervention.</p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-gray-100 hover:border-blue-200 hover:scale-[1.02]">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
+                <Bot className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                Conversational Interfaces
+              </h3>
+              <p className="text-gray-600 leading-relaxed">Natural language processing for seamless human-AI interaction across all touchpoints.</p>
+            </div>
           </div>
         </div>
 

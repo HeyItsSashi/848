@@ -60,21 +60,6 @@ const DataAIEngineering = () => {
     }
   ];
 
-  const benefits = [
-    {
-      title: "Data-Driven Decisions",
-      description: "Transform your business with insights derived from comprehensive data analysis and predictive modeling."
-    },
-    {
-      title: "Scalable Infrastructure",
-      description: "Build data systems that grow with your business and handle increasing volumes efficiently."
-    },
-    {
-      title: "Competitive Advantage",
-      description: "Leverage advanced analytics to identify opportunities and optimize operations ahead of competitors."
-    }
-  ];
-
   return (
     <div className="min-h-screen pt-20 relative">
       <ParticleBackground />
@@ -209,27 +194,6 @@ const DataAIEngineering = () => {
                   {useCase.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">{useCase.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Benefits */}
-        <div className="mb-20">
-          <h2 className="text-3xl font-bold text-black mb-12">Why Invest in Data & AI Engineering</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
-              <div
-                key={index}
-                className="text-center group"
-              >
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-600 group-hover:text-white transition-all duration-500 group-hover:scale-110 cursor-pointer">
-                  <span className="text-2xl font-bold">{index + 1}</span>
-                </div>
-                <h3 className="text-xl font-bold text-black mb-3 group-hover:text-orange-600 transition-colors duration-300">
-                  {benefit.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
               </div>
             ))}
           </div>
