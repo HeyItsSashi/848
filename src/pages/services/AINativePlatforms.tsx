@@ -23,30 +23,59 @@ const EnterpriseSolutions = () => {
 
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
-        <div className="mb-20">
-          <div className="flex items-center space-x-4 mb-8">
-            <div className="w-20 h-20 bg-purple-100 rounded-3xl flex items-center justify-center">
-              <Factory className="w-10 h-10 text-purple-600" />
-            </div>
-            <div>
-              <h1 className="text-5xl md:text-7xl font-bold text-black mb-2">
-                Enterprise Solutions
-              </h1>
-              <p className="text-2xl text-gray-600">
-                Scalable AI for Global Operations
-              </p>
-            </div>
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-gray-50 to-gray-100 relative overflow-hidden mb-20 -mx-6 px-6">
+          {/* Background Pattern */}
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-20 left-20 w-32 h-32 border border-gray-400 rounded-full animate-pulse"></div>
+            <div className="absolute bottom-20 right-20 w-24 h-24 border border-gray-400 rounded-full animate-pulse delay-1000"></div>
+            <div className="absolute top-1/2 left-1/4 w-16 h-16 border border-gray-400 rounded-full animate-pulse delay-500"></div>
           </div>
-          
-          <p className="text-2xl text-gray-700 leading-relaxed max-w-5xl mb-12">
-            Transform your enterprise with AI-powered solutions that integrate seamlessly into your existing infrastructure while delivering measurable ROI and competitive advantage at scale.
-          </p>
 
-          <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-3xl p-8 border border-purple-200">
-            <h3 className="text-xl font-semibold text-black mb-4">Enterprise-Grade Excellence</h3>
-            <p className="text-lg text-gray-700">
-              Our solutions are built for the complexity and scale of enterprise operations. From Fortune 500 companies to growing startups, we deliver AI that works in the real world of business.
+          <div className="max-w-6xl mx-auto text-center relative z-10">
+            {/* Icon */}
+            <div className="w-24 h-24 bg-black rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
+              <Bot className="w-12 h-12 text-white" />
+            </div>
+
+            {/* Main Title */}
+            <h1 className="text-6xl md:text-8xl font-bold text-black mb-6 tracking-tight">
+              <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg">AI-Native</span>
+              <br />
+              <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-150 cursor-pointer hover:drop-shadow-lg">Platforms</span>
+            </h1>
+
+            {/* Subtitle */}
+            <div className="mb-8 flex items-center justify-center space-x-4 text-gray-600">
+              <Bot className="w-6 h-6 animate-pulse" />
+              <span className="text-xl font-medium">Intelligence That Learns, Adapts & Evolves</span>
+              <Bot className="w-6 h-6 animate-pulse" />
+            </div>
+
+            {/* Description */}
+            <p className="text-2xl md:text-3xl text-gray-700 mb-12 max-w-5xl leading-relaxed mx-auto">
+              Build platforms where AI isn't an add-on feature—it's the <span className="font-semibold text-black">foundation</span>. 
+              Our AI-native systems think, learn, and evolve with your business.
             </p>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
+              <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
+                <span>Explore AI Platforms</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
+              
+              <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
+                <span>See Case Studies</span>
+              </button>
+            </div>
+
+            {/* Scroll Indicator */}
+            <div className="text-center">
+              <p className="text-gray-500 text-sm mb-4">Intelligence built from the ground up</p>
+              <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group mx-auto">
+                <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
+              </div>
+            </div>
           </div>
         </div>
 

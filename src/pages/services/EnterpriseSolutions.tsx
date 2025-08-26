@@ -23,30 +23,78 @@ const EnterpriseSolutions = () => {
 
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
-        <div className="mb-20">
-          <div className="flex items-center space-x-4 mb-8">
-            <div className="w-20 h-20 bg-gray-100 rounded-3xl flex items-center justify-center">
-              <Factory className="w-10 h-10 text-gray-800" />
-            </div>
-            <div>
-              <h1 className="text-5xl md:text-7xl font-bold text-black mb-2">
-                Enterprise Solutions
-              </h1>
-              <p className="text-2xl text-gray-600">
-                Scalable AI for Global Operations
-              </p>
-            </div>
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-gray-50 to-gray-100 relative overflow-hidden mb-20 -mx-6 px-6">
+          {/* Background Pattern */}
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-20 left-20 w-32 h-32 border border-gray-400 rounded-full animate-pulse"></div>
+            <div className="absolute bottom-20 right-20 w-24 h-24 border border-gray-400 rounded-full animate-pulse delay-1000"></div>
+            <div className="absolute top-1/2 left-1/4 w-16 h-16 border border-gray-400 rounded-full animate-pulse delay-500"></div>
           </div>
-          
-          <p className="text-2xl text-gray-700 leading-relaxed max-w-5xl mb-12">
-            Transform your enterprise with AI-powered solutions that integrate seamlessly into your existing infrastructure while delivering measurable ROI and competitive advantage at scale.
-          </p>
 
-          <div className="bg-gray-50 rounded-3xl p-8 border border-gray-200">
-            <h3 className="text-xl font-semibold text-black mb-4">Enterprise-Grade Excellence</h3>
-            <p className="text-lg text-gray-700">
-              Our solutions are built for the complexity and scale of enterprise operations. From Fortune 500 companies to growing startups, we deliver AI that works in the real world of business.
+          <div className="max-w-6xl mx-auto text-center relative z-10">
+            {/* Icon */}
+            <div className="w-24 h-24 bg-black rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
+              <Factory className="w-12 h-12 text-white" />
+            </div>
+
+            {/* Main Title */}
+            <h1 className="text-6xl md:text-8xl font-bold text-black mb-6 tracking-tight">
+              <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg">Enterprise</span>
+              <br />
+              <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-150 cursor-pointer hover:drop-shadow-lg">Solutions</span>
+            </h1>
+
+            {/* Subtitle */}
+            <div className="mb-8 flex items-center justify-center space-x-4 text-gray-600">
+              <Globe className="w-6 h-6 animate-pulse" />
+              <span className="text-xl font-medium">Scalable AI for Global Operations</span>
+              <Globe className="w-6 h-6 animate-pulse" />
+            </div>
+
+            {/* Description */}
+            <p className="text-2xl md:text-3xl text-gray-700 mb-12 max-w-5xl leading-relaxed mx-auto">
+              Transform your enterprise with AI-powered solutions that integrate seamlessly into your existing infrastructure while delivering 
+              <span className="font-semibold text-black"> measurable ROI and competitive advantage</span> at scale.
             </p>
+
+            {/* Feature Highlights */}
+            <div className="bg-white rounded-3xl p-8 border-2 border-gray-200 mb-16 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-black mb-6">Enterprise-Grade Excellence</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-black mb-2">99.99%</div>
+                  <div className="text-sm text-gray-600">Uptime SLA</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-black mb-2">24/7</div>
+                  <div className="text-sm text-gray-600">Support</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-black mb-2">SOC 2</div>
+                  <div className="text-sm text-gray-600">Certified</div>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
+              <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
+                <span>Transform Your Enterprise</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
+              
+              <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
+                <span>View Success Stories</span>
+              </button>
+            </div>
+
+            {/* Scroll Indicator */}
+            <div className="text-center">
+              <p className="text-gray-500 text-sm mb-4">Built for the complexity of enterprise operations</p>
+              <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group mx-auto">
+                <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
+              </div>
+            </div>
           </div>
         </div>
 
