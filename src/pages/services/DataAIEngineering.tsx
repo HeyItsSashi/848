@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, TrendingUp, Database, Brain, BarChart3, Zap, Target, LineChart, PieChart } from 'lucide-react';
+import { ArrowLeft, ArrowRight, TrendingUp, Database, Brain, BarChart3, Zap, Target, LineChart, PieChart } from 'lucide-react';
 
 const DataAIEngineering = () => {
   const scrollToTop = () => {
