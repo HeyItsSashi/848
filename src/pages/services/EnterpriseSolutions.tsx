@@ -367,7 +367,6 @@ const EnterpriseSolutions = () => {
         </div>
       </div>
     </div>
-  )
   );
 };
 
