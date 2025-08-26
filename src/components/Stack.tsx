@@ -32,8 +32,7 @@ const Stack = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="hover:scale-105 transition-transform duration-300">Vision</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   A world where every decision enriches human experience.
@@ -42,8 +41,7 @@ const Stack = () => {
 
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="hover:scale-105 transition-transform duration-300">Mission</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Empower businesses to transform data into decisive intelligence.
@@ -52,8 +50,7 @@ const Stack = () => {
 
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="hover:scale-105 transition-transform duration-300">Brand Promise</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Data to Decisions — Intelligently.

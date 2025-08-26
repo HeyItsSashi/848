@@ -69,13 +69,14 @@ const Services = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-black mb-3 transition-colors duration-300 group-hover:text-blue-600">
+                  <h3 className="text-xl font-semibold text-black mb-3 transition-colors duration-300 group-hover:text-stone-600">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center space-x-2 text-sm text-gray-500 group-hover:text-gray-600 transition-colors duration-300">
-                        <span className="w-1.5 h-1.5 bg-gray-400 rounded-full transition-colors duration-300"></span>
+                        <span className="w-1.5 h-1.5 bg-stone-400 rounded-full transition-colors duration-300"></span>
                         <span>{feature}</span>
                       </li>
                     ))}

@@ -40,13 +40,13 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row items-start justify-start space-y-4 sm:space-y-0 sm:space-x-6">
           <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden">
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></div>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 bg-stone-600"></div>
             <span className="relative">
 Experience AI That Sees, Speaks & Solves            </span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
           
-          <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden">
+          <button className="group border-2 border-stone-300 text-stone-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden">
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
             <span className="relative">
 See it in Action            </span>
@@ -57,7 +57,7 @@ See it in Action            </span>
           <p className="text-gray-500 text-sm mb-4">Explore the thinking behind the technology.
 
 </p>
-          <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group">
+          <div className="w-6 h-10 border-2 border-stone-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group">
             <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
           </div>
         </div>

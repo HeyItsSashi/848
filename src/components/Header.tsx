@@ -70,14 +70,14 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <div className="relative w-10 h-10 flex items-center justify-center group">
-              <Infinity className="w-10 h-10 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" style={{color: 'rgba(59, 130, 246, 0.5)'}} />
+              <Infinity className="w-10 h-10 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 text-stone-500" />
               <div className="absolute inset-0 w-10 h-10">
                 <div className="w-1 h-1 bg-gray-600 rounded-full animate-infinity-dot"></div>
               </div>
             </div>
             <span>
-              848Labs
-            </span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8 relative">
@@ -102,7 +102,7 @@ const Header = () => {
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
                 Home
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
               </Link>
             )}
             

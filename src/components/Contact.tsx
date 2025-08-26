@@ -94,7 +94,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Email</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">200@848labs.com</span>
+                    <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">200@848labs.com</span>
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Phone</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">+91 6304 180 601</span>
+                    <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">+91 6304 180 601</span>
                   </p>
                 </div>
               </div>
@@ -118,14 +118,14 @@ Your Next Intelligent Move Starts Here.
                 <div>
                   <p className="text-gray-500 text-sm">Location</p>
                   <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Global • Remote First</span>
+                    <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Global • Remote First</span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
+          <div className="bg-stone-50 rounded-2xl p-8 border border-stone-200">
             <h3 className="text-xl font-bold mb-6 text-gray-800">Start Your Project</h3>
             
             <form 
@@ -154,7 +154,7 @@ Your Next Intelligent Move Starts Here.
                   onChange={handleInputChange}
                   placeholder="Your Name"
                   required
-                  className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-200 transition-all duration-300 hover:border-gray-400"
+                  className="w-full bg-white border border-stone-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-stone-400 focus:ring-2 focus:ring-stone-200 transition-all duration-300 hover:border-stone-400"
                 />
               </div>
               
@@ -166,7 +166,7 @@ Your Next Intelligent Move Starts Here.
                   onChange={handleInputChange}
                   placeholder="Your Email"
                   required
-                  className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-200 transition-all duration-300 hover:border-gray-400"
+                  className="w-full bg-white border border-stone-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-stone-400 focus:ring-2 focus:ring-stone-200 transition-all duration-300 hover:border-stone-400"
                 />
               </div>
               
@@ -178,7 +178,7 @@ Your Next Intelligent Move Starts Here.
                   placeholder="Tell us about your project..."
                   rows={4}
                   required
-                  className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-200 transition-all duration-300 resize-none hover:border-gray-400"
+                  className="w-full bg-white border border-stone-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-stone-400 focus:ring-2 focus:ring-stone-200 transition-all duration-300 resize-none hover:border-stone-400"
                 ></textarea>
               </div>
               
@@ -186,7 +186,7 @@ Your Next Intelligent Move Starts Here.
                 type="submit"
                 className="w-full bg-black text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-lg active:scale-95 relative overflow-hidden"
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-stone-700 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 <span>Send Message</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </button>

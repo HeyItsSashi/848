@@ -32,9 +32,9 @@ const Approach = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             From <span className="relative group cursor-pointer">
-              <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
+              <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
             </span> to <span className="relative group cursor-pointer">
-              <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Impact , </span>
+              <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Impact , </span>
             </span>  a structured methodology that ensures every project 
             delivers meaningful results.
           </p>
@@ -44,17 +44,17 @@ const Approach = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:border-blue-200 hover:scale-[1.02]"
+              className="bg-white border border-stone-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:border-stone-300 hover:scale-[1.02]"
             >
               <div className="flex items-center space-x-6">
-                <div className="w-20 h-20 bg-gray-100 rounded-2xl flex items-center justify-center group-hover:bg-blue-100 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
-                  <step.icon className="w-8 h-8 text-gray-700 group-hover:text-blue-600 transition-colors duration-300" />
+                <div className="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center group-hover:bg-stone-200 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
+                  <step.icon className="w-8 h-8 text-gray-700 group-hover:text-stone-600 transition-colors duration-300" />
                 </div>
                 
                 <div className="flex-1">
                   <div className="flex items-center space-x-4 mb-3">
-                    <span className="text-3xl font-bold text-gray-300 group-hover:text-blue-400 transition-colors duration-300">{step.number}</span>
-                    <h3 className="text-2xl font-bold text-black group-hover:text-blue-600 transition-colors duration-300">{step.title}</h3>
+                    <span className="text-3xl font-bold text-stone-300 group-hover:text-stone-500 transition-colors duration-300">{step.number}</span>
+                    <h3 className="text-2xl font-bold text-black group-hover:text-stone-600 transition-colors duration-300">{step.title}</h3>
                   </div>
                   <p className="text-lg text-gray-600 leading-relaxed">
                     {step.description}

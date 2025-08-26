@@ -45,7 +45,7 @@ const HighlightOnScroll: React.FC<HighlightOnScrollProps> = ({
       ref={elementRef}
       className={`relative inline-block transition-all duration-500 ${className}`}
       style={{
-        borderBottom: isVisible ? '2px solid rgba(59, 130, 246, 0.5)' : '2px solid transparent',
+        borderBottom: isVisible ? '2px solid rgba(120, 113, 108, 0.6)' : '2px solid transparent',
         transform: 'translateY(0)',
       }}
       onMouseEnter={(e) => {
