@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock, Bot, ArrowRight } from 'lucide-react';
+import ParticleBackground from '../../components/ParticleBackground';
 
 const EnterpriseSolutions = () => {
   const handleScrollToTop = () => {
@@ -24,6 +25,9 @@ const EnterpriseSolutions = () => {
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-gray-50 to-gray-100 relative overflow-hidden mb-20 -mx-6 px-6">
+          {/* Particle Background */}
+          <ParticleBackground />
+          
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute top-20 left-20 w-32 h-32 border border-gray-400 rounded-full animate-pulse"></div>
