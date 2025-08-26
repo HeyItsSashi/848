@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
-  const handleScrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
-
   const handleScrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -65,8 +60,6 @@ const Services = () => {
             <Link
               key={index}
               to={service.link}
-              onClick={handleScrollToTop}
-              className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02] block"
               onClick={handleScrollToTop}
               className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02] block"
             >
