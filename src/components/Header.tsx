@@ -272,13 +272,6 @@ const Header = () => {
                 >
                   Services
                 </Link>
-                <a
-                  href="#products"
-                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Products
-                </a>
               </>
             ) : (
               <Link

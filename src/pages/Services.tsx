@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ParticleBackground from '../components/ParticleBackground';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 
-const ServicesPage = () => {
+const ServicesPage: React.FC = () => {
   const handleScrollToTop = () => {
     window.scrollTo(0, 0);
   };
