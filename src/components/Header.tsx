@@ -180,15 +180,6 @@ const Header = () => {
                   </div>
                 </div>
                 
-                <Link
-                  to="/services"
-                  onClick={handleScrollToTop}
-                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-                >
-                  Services
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
-                </Link>
-                
               </>
             ) : (
               <Link
