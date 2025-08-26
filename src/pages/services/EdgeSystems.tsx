@@ -63,12 +63,12 @@ const EdgeSystems = () => {
         {/* Back Navigation */}
         <div className="mb-8">
           <Link
-            to="/services"
+            to="/"
             onClick={handleScrollToTop}
             className="inline-flex items-center space-x-2 text-gray-600 hover:text-black transition-all duration-300 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300" />
-            <span>Back to Services</span>
+            <span>Back to Home</span>
           </Link>
         </div>
 
@@ -91,22 +91,20 @@ const EdgeSystems = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
+            <a
+              href="#contact"
               className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Deploy Edge Intelligence</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
+            </a>
             
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
+            <a
+              href="#contact"
               className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
               <span>Schedule Consultation</span>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -205,21 +203,20 @@ const EdgeSystems = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
+            <a
+              href="#contact"
               className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <span>Start Your Project</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
+            </a>
             
             <Link
-              to="/services"
+              to="/"
               onClick={handleScrollToTop}
               className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
-              <span>View All Services</span>
+              <span>Back to Home</span>
             </Link>
           </div>
         </div>
