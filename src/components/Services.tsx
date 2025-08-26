@@ -1,41 +1,33 @@
 import React from 'react';
 import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
-  const handleScrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
 
   const services = [
     {
       icon: Bot,
       title: "AI-Native Platforms",
       description: "Build AI-native platforms with closed-loop intelligence that learn and adapt continuously.",
-      features: ["AI Consulting & Solution Design", "AI Product Development", "AI System Modernization"],
-      link: "/services/ai-native-platforms"
+      features: ["AI Consulting & Solution Design", "AI Product Development", "AI System Modernization"]
     },
     {
       icon: Satellite,
       title: "Edge Systems",
       description: "Design edge systems for real-time automation and analytics at the point of action.",
-      features: ["Computer Vision Solutions", "IoT Integration", "Embedded security"],
-      link: "/services/edge-systems"
+      features: ["Computer Vision Solutions", "IoT Integration", "Embedded security"]
     },
     {
       icon: Factory,
       title: "Enterprise Solutions",
       description: "Deliver enterprise-ready solutions with clarity and speed for complex business challenges.",
-      features: ["AI Powered Mobile and Enterprise Apps", "AI Assurance & Cyber security", "Enterprise Automation & Operations"],
-      link: "/services/enterprise-solutions"
+      features: ["AI Powered Mobile and Enterprise Apps", "AI Assurance & Cyber security", "Enterprise Automation & Operations"]
     },
     {
       icon: TrendingUp,
       title: "Data & AI Engineering ",
       description: "Help businesses turn data into measurable outcomes through intelligent analysis.",
-      features: ["Data Visualization", "Business Intelligence", "Agentic Data solutions"],
-      link: "/services/data-ai-engineering"
+      features: ["Data Visualization", "Business Intelligence", "Agentic Data solutions"]
     }
   ];
 
@@ -57,11 +49,9 @@ const Services = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <Link
-              to={service.link}
+            <div
               key={index}
-              onClick={handleScrollToTop}
-              className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02] block"
+              className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:border-gray-100 hover:scale-[1.02]"
             >
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
@@ -82,7 +72,7 @@ const Services = () => {
                   </ul>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

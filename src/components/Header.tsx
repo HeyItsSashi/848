@@ -4,7 +4,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
@@ -20,58 +19,6 @@ const Header = () => {
     localStorage.removeItem('848labs-authenticated');
     window.location.reload();
   };
-  const industries = [
-    {
-      name: "Manufacturing",
-      image: "https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Smart manufacturing and industrial automation"
-    },
-    {
-      name: "Oil & Gas",
-      image: "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Energy sector optimization and monitoring"
-    },
-    {
-      name: "Utilities",
-      image: "https://images.pexels.com/photos/2159065/pexels-photo-2159065.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Power grid and utility management"
-    },
-    {
-      name: "Financial Services",
-      image: "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Fintech and banking solutions"
-    },
-    {
-      name: "Defense & Intelligence",
-      image: "https://images.pexels.com/photos/87009/earth-soil-creep-moon-lunar-surface-87009.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Security and defense systems"
-    },
-    {
-      name: "Government",
-      image: "https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Public sector digital transformation"
-    },
-    {
-      name: "Life Sciences and Healthcare",
-      image: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Healthcare innovation and medical technology"
-    },
-    {
-      name: "Retail",
-      image: "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Retail analytics and customer experience"
-    },
-    {
-      name: "Telecommunications",
-      image: "https://images.pexels.com/photos/4219654/pexels-photo-4219654.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Network optimization and connectivity"
-    },
-    {
-      name: "Transportation",
-      image: "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=300&h=200",
-      description: "Smart mobility and logistics"
-    }
-  ];
 
   const handleContactClick = (e) => {
     if (location.pathname !== '/') {
@@ -141,45 +88,6 @@ const Header = () => {
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
                   </a>
                 ))}
-                
-                <div 
-                  className="relative"
-                  onMouseEnter={() => setIsIndustriesOpen(true)}
-                  onMouseLeave={() => setIsIndustriesOpen(false)}
-                >
-                  <button className="flex items-center space-x-1 text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105">
-                    <span>Industries</span>
-                    <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isIndustriesOpen ? 'rotate-180' : ''}`} />
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
-                  </button>
-                  
-                  <div className={`absolute top-full left-1/2 transform -translate-x-1/2 mt-2 transition-all duration-300 ${
-                    isIndustriesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible translate-y-2'
-                  }`}>
-                    <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6 w-[1100px] mx-auto">
-                      <div className="grid grid-cols-5 gap-6">
-                        {industries.map((industry, index) => (
-                          <div
-                            key={index}
-                            className="text-center p-2 rounded-xl hover:bg-gray-50 transition-all duration-300 cursor-pointer group hover:scale-[1.02]"
-                          >
-                            <div className="mb-2 overflow-hidden rounded-lg">
-                              <img 
-                                src={industry.image} 
-                                alt={industry.name}
-                                className="w-full h-20 object-cover group-hover:scale-105 transition-transform duration-300"
-                              />
-                            </div>
-                            <h3 className="font-semibold text-black group-hover:text-blue-600 transition-colors duration-300 text-xs">
-                              {industry.name}
-                            </h3>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
               </>
             ) : (
               <Link
@@ -248,13 +156,6 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About
-                </a>
-                <a
-                  href="#industries"
-                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Industries
                 </a>
               </>
             ) : (
