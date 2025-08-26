@@ -278,7 +278,7 @@ const EnterpriseSolutions = () => {
                 <div className="text-sm text-gray-400 mt-1">Dedicated team</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-orange-400 mb-2">&lt;15min</div>
+                <div className="text-4xl font-bold text-gray-100 mb-2">{"<15min"}</div>
                 <div className="text-gray-300 font-medium">Response Time</div>
                 <div className="text-sm text-gray-400 mt-1">Critical issues</div>
               </div>
