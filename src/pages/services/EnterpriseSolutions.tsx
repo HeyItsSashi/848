@@ -1,11 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Factory, Shield, Smartphone, CheckCircle, ArrowRight } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
 import HighlightOnScroll from '../../components/HighlightOnScroll';
 
 const EnterpriseSolutions = () => {
-  const handleScrollToTop = () => {
+  const navigate = useNavigate();
+
+  const handleBackToHome = () => {
+    navigate('/');
     window.scrollTo(0, 0);
   };
 
@@ -79,7 +82,7 @@ const EnterpriseSolutions = () => {
         <div className="mb-8">
           <Link
             to="/"
-            onClick={handleScrollToTop}
+            onClick={handleBackToHome}
             className="inline-flex items-center space-x-2 text-gray-600 hover:text-black transition-all duration-300 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform duration-300" />
@@ -247,13 +250,12 @@ const EnterpriseSolutions = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </a>
             
-            <Link
-              to="/"
-              onClick={handleScrollToTop}
+            <button
+              onClick={handleBackToHome}
               className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
               <span>Back to Home</span>
-            </Link>
+            </button>
           </div>
         </div>
       </div>
