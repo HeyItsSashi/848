@@ -61,7 +61,7 @@ const Careers = () => {
             </h2>
           </div>
            <div className="flex items-center space-x-3 mb-8">
-                         <h2 className="text-3xl font-bold text-black">We don't just hire. We build with <HighlightOnScroll>people who build</HighlightOnScroll>.</h2>
+                         <h2 className="text-3xl font-bold text-black">We don't just hire. <HighlightOnScroll>Careers aren’t jobs — they’re journeys of building impact</HighlightOnScroll>.</h2>
 
             <span className="text-2xl"></span>
           </div>
