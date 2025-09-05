@@ -209,7 +209,7 @@ const Contact = () => {
         </div>
 
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200 text-center">
-          <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
+          <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-4">
             {/* Logo and Brand */}
             <div className="flex items-center space-x-3">
               <img 
@@ -223,7 +223,7 @@ const Contact = () => {
             </div>
             
             {/* Social Media Icons */}
-            <div className="flex items-center space-x-3 sm:space-x-4 lg:order-2">
+            <div className="flex items-center space-x-3">
               <a
                 href="https://github.com/848labs"
                 target="_blank"
@@ -251,13 +251,13 @@ const Contact = () => {
             </div>
             
             {/* Footer Info */}
-            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 lg:space-x-8 text-gray-500 text-xs sm:text-sm text-center">
+            <div className="flex flex-wrap items-center justify-center sm:justify-end space-x-2 sm:space-x-4 text-gray-500 text-xs sm:text-sm text-center">
               <span>200@SevenX.global</span>
-              <span className="hidden sm:block">•</span>
+              <span>•</span>
               <span>+91 00000 00000</span>
-              <span className="hidden sm:block">•</span>
+              <span>•</span>
               <span>AI Product Engineering & Tech Consulting</span>
-              <span className="hidden lg:block">•</span>
+              <span>•</span>
               <span>© 2025 SevenX Global Solutions.</span>
             </div>
           </div>
