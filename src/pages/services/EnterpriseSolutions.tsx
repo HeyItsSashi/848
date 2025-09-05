@@ -349,5 +349,3 @@ const EnterpriseSolutions = () => {
 };
 
 export default EnterpriseSolutions;
-  )
-}
