@@ -19,22 +19,17 @@ const Contact = () => {
   }, []);
 
   const handleSubmit = React.useCallback(() => {
-    // Don't prevent default - let Netlify handle the submission
-    // e.preventDefault(); // Commented out to allow Netlify to process the form
+    // Show confirmation modal immediately
+    setShowConfirmation(true);
     
-    // Show confirmation modal after a brief delay
-    setTimeout(() => {
-      setShowConfirmation(true);
-    }, 100);
-    
-    // Reset form after submission
+    // Reset form after showing confirmation
     setTimeout(() => {
       setFormData({
         name: '',
         email: '',
         message: ''
       });
-    }, 1000);
+    }, 2000);
   }, []);
 
   const closeConfirmation = React.useCallback(() => {
@@ -144,7 +139,6 @@ const Contact = () => {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                action="/success"
                 netlify-emails="200@sevenx.global"
               >
                 {/* Hidden input for Netlify Forms */}
