@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
 
         <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-4xl leading-relaxed text-left">
-          SevenX Global is a next-gen AI company turning real-world data into intelligent, automation and Scalable systems,that <HighlightOnScroll className="font-semibold text-black">drive impact.</HighlightOnScroll>.
+          <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> is a next-gen AI company turning real-world data into intelligent, automation and Scalable systems,that <HighlightOnScroll className="font-semibold text-black">drive impact.</HighlightOnScroll>.
         </p>
 
         <div className="flex flex-col sm:flex-row items-start justify-start space-y-4 sm:space-y-0 sm:space-x-6">
