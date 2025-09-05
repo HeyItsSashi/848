@@ -143,6 +143,14 @@ const Header = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
             </Link>
             <Link
+              to="/clients"
+              onClick={handleLinkClick}
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+            >
+              Clients
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
+            </Link>
+            <Link
               to="/careers"
               onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
@@ -222,6 +230,13 @@ const Header = () => {
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
               Stack
+            </Link>
+            <Link
+              to="/clients"
+              onClick={handleLinkClick}
+              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+            >
+              Clients
             </Link>
             <Link
               to="/careers"
