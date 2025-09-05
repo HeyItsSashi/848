@@ -15,17 +15,17 @@ const Stack = () => {
       
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero Section */}
-        <div className="text-left mb-20">
+        <section className="text-left mb-20">
           <h1 className="text-5xl md:text-6xl font-bold text-black mb-8">
             <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll> Stack
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-black mb-8 leading-relaxed">
             More than technology. More than process. Stack is our complete foundation.
           </h2>
-        </div>
+        </section>
 
         {/* Introduction Section */}
-        <div className="mb-20">
+        <section className="mb-20">
           <h3 className="text-2xl font-bold text-black mb-8">What is the Stack?</h3>
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
@@ -45,9 +45,10 @@ const Stack = () => {
               Together, they form the foundation for everything we create.
             </p>
           </div>
-        </div>
+        </section>
+        
         {/* Stack Layers Section */}
-        <div className="mb-20">
+        <section className="mb-20">
           <h2 className="text-4xl font-bold text-black mb-6">The Stack Layers</h2>
           <p className="text-xl text-gray-600 mb-16 max-w-4xl">
             Each layer of our stack serves a specific function, but they work together as an integrated whole. Purpose defines our direction, Strategy guides our execution, and Culture ensures we stay true to our values as we scale.
@@ -183,10 +184,10 @@ const Stack = () => {
             </div>
           </div>
         </div>
-        </div>
+        </section>
 
         {/* Implementation Section */}
-        <div className="mb-20">
+        <section className="mb-20">
           <h2 className="text-4xl font-bold text-black mb-8">How We Apply Our Stack</h2>
           
           <div className="bg-gray-50 rounded-2xl p-8 mb-8">
@@ -221,10 +222,10 @@ const Stack = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl p-12 text-center text-white mb-20">
+        <section className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl p-12 text-center text-white mb-20">
           <h2 className="text-4xl font-bold mb-6">Ready to Build on Our Stack?</h2>
           
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -242,7 +243,7 @@ const Stack = () => {
               <span>Start a Project</span>
             </button>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
