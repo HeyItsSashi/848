@@ -238,10 +238,6 @@ const Contact = () => {
             <div className="flex flex-wrap items-center justify-center sm:justify-end space-x-2 sm:space-x-4 text-gray-500 text-xs sm:text-sm text-center">
               <span>© 2025 SevenX Global Solutions.</span>
               <span>•</span>
-              <span>200@SevenX.global</span>
-              <span>•</span>
-              <span>+91 00000 00000</span>
-              <span>•</span>
               <span>AI Product Engineering & Tech Consulting</span>
             </div>
           </div>
