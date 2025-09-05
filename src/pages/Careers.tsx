@@ -99,17 +99,27 @@ const Careers = () => {
             {workPrinciples.map((principle, index) => (
               <div
                 key={index}
-                className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:border-blue-200 hover:scale-[1.02]"
+                className={`rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
+                  index === 0 ? 'bg-teal hover:bg-opacity-90' : 
+                  index === 1 ? 'bg-purple hover:bg-opacity-90' : 
+                  index === 2 ? 'bg-golden hover:bg-opacity-90' : 
+                  'bg-rust hover:bg-opacity-90'
+                }`}
               >
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center group-hover:bg-blue-100 group-hover:text-blue-600 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
-                    <principle.icon className="w-6 h-6" />
+                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
+                    <principle.icon className={`w-6 h-6 ${
+                      index === 0 ? 'text-teal' : 
+                      index === 1 ? 'text-purple' : 
+                      index === 2 ? 'text-golden' : 
+                      'text-rust'
+                    }`} />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-black mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                    <h3 className="text-xl font-semibold text-white mb-3 transition-colors duration-300">
                       {principle.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">{principle.description}</p>
+                    <p className="text-white text-opacity-90 leading-relaxed">{principle.description}</p>
                   </div>
                 </div>
               </div>
@@ -131,16 +141,20 @@ const Careers = () => {
             {roles.map((role, index) => (
               <div
                 key={index}
-                className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group hover:bg-gray-100 cursor-pointer"
+                className={`rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group cursor-pointer hover:scale-[1.02] ${
+                  index === 0 ? 'bg-teal hover:bg-opacity-90' : 
+                  index === 1 ? 'bg-purple hover:bg-opacity-90' : 
+                  'bg-golden hover:bg-opacity-90'
+                }`}
               >
                 <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
                   <div className="md:w-1/3 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-black group-hover:text-blue-600 transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-white transition-colors duration-300">
                       {role.title}
                     </h3>
                   </div>
                   <div className="md:w-2/3">
-                    <p className="text-gray-700 leading-relaxed">{role.description}</p>
+                    <p className="text-white text-opacity-90 leading-relaxed">{role.description}</p>
                   </div>
                 </div>
               </div>
