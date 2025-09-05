@@ -201,7 +201,7 @@ const Stack = () => {
           
           <div className="bg-gray-50 rounded-2xl p-8 mb-8">
             <p className="text-lg text-gray-700 mb-6">
-              The SevenX Stack isn't just theory it's how we operate every day. From product decisions to team dynamics, 
+              The <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>  Stack isn't just theory it's how we operate every day. From product decisions to team dynamics, 
               every aspect of our work is guided by these three foundational layers.
             </p>
             
