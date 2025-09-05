@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Building2, Heart, Star, Quote, ArrowRight, Users, TrendingUp, Zap } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
@@ -219,10 +220,14 @@ const Clients = () => {
                   </div>
                   
                   {/* View Details Button */}
-                  <div className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-sm">
+                  <Link
+                    to={`/clients/case-study/${project.id}`}
+                    onClick={handleScrollToTop}
+                    className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-sm hover:underline"
+                  >
                     <span>View Full Case Study</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-                  </div>
+                  </Link>
                 </div>
               </div>
             ))}

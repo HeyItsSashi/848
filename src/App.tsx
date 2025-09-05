@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Careers from './pages/Careers';
 import Stack from './pages/Stack';
 import Clients from './pages/Clients';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 import AINativePlatforms from './pages/services/AINativePlatforms';
 import EdgeSystems from './pages/services/EdgeSystems';
 import EnterpriseSolutions from './pages/services/EnterpriseSolutions';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/stack" element={<Stack />} />
           <Route path="/clients" element={<Clients />} />
+          <Route path="/clients/case-study/:id" element={<CaseStudyDetail />} />
           <Route path="/services/ai-native-platforms" element={<AINativePlatforms />} />
           <Route path="/services/edge-systems" element={<EdgeSystems />} />
           <Route path="/services/enterprise-solutions" element={<EnterpriseSolutions />} />
