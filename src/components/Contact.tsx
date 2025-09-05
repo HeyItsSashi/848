@@ -222,7 +222,7 @@ const Contact = () => {
               <a
                 href="https://x.com/sevenxglobal"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
               >
                 <span className="font-bold text-sm sm:text-base">𝕏</span>
@@ -230,7 +230,7 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/company/sevenx-global/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
               >
                 <Linkedin className="w-4 sm:w-5 h-4 sm:h-5" />
