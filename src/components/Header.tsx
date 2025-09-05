@@ -76,7 +76,7 @@ const Header = () => {
               </div>
             </div>
             <span className="relative group">
-              SevenX Global
+              Seven<span className="text-teal">X</span> Global
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-teal transition-all duration-300 group-hover:w-full"></span>
             </span>
           </Link>
