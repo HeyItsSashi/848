@@ -2,6 +2,7 @@ import React from 'react';
 import { Target, Users, Heart, Infinity, ArrowRight, Building2, Lightbulb, Rocket, CheckCircle, Star } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
+import Contact from '../components/Contact';
 
 const Stack = () => {
   const handleScrollToTop = React.useCallback(() => {
@@ -372,6 +373,9 @@ const Stack = () => {
           </div>
         </section>
       </div>
+      
+      {/* Footer */}
+      <Contact />
     </div>
   );
 };

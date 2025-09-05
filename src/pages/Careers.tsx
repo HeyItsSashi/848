@@ -2,6 +2,7 @@ import React from 'react';
 import { Brain, Users, Zap, Mail, ArrowRight, Heart, Target, Lightbulb } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
+import Contact from '../components/Contact';
 
 const Careers = () => {
   const handleScrollToTop = React.useCallback(() => {
@@ -180,6 +181,9 @@ const Careers = () => {
           </button>
         </section>
       </div>
+      
+      {/* Footer */}
+      <Contact />
     </div>
   );
 };
