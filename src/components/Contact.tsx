@@ -18,7 +18,6 @@ const Contact = () => {
     }));
   }, []);
 
-  const handleSubmit = React.useCallback(() => {
   const handleSubmit = React.useCallback((e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
