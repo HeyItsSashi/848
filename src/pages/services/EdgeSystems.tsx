@@ -64,26 +64,26 @@ const EdgeSystems = () => {
             {/* Feature Cards */}
             <div className="grid md:grid-cols-3 gap-6 mb-16">
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:border-black">
-                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-6 h-6 text-gray-800" />
+                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-teal group-hover:text-white transition-all duration-300">
+                  <Zap className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
-                <h3 className="font-bold text-black mb-2">Ultra-Low Latency</h3>
+                <h3 className="font-bold text-black mb-2 group-hover:text-teal">Ultra-Low Latency</h3>
                 <p className="text-gray-700 text-sm">Process data in microseconds, not minutes. Critical for safety systems.</p>
               </div>
               
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:border-black">
-                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-6 h-6 text-gray-800" />
+                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-purple group-hover:text-white transition-all duration-300">
+                  <Shield className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
-                <h3 className="font-bold text-black mb-2">Offline Capability</h3>
+                <h3 className="font-bold text-black mb-2 group-hover:text-purple">Offline Capability</h3>
                 <p className="text-gray-700 text-sm">Continue operations even when internet fails. Perfect for remote locations.</p>
               </div>
               
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:border-black">
-                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Eye className="w-6 h-6 text-gray-800" />
+                <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-golden group-hover:text-white transition-all duration-300">
+                  <Eye className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
-                <h3 className="font-bold text-black mb-2">Local Processing</h3>
+                <h3 className="font-bold text-black mb-2 group-hover:text-golden">Local Processing</h3>
                 <p className="text-gray-700 text-sm">Keep sensitive data secure by processing locally. No data leaves your premises.</p>
               </div>
             </div>
@@ -116,10 +116,10 @@ const EdgeSystems = () => {
           
           <div className="grid lg:grid-cols-2 gap-8">
             <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <Camera className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
                 Computer Vision at Edge
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -127,25 +127,25 @@ const EdgeSystems = () => {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time object detection</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Quality inspection systems</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Security and surveillance</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Cpu className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
                 Edge AI Processing
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -153,25 +153,25 @@ const EdgeSystems = () => {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Neural network acceleration</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Custom model optimization</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Hardware-specific tuning</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Wifi className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
                 Smart Connectivity
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -179,25 +179,25 @@ const EdgeSystems = () => {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Adaptive bandwidth management</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Multi-protocol support</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Failover mechanisms</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-rust group-hover:text-white transition-all duration-300">
                 <Shield className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-rust transition-colors duration-300">
                 Edge Security
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -205,15 +205,15 @@ const EdgeSystems = () => {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Hardware security modules</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Encrypted data streams</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Zero-trust architecture</span>
                 </li>
               </ul>
@@ -229,27 +229,27 @@ const EdgeSystems = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <MapPin className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <MapPin className="w-8 h-8 text-teal" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Next-Gen Autonomous Systems</h3>
-                  <p className="text-lg text-gray-700 mb-4">
+                  <h3 className="text-2xl font-bold text-white mb-4">Next-Gen Autonomous Systems</h3>
+                  <p className="text-lg text-white opacity-90 mb-4">
                     Future safety-critical AI systems could process sensor data with ultra-low latency, where every millisecond could save lives.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">{"<5ms"}</div>
+                      <div className="text-2xl font-bold text-teal mb-1">{"<5ms"}</div>
                       <div className="text-sm text-gray-600">Target latency</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">360°</div>
+                      <div className="text-2xl font-bold text-teal mb-1">360°</div>
                       <div className="text-sm text-gray-600">Vision capability</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">99.9%+</div>
+                      <div className="text-2xl font-bold text-teal mb-1">99.9%+</div>
                       <div className="text-sm text-gray-600">Target reliability</div>
                     </div>
                   </div>
@@ -257,27 +257,27 @@ const EdgeSystems = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <Camera className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <Camera className="w-8 h-8 text-purple" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Intelligent Manufacturing</h3>
-                  <p className="text-lg text-gray-700 mb-4">
+                  <h3 className="text-2xl font-bold text-white mb-4">Intelligent Manufacturing</h3>
+                  <p className="text-lg text-white opacity-90 mb-4">
                     Envisioned edge AI systems could enable real-time quality control and predictive maintenance, monitoring equipment with instant anomaly detection.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">95%+</div>
+                      <div className="text-2xl font-bold text-purple mb-1">95%+</div>
                       <div className="text-sm text-gray-600">Expected accuracy</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">70%+</div>
+                      <div className="text-2xl font-bold text-purple mb-1">70%+</div>
                       <div className="text-sm text-gray-600">Potential reduction</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">24/7</div>
+                      <div className="text-2xl font-bold text-purple mb-1">24/7</div>
                       <div className="text-sm text-gray-600">Continuous watch</div>
                     </div>
                   </div>
@@ -285,27 +285,27 @@ const EdgeSystems = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-golden to-rust rounded-3xl p-10 border-2 border-golden opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <Shield className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <Shield className="w-8 h-8 text-golden" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-black mb-4">Future Smart Infrastructure</h3>
-                  <p className="text-lg text-gray-700 mb-4">
+                  <h3 className="text-2xl font-bold text-white mb-4">Future Smart Infrastructure</h3>
+                  <p className="text-lg text-white opacity-90 mb-4">
                     Anticipated traffic optimization and environmental monitoring systems could operate continuously, maintaining public safety even during network disruptions.
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">35%+</div>
+                      <div className="text-2xl font-bold text-golden mb-1">35%+</div>
                       <div className="text-sm text-gray-600">Expected improvement</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">80%+</div>
+                      <div className="text-2xl font-bold text-golden mb-1">80%+</div>
                       <div className="text-sm text-gray-600">Target efficiency</div>
                     </div>
                     <div className="bg-white rounded-lg p-4">
-                      <div className="text-2xl font-bold text-black mb-1">100%</div>
+                      <div className="text-2xl font-bold text-golden mb-1">100%</div>
                       <div className="text-sm text-gray-600">Uptime goal</div>
                     </div>
                   </div>
@@ -321,22 +321,22 @@ const EdgeSystems = () => {
           <div className="bg-gray-900 rounded-3xl p-12 text-white">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">{"<1ms"}</div>
+                <div className="text-4xl font-bold text-teal mb-2">{"<1ms"}</div>
                 <div className="text-gray-300">Processing Latency</div>
                 <div className="text-sm text-gray-400 mt-1">Ultra-low response times</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">99.99%</div>
+                <div className="text-4xl font-bold text-purple mb-2">99.99%</div>
                 <div className="text-gray-300">System Uptime</div>
                 <div className="text-sm text-gray-400 mt-1">Enterprise reliability</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">256-bit</div>
+                <div className="text-4xl font-bold text-golden mb-2">256-bit</div>
                 <div className="text-gray-300">Encryption</div>
                 <div className="text-sm text-gray-400 mt-1">Military-grade security</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">-40°C</div>
+                <div className="text-4xl font-bold text-rust mb-2">-40°C</div>
                 <div className="text-gray-300">Operating Range</div>
                 <div className="text-sm text-gray-400 mt-1">Extreme environments</div>
               </div>

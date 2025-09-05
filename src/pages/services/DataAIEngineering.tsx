@@ -102,11 +102,11 @@ const DataAIEngineering = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Complete Data Intelligence Stack</h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <BarChart3 className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
                 Data Visualization & Analytics
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -114,29 +114,29 @@ const DataAIEngineering = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time interactive dashboards</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Custom reporting and alerting</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Self-service analytics platforms</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Mobile-first visualization</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Database className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
                 Business Intelligence Platforms
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -144,29 +144,29 @@ const DataAIEngineering = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Multi-source data integration</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Advanced analytics and KPI tracking</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Automated insight generation</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Enterprise-grade security</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Brain className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
                 Agentic Data Solutions
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -174,19 +174,19 @@ const DataAIEngineering = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Autonomous data analysis agents</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Intelligent anomaly detection</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Predictive modeling and forecasting</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Auto-generated insights and recommendations</span>
                 </li>
               </ul>
@@ -204,42 +204,42 @@ const DataAIEngineering = () => {
           <div className="relative">
             <div className="grid md:grid-cols-5 gap-6">
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-teal rounded-xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">1</span>
                 </div>
-                <h3 className="font-bold text-black mb-2">Data Collection</h3>
+                <h3 className="font-bold text-teal mb-2">Data Collection</h3>
                 <p className="text-sm text-gray-600">Ingestion from multiple sources, APIs, databases, and real-time streams</p>
               </div>
               
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-purple rounded-xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">2</span>
                 </div>
-                <h3 className="font-bold text-black mb-2">Data Processing</h3>
+                <h3 className="font-bold text-purple mb-2">Data Processing</h3>
                 <p className="text-sm text-gray-600">Cleaning, transformation, and enrichment for analysis readiness</p>
               </div>
               
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                <div className="w-12 h-12 bg-gray-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-golden rounded-xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">3</span>
                 </div>
-                <h3 className="font-bold text-black mb-2">Data Analysis</h3>
+                <h3 className="font-bold text-golden mb-2">Data Analysis</h3>
                 <p className="text-sm text-gray-600">Advanced analytics, machine learning, and pattern recognition</p>
               </div>
               
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                <div className="w-12 h-12 bg-gray-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-rust rounded-xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">4</span>
                 </div>
-                <h3 className="font-bold text-black mb-2">Insight Generation</h3>
+                <h3 className="font-bold text-rust mb-2">Insight Generation</h3>
                 <p className="text-sm text-gray-600">AI-powered insights, predictions, and recommendations</p>
               </div>
               
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                <div className="w-12 h-12 bg-gray-400 rounded-xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-sky rounded-xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold">5</span>
                 </div>
-                <h3 className="font-bold text-black mb-2">Action & Automation</h3>
+                <h3 className="font-bold text-sky mb-2">Action & Automation</h3>
                 <p className="text-sm text-gray-600">Automated decision-making and intelligent process triggers</p>
               </div>
             </div>
@@ -257,34 +257,34 @@ const DataAIEngineering = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <LineChart className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <LineChart className="w-8 h-8 text-teal" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Retail Intelligence Vision</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Multi-Store Scale</span>
+                    <h3 className="text-2xl font-bold text-white">Retail Intelligence Vision</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Store Scale</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     Envisioned unified data platforms could analyze customer behavior and inventory patterns across channels, potentially optimizing operations and driving revenue growth.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">20%+</div>
+                      <div className="text-3xl font-bold text-teal mb-1">20%+</div>
                       <div className="text-sm text-gray-600">Expected growth</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">35%+</div>
+                      <div className="text-3xl font-bold text-teal mb-1">35%+</div>
                       <div className="text-sm text-gray-600">Target efficiency</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">Real-time</div>
+                      <div className="text-3xl font-bold text-teal mb-1">Real-time</div>
                       <div className="text-sm text-gray-600">Insight delivery</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">360°</div>
+                      <div className="text-3xl font-bold text-teal mb-1">360°</div>
                       <div className="text-sm text-gray-600">Data perspective</div>
                     </div>
                   </div>
@@ -292,34 +292,34 @@ const DataAIEngineering = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <PieChart className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <PieChart className="w-8 h-8 text-purple" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Financial Intelligence Future</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Portfolio Scale</span>
+                    <h3 className="text-2xl font-bold text-white">Financial Intelligence Future</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Portfolio Scale</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     Future risk modeling systems could use advanced AI to analyze market trends and economic indicators, optimizing portfolio performance with intelligent insights.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">30%+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">30%+</div>
                       <div className="text-sm text-gray-600">Target reduction</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">45%+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">45%+</div>
                       <div className="text-sm text-gray-600">Speed improvement</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">90%+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">90%+</div>
                       <div className="text-sm text-gray-600">Target accuracy</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">$80M+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">$80M+</div>
                       <div className="text-sm text-gray-600">Value potential</div>
                     </div>
                   </div>
@@ -327,34 +327,34 @@ const DataAIEngineering = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-3xl p-10 border border-gray-200">
+            <div className="bg-gradient-to-r from-golden to-rust rounded-3xl p-10 border-2 border-golden opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
-                  <Target className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <Target className="w-8 h-8 text-golden" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Smart Manufacturing Vision</h3>
-                    <span className="bg-gray-200 text-black px-3 py-1 rounded-full text-sm font-medium">Industrial Scale</span>
+                    <h3 className="text-2xl font-bold text-white">Smart Manufacturing Vision</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Industrial Scale</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     Anticipated IoT platforms could integrate sensor data from industrial equipment, enabling predictive maintenance and production optimization with intelligent analytics.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">55%+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">55%+</div>
                       <div className="text-sm text-gray-600">Expected reduction</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">25%+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">25%+</div>
                       <div className="text-sm text-gray-600">Target efficiency</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">85%+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">85%+</div>
                       <div className="text-sm text-gray-600">Prediction goal</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-black mb-1">24/7</div>
+                      <div className="text-3xl font-bold text-golden mb-1">24/7</div>
                       <div className="text-sm text-gray-600">Continuous insights</div>
                     </div>
                   </div>
@@ -370,22 +370,22 @@ const DataAIEngineering = () => {
           <div className="bg-gray-900 rounded-3xl p-12 text-white">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">1TB+</div>
+                <div className="text-4xl font-bold text-teal mb-2">1TB+</div>
                 <div className="text-gray-300 font-medium">Data Processing</div>
                 <div className="text-sm text-gray-400 mt-1">Per hour capability</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">Real-time</div>
+                <div className="text-4xl font-bold text-purple mb-2">Real-time</div>
                 <div className="text-gray-300 font-medium">Analytics</div>
                 <div className="text-sm text-gray-400 mt-1">Sub-second insights</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">99.9%</div>
+                <div className="text-4xl font-bold text-golden mb-2">99.9%</div>
                 <div className="text-gray-300 font-medium">Accuracy</div>
                 <div className="text-sm text-gray-400 mt-1">ML model precision</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">Auto-scale</div>
+                <div className="text-4xl font-bold text-rust mb-2">Auto-scale</div>
                 <div className="text-gray-300 font-medium">Infrastructure</div>
                 <div className="text-sm text-gray-400 mt-1">Demand-based scaling</div>
               </div>
@@ -408,7 +408,7 @@ const DataAIEngineering = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-black rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-12 text-white text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Data Into Intelligence?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Stop letting valuable data sit unused. Let's build AI-powered systems that turn your information into competitive advantage and measurable business outcomes.
@@ -418,7 +418,7 @@ const DataAIEngineering = () => {
             <Link
               to="/#contact"
               onClick={handleScrollToTop}
-              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              className="group bg-white text-teal px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
             >
               <span>Start Your Data Journey</span>
               <ArrowLeft className="w-5 h-5 rotate-180 group-hover:translate-x-1 transition-transform duration-300" />

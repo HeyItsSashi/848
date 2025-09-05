@@ -88,11 +88,11 @@ const EnterpriseSolutions = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Complete Solution Suite</h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple-300">
-              <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Users className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple-600 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
                 AI-Powered Mobile & Enterprise Apps
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -100,29 +100,29 @@ const EnterpriseSolutions = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Intelligent user interfaces that adapt to behavior</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Predictive analytics built into workflows</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Cross-platform deployment and synchronization</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Enterprise-grade security and compliance</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-red-300">
-              <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-600 group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <Shield className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-red-600 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
                 AI Assurance & Cyber Security
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -130,29 +130,29 @@ const EnterpriseSolutions = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time threat detection and response</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Behavioral analysis and anomaly detection</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Automated incident response and remediation</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Compliance monitoring and reporting</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-blue-300">
-              <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Cog className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
                 Enterprise Automation & Operations
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -160,19 +160,19 @@ const EnterpriseSolutions = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Intelligent process automation and optimization</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Resource allocation and performance monitoring</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Predictive maintenance and asset management</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-600">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Cost optimization and efficiency analytics</span>
                 </li>
               </ul>
@@ -188,34 +188,34 @@ const EnterpriseSolutions = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-10 border border-blue-200">
+            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center">
-                  <TrendingUp className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <TrendingUp className="w-8 h-8 text-golden" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Financial Services Vision</h3>
-                    <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Enterprise Scale</span>
+                    <h3 className="text-2xl font-bold text-white">Financial Services Vision</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Enterprise Scale</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     Envisioned AI-native platforms could revolutionize fraud detection and risk assessment, processing millions of transactions with real-time intelligence.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-blue-600 mb-1">95%+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">95%+</div>
                       <div className="text-sm text-gray-600">Expected accuracy</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-blue-600 mb-1">$40M+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">$40M+</div>
                       <div className="text-sm text-gray-600">Projected savings</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-blue-600 mb-1">75%+</div>
+                      <div className="text-3xl font-bold text-golden mb-1">75%+</div>
                       <div className="text-sm text-gray-600">Speed improvement</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-blue-600 mb-1">24/7</div>
+                      <div className="text-3xl font-bold text-golden mb-1">24/7</div>
                       <div className="text-sm text-gray-600">Continuous operation</div>
                     </div>
                   </div>
@@ -223,34 +223,34 @@ const EnterpriseSolutions = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-3xl p-10 border border-green-200">
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-green-600 rounded-2xl flex items-center justify-center">
-                  <Globe className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <Globe className="w-8 h-8 text-teal" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Smart Manufacturing Future</h3>
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Multi-Facility</span>
+                    <h3 className="text-2xl font-bold text-white">Smart Manufacturing Future</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Facility</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     AI-native systems could enable predictive maintenance and automation across manufacturing facilities, optimizing production with intelligent insights.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-green-600 mb-1">60%+</div>
+                      <div className="text-3xl font-bold text-teal mb-1">60%+</div>
                       <div className="text-sm text-gray-600">Potential reduction</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-green-600 mb-1">30%</div>
+                      <div className="text-3xl font-bold text-teal mb-1">30%</div>
                       <div className="text-sm text-gray-600">Expected efficiency</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-green-600 mb-1">$20M+</div>
+                      <div className="text-3xl font-bold text-teal mb-1">$20M+</div>
                       <div className="text-sm text-gray-600">Target savings</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-green-600 mb-1">99%+</div>
+                      <div className="text-3xl font-bold text-teal mb-1">99%+</div>
                       <div className="text-sm text-gray-600">Quality target</div>
                     </div>
                   </div>
@@ -258,34 +258,34 @@ const EnterpriseSolutions = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-3xl p-10 border border-purple-200">
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple opacity-90">
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center">
-                  <Lock className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                  <Lock className="w-8 h-8 text-purple" />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-black">Healthcare Intelligence Vision</h3>
-                    <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
+                    <h3 className="text-2xl font-bold text-white">Healthcare Intelligence Vision</h3>
+                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
                   </div>
-                  <p className="text-lg text-gray-700 mb-6">
+                  <p className="text-lg text-white opacity-90 mb-6">
                     Future AI-native platforms could secure healthcare networks with intelligent compliance monitoring and automated patient data protection.
                   </p>
                   <div className="grid md:grid-cols-4 gap-4">
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-1">100%</div>
+                      <div className="text-3xl font-bold text-purple mb-1">100%</div>
                       <div className="text-sm text-gray-600">Compliance target</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-1">0</div>
+                      <div className="text-3xl font-bold text-purple mb-1">0</div>
                       <div className="text-sm text-gray-600">Breach goal</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-1">40%+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">40%+</div>
                       <div className="text-sm text-gray-600">Time savings</div>
                     </div>
                     <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple-600 mb-1">1M+</div>
+                      <div className="text-3xl font-bold text-purple mb-1">1M+</div>
                       <div className="text-sm text-gray-600">Records capacity</div>
                     </div>
                   </div>
@@ -301,17 +301,17 @@ const EnterpriseSolutions = () => {
           <div className="bg-gray-900 rounded-3xl p-12 text-white">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               <div className="text-center">
-                <div className="text-4xl font-bold text-purple-400 mb-2">99.99%</div>
+                <div className="text-4xl font-bold text-golden mb-2">99.99%</div>
                 <div className="text-gray-300 font-medium">Uptime SLA</div>
                 <div className="text-sm text-gray-400 mt-1">Enterprise reliability</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-400 mb-2">SOC 2</div>
+                <div className="text-4xl font-bold text-teal mb-2">SOC 2</div>
                 <div className="text-gray-300 font-medium">Compliance</div>
                 <div className="text-sm text-gray-400 mt-1">Type II certified</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-400 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-purple mb-2">24/7</div>
                 <div className="text-gray-300 font-medium">Support</div>
                 <div className="text-sm text-gray-400 mt-1">Dedicated team</div>
               </div>
@@ -345,8 +345,8 @@ const EnterpriseSolutions = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-purple-300 text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-purple-600">1</span>
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-golden group-hover:text-white transition-all duration-300">
+                <span className="text-2xl font-bold text-golden group-hover:text-white">1</span>
               </div>
               <h3 className="text-lg font-bold text-black mb-3">Strategic Assessment</h3>
               <p className="text-gray-600 text-sm">
@@ -355,8 +355,8 @@ const EnterpriseSolutions = () => {
             </div>
             
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-blue-300 text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-blue-600">2</span>
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-teal group-hover:text-white transition-all duration-300">
+                <span className="text-2xl font-bold text-teal group-hover:text-white">2</span>
               </div>
               <h3 className="text-lg font-bold text-black mb-3">Solution Architecture</h3>
               <p className="text-gray-600 text-sm">
@@ -365,8 +365,8 @@ const EnterpriseSolutions = () => {
             </div>
             
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-green-300 text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-green-600">3</span>
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple group-hover:text-white transition-all duration-300">
+                <span className="text-2xl font-bold text-purple group-hover:text-white">3</span>
               </div>
               <h3 className="text-lg font-bold text-black mb-3">Phased Deployment</h3>
               <p className="text-gray-600 text-sm">
@@ -375,8 +375,8 @@ const EnterpriseSolutions = () => {
             </div>
             
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-orange-300 text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-orange-600">4</span>
+              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-rust group-hover:text-white transition-all duration-300">
+                <span className="text-2xl font-bold text-rust group-hover:text-white">4</span>
               </div>
               <h3 className="text-lg font-bold text-black mb-3">Continuous Optimization</h3>
               <p className="text-gray-600 text-sm">
@@ -387,7 +387,7 @@ const EnterpriseSolutions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-12 text-white text-center">
           <h2 className="text-4xl font-bold mb-6">Transform Your Enterprise Today</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Join industry leaders who have revolutionized their operations with our AI-powered enterprise solutions. Start your transformation journey with a strategic consultation.
@@ -397,7 +397,7 @@ const EnterpriseSolutions = () => {
             <Link
               to="/#contact"
               onClick={handleScrollToTop}
-              className="group bg-white text-purple-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              className="group bg-white text-golden px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
             >
               <span>Schedule Enterprise Consultation</span>
               <ArrowLeft className="w-5 h-5 rotate-180 group-hover:translate-x-1 transition-transform duration-300" />
