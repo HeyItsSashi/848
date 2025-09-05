@@ -45,7 +45,7 @@ const Clients = () => {
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
       color: "golden",
-      category: "Automation"
+      category: "Manufacturing"
     },
     {
       id: 'finance',
@@ -79,6 +79,7 @@ const Clients = () => {
     { name: "All Projects", key: "all" },
     { name: "Mobile Apps", key: "Mobile Apps" },
     { name: "AI Bots", key: "AI Bots" },
+    { name: "Manufacturing", key: "Manufacturing" },
     { name: "Automation", key: "Automation" }
   ];
 
