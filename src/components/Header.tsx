@@ -69,16 +69,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
-            <div className="relative w-10 h-10 flex items-center justify-center group">
-              <InfinityIcon className="w-10 h-10 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 text-stone-500" />
-              <div className="absolute inset-0 w-10 h-10">
-                <div className="w-1 h-1 bg-gray-600 rounded-full animate-infinity-dot"></div>
-              </div>
-            </div>
-            <span className="relative group">
-              Seven<span className="text-teal">X</span> Global
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-teal transition-all duration-300 group-hover:w-full"></span>
-            </span>
+            <img 
+              src="/WhatsApp_Image_2025-09-05_at_19.23.35-removebg-preview.png" 
+              alt="SevenX Global Logo" 
+              className="h-10 w-auto hover:scale-110 transition-all duration-300"
+            />
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8 relative"
