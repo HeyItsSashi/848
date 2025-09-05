@@ -1,4 +1,5 @@
 {
   "/page": "app/page.js",
-  "/services/edge-systems/page": "app/services/edge-systems/page.js"
+  "/services/edge-systems/page": "app/services/edge-systems/page.js",
+  "/stack/page": "app/stack/page.js"
 }
