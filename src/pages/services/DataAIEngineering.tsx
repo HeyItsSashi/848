@@ -4,9 +4,9 @@ import { ArrowLeft, ArrowRight, TrendingUp, Database, Brain, BarChart3, Zap, Tar
 import ParticleBackground from '../../components/ParticleBackground';
 
 const DataAIEngineering = () => {
-  const handleScrollToTop = () => {
+  const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   return (
     <div className="min-h-screen pt-20 bg-white">

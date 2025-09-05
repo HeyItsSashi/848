@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Menu, X, Infinity, ChevronDown, LogOut } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -7,20 +7,21 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+  const handleScroll = useCallback(() => {
+    setIsScrolled(window.scrollY > 50);
   }, []);
 
-  const handleLogout = () => {
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [handleScroll]);
+
+  const handleLogout = useCallback(() => {
     localStorage.removeItem('848labs-authenticated');
     window.location.reload();
-  };
+  }, []);
 
-  const handleContactClick = (e) => {
+  const handleContactClick = useCallback((e) => {
     if (location.pathname !== '/') {
       // If not on home page, navigate to home first
       // The scrolling will be handled by useEffect after navigation
@@ -33,7 +34,7 @@ const Header = () => {
         contactSection.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  };
+  }, [location.pathname]);
 
   // Handle scrolling to contact section after navigation to home page
   useEffect(() => {
@@ -47,20 +48,20 @@ const Header = () => {
     }
   }, [location]);
 
-  const handleCareersClick = () => {
+  const handleCareersClick = useCallback(() => {
     window.scrollTo(0, 0);
     setIsMenuOpen(false);
-  };
+  }, []);
 
-  const handleScrollToTop = () => {
+  const handleScrollToTop = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setIsMenuOpen(false);
-  };
+  }, []);
 
-  const handleLinkClick = () => {
+  const handleLinkClick = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setIsMenuOpen(false);
-  };
+  }, []);
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${

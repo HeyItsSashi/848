@@ -4,9 +4,9 @@ import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
 
 const Stack = () => {
-  const handleScrollToTop = () => {
+  const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   return (
     <div className="min-h-screen pt-20 relative">

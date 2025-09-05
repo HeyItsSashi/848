@@ -4,9 +4,9 @@ import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
-  const handleLinkClick = () => {
+  const handleLinkClick = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   const services = [
     {

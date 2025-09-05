@@ -4,9 +4,9 @@ import { ArrowLeft, ArrowRight, Satellite, Eye, Cpu, Wifi, Shield, Zap, Camera, 
 import ParticleBackground from '../../components/ParticleBackground';
 
 const EdgeSystems = () => {
-  const handleScrollToTop = () => {
+  const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   return (
     <div className="min-h-screen pt-20 bg-white">

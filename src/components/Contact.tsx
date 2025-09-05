@@ -1,6 +1,6 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ArrowRight, Github, Linkedin, Twitter, CheckCircle, X } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
+import { Mail, Phone, MapPin, ArrowRight, Github, Linkedin, Twitter, CheckCircle, X } from 'lucide-react';
 
 const Contact = () => {
   const [showConfirmation, setShowConfirmation] = React.useState(false);
@@ -10,15 +10,15 @@ const Contact = () => {
     message: ''
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = React.useCallback((e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
       [name]: value
     }));
-  };
+  }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = React.useCallback((e: React.FormEvent) => {
     // Don't prevent default - let Netlify handle the submission
     // e.preventDefault(); // Commented out to allow Netlify to process the form
     
@@ -35,11 +35,11 @@ const Contact = () => {
         message: ''
       });
     }, 1000);
-  };
+  }, []);
 
-  const closeConfirmation = () => {
+  const closeConfirmation = React.useCallback(() => {
     setShowConfirmation(false);
-  };
+  }, []);
 
   return (
     <section id="contact" className="py-20 text-gray-800 bg-white relative">

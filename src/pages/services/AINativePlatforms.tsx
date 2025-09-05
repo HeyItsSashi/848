@@ -4,9 +4,9 @@ import { ArrowLeft, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, L
 import ParticleBackground from '../../components/ParticleBackground';
 
 const EnterpriseSolutions = () => {
-  const handleScrollToTop = () => {
+  const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   return (
     <div className="min-h-screen pt-20 bg-white">

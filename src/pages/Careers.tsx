@@ -4,9 +4,9 @@ import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
 
 const Careers = () => {
-  const handleScrollToTop = () => {
+  const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }, []);
 
   const roles = [
     {
