@@ -1,7 +1,5 @@
-'use client';
-
 import React from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { Building2, Heart, Star, Quote, ArrowRight, Users, TrendingUp, Zap } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
@@ -227,16 +225,12 @@ const Clients = () => {
                   
                   {/* View Details Button */}
                   <Link
-                    href={`/clients/case-study/${project.id}`}
+                    to={`/clients/case-study/${project.id}`}
                     onClick={handleScrollToTop}
-                    legacyBehavior
-                    passHref
                     className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-xs sm:text-sm hover:underline"
                   >
-                    <a onClick={handleScrollToTop} className="flex items-center space-x-2">
-                      <span>View Full Case Study</span>
-                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
-                    </a>
+                    <span>View Full Case Study</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </Link>
                 </div>
               </div>
