@@ -33,7 +33,7 @@ const Stack = () => {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At 848Labs, we don't just build products. We build systems that think , 
+              At SevenX Global, we don't just build products. We build systems that think , 
               adapt, and scale intelligently but behind every intelligent system is a foundation—a stack—that makes it all possible.
             </p>
             
