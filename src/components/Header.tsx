@@ -100,10 +100,15 @@ const Header = () => {
               <Link
                 href="/"
                 onClick={handleLinkClick}
-                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+                passHref
               >
-                Home
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
+                <a 
+                  onClick={handleLinkClick}
+                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+                >
+                  Home
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
+                </a>
               </Link>
             )}
             
@@ -126,9 +131,14 @@ const Header = () => {
                       key={index}
                       href={service.path}
                       onClick={handleLinkClick}
-                      className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
+                      passHref
                     >
-                      {service.name}
+                      <a 
+                        onClick={handleLinkClick}
+                        className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
+                      >
+                        {service.name}
+                      </a>
                     </Link>
                   ))}
                 </div>
@@ -138,18 +148,28 @@ const Header = () => {
             <Link
               href="/stack"
               onClick={handleLinkClick}
-              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              passHref
             >
-              Stack
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
+              <a 
+                onClick={handleLinkClick}
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              >
+                Stack
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
+              </a>
             </Link>
             <Link
               href="/clients"
               onClick={handleLinkClick}
-              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              passHref
             >
-              Clients
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
+              <a 
+                onClick={handleLinkClick}
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              >
+                Clients
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
+              </a>
             </Link>
             
             <a
@@ -165,19 +185,29 @@ const Header = () => {
             <Link
               href="/careers"
               onClick={handleLinkClick}
-              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              passHref
             >
-              Careers
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-golden"></span>
+              <a 
+                onClick={handleLinkClick}
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              >
+                Careers
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-golden"></span>
+              </a>
             </Link>
             
             <Link
               href={pathname === '/' ? '#contact' : '/#contact'}
               onClick={handleContactClick}
-              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              passHref
             >
-              Contact
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
+              <a 
+                onClick={handleContactClick}
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+              >
+                Contact
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
+              </a>
             </Link>
             
             <button
@@ -216,9 +246,14 @@ const Header = () => {
               <Link
                 href="/"
                 onClick={handleLinkClick}
-                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                passHref
               >
-                Home
+                <a 
+                  onClick={handleLinkClick}
+                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                >
+                  Home
+                </a>
               </Link>
             )}
             
@@ -229,9 +264,14 @@ const Header = () => {
                   key={index}
                   href={service.path}
                   onClick={handleLinkClick}
-                  className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
+                  passHref
                 >
-                  {service.name}
+                  <a 
+                    onClick={handleLinkClick}
+                    className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
+                  >
+                    {service.name}
+                  </a>
                 </Link>
               ))}
             </div>
@@ -239,16 +279,26 @@ const Header = () => {
             <Link
               href="/stack"
               onClick={handleLinkClick}
-              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              passHref
             >
-              Stack
+              <a 
+                onClick={handleLinkClick}
+                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              >
+                Stack
+              </a>
             </Link>
             <Link
               href="/clients"
               onClick={handleLinkClick}
-              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              passHref
             >
-              Clients
+              <a 
+                onClick={handleLinkClick}
+                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              >
+                Clients
+              </a>
             </Link>
             
             <a
@@ -263,9 +313,14 @@ const Header = () => {
             <Link
               href="/careers"
               onClick={handleLinkClick}
-              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              passHref
             >
-              Careers
+              <a 
+                onClick={handleLinkClick}
+                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+              >
+                Careers
+              </a>
             </Link>
             {pathname === '/' && (
               <a
@@ -280,9 +335,14 @@ const Header = () => {
               <Link
                 href="/#contact"
                 onClick={handleLinkClick}
-                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                passHref
               >
-                Contact
+                <a 
+                  onClick={handleLinkClick}
+                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+                >
+                  Contact
+                </a>
               </Link>
             )}
             <button
