@@ -61,6 +61,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Link
               href={service.link}
+              legacyBehavior
               key={index}
               className={`block rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
                 index === 0 ? 'bg-golden text-white hover:bg-opacity-90' : 

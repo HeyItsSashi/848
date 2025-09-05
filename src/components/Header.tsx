@@ -99,6 +99,7 @@ const Header = () => {
             ) : (
               <Link
                 href="/"
+                legacyBehavior
                 onClick={handleLinkClick}
                 passHref
               >
@@ -130,6 +131,7 @@ const Header = () => {
                     <Link
                       key={index}
                       href={service.path}
+                      legacyBehavior
                       onClick={handleLinkClick}
                       passHref
                     >
@@ -147,6 +149,7 @@ const Header = () => {
             
             <Link
               href="/stack"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -160,6 +163,7 @@ const Header = () => {
             </Link>
             <Link
               href="/clients"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -184,6 +188,7 @@ const Header = () => {
             
             <Link
               href="/careers"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -198,6 +203,7 @@ const Header = () => {
             
             <Link
               href={pathname === '/' ? '#contact' : '/#contact'}
+              legacyBehavior
               onClick={handleContactClick}
               passHref
             >
@@ -245,6 +251,7 @@ const Header = () => {
             ) : (
               <Link
                 href="/"
+                legacyBehavior
                 onClick={handleLinkClick}
                 passHref
               >
@@ -263,6 +270,7 @@ const Header = () => {
                 <Link
                   key={index}
                   href={service.path}
+                  legacyBehavior
                   onClick={handleLinkClick}
                   passHref
                 >
@@ -278,6 +286,7 @@ const Header = () => {
             
             <Link
               href="/stack"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -290,6 +299,7 @@ const Header = () => {
             </Link>
             <Link
               href="/clients"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -312,6 +322,7 @@ const Header = () => {
             
             <Link
               href="/careers"
+              legacyBehavior
               onClick={handleLinkClick}
               passHref
             >
@@ -334,6 +345,7 @@ const Header = () => {
             {pathname !== '/' && (
               <Link
                 href="/#contact"
+                legacyBehavior
                 onClick={handleLinkClick}
                 passHref
               >

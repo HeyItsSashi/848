@@ -228,6 +228,7 @@ const Clients = () => {
                   {/* View Details Button */}
                   <Link
                     href={`/clients/case-study/${project.id}`}
+                    legacyBehavior
                     className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-xs sm:text-sm hover:underline"
                   >
                     <a onClick={handleScrollToTop} className="flex items-center space-x-2">
