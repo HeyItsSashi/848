@@ -226,13 +226,13 @@ Your Next Intelligent Move Starts Here.
             
             {/* Footer Info */}
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
-            <span>200@848labs.com</span>
+            <span>200@8SevenX.global</span>
             <span className="hidden md:block">•</span>
-            <span>+91 6304108601</span>
+            <span>+91 00000 00000</span>
             <span className="hidden md:block">•</span>
             <span>AI Product Engineering & Tech Consulting</span>
             <span className="hidden md:block">•</span>
-            <span>© 2025 Codesigns Business Solutions.</span>
+            <span>© 2025 SevenX Global Solutions.</span>
             </div>
           </div>
         </div>
