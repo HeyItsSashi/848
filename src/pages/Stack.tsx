@@ -54,7 +54,7 @@ const Stack = () => {
           <div className="max-w-4xl">
             <p className="text-2xl md:text-3xl text-gray-700 mb-8 leading-relaxed">
               More than technology. More than process. A complete foundation for building 
-              <span className="font-semibold text-black"> intelligent systems</span>.
+              <span className="font-semibold text-black"> </span>.
             </p>
             
             <div className="flex items-center space-x-4 text-gray-600 mb-12">
