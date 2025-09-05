@@ -75,10 +75,10 @@ const Header = () => {
                 <div className="w-1 h-1 bg-gray-600 rounded-full animate-infinity-dot"></div>
               </div>
             </div>
-            <span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
+            <span className="relative group">
+              SevenX Global
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-teal transition-all duration-300 group-hover:w-full"></span>
             </span>
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8 relative"
