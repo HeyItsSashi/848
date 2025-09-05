@@ -240,39 +240,6 @@ const Clients = () => {
           )}
         </section>
 
-        {/* Industries We Serve */}
-        <section className="mb-20">
-          <div className="flex items-center space-x-3 mb-8">
-            <Building2 className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Industries We Transform</h2>
-          </div>
-          
-          <div className="grid md:grid-cols-5 gap-6">
-            {['Healthcare', 'Financial Services', 'Retail & E-commerce', 'Manufacturing', 'Education Technology'].map((industry, index) => (
-              <div
-                key={index}
-                className={`text-center p-6 rounded-2xl hover:shadow-lg transition-all duration-300 group cursor-pointer border-2 ${
-                  index === 0 ? 'bg-teal bg-opacity-10 border-teal hover:bg-teal hover:text-white' :
-                  index === 1 ? 'bg-sky bg-opacity-10 border-sky hover:bg-sky hover:text-white' :
-                  index === 2 ? 'bg-purple bg-opacity-10 border-purple hover:bg-purple hover:text-white' :
-                  index === 3 ? 'bg-golden bg-opacity-10 border-golden hover:bg-golden hover:text-white' :
-                  'bg-rust bg-opacity-10 border-rust hover:bg-rust hover:text-white'
-                } hover:-translate-y-2`}
-              >
-                <div className={`w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white group-hover:bg-opacity-20 transition-all duration-300 ${
-                  index === 0 ? 'bg-teal text-white' :
-                  index === 1 ? 'bg-sky text-white' :
-                  index === 2 ? 'bg-purple text-white' :
-                  index === 3 ? 'bg-golden text-white' :
-                  'bg-rust text-white'
-                }`}>
-                  <Heart className="w-6 h-6" />
-                </div>
-                <h3 className="font-semibold text-sm">{industry}</h3>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* CTA Section */}
         <section className="mb-20">
