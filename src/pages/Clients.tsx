@@ -107,7 +107,7 @@ const Clients = () => {
           <div className="mb-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-4 leading-tight">
               <HighlightOnScroll className="font-semibold">Transforming Industries</HighlightOnScroll>
-              <span className="block text-gray-600 mt-2">One Solution at a Time</span>
+              <span className="block text-gray-600 mt-2"></span>
             </h1>
           </div>
 
