@@ -137,25 +137,24 @@ const Careers = () => {
                         <h2 className="text-3xl font-bold text-black">We're hiring for passion not for roles</h2>
           </p>
           
-          <div className="space-y-6">
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             {roles.map((role, index) => (
               <div
                 key={index}
-                className={`rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group cursor-pointer hover:scale-[1.02] ${
+                className={`rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer border-2 hover:scale-[1.02] ${
                   index === 0 ? 'bg-teal hover:bg-opacity-90' : 
                   index === 1 ? 'bg-purple hover:bg-opacity-90' : 
                   'bg-golden hover:bg-opacity-90'
                 }`}
               >
-                <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
-                  <div className="md:w-1/3 mb-4 md:mb-0">
-                    <h3 className="text-xl font-bold text-white transition-colors duration-300">
-                      {role.title}
-                    </h3>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 group-hover:shadow-lg">
+                    <span className="text-2xl font-bold text-white">{String(index + 1).padStart(2, '0')}</span>
                   </div>
-                  <div className="md:w-2/3">
-                    <p className="text-white text-opacity-90 leading-relaxed">{role.description}</p>
-                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 transition-colors duration-300">
+                    {role.title}
+                  </h3>
+                  <p className="text-white text-opacity-90 leading-relaxed text-lg">{role.description}</p>
                 </div>
               </div>
             ))}
