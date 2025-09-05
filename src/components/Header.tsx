@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Menu, X, Infinity as InfinityIcon, LogOut } from 'lucide-react';
+import { Menu, X, Infinity as InfinityIcon, LogOut, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
@@ -51,7 +52,15 @@ const Header = () => {
   const handleLinkClick = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setIsMenuOpen(false);
+    setIsServicesOpen(false);
   }, []);
+
+  const services = [
+    { name: 'AI-Native Platforms', path: '/services/ai-native-platforms' },
+    { name: 'Edge Systems', path: '/services/edge-systems' },
+    { name: 'Enterprise Solutions', path: '/services/enterprise-solutions' },
+    { name: 'Data & AI Engineering', path: '/services/data-ai-engineering' }
+  ];
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -72,7 +81,9 @@ const Header = () => {
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-8 relative">
+          <nav className="hidden md:flex items-center space-x-8 relative"
+            onMouseLeave={() => setIsServicesOpen(false)}
+          >
             {location.pathname === '/' ? (
               <>
                 {['About'].map((item) => (
@@ -97,6 +108,48 @@ const Header = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
               </Link>
             )}
+            
+            <div className="space-y-2">
+              <div className="py-2 text-gray-700 font-medium text-sm uppercase tracking-wider">Services</div>
+              {services.map((service, index) => (
+                <Link
+                  key={index}
+                  to={service.path}
+                  onClick={handleLinkClick}
+                  className="block py-2 pl-4 text-gray-700 hover:text-black transition-colors duration-200 text-sm"
+                >
+                  {service.name}
+                </Link>
+              ))}
+            </div>
+            
+            <div 
+              className="relative group"
+              onMouseEnter={() => setIsServicesOpen(true)}
+            >
+              <button
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105 flex items-center space-x-1"
+              >
+                <span>Services</span>
+                <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isServicesOpen ? 'rotate-180' : ''}`} />
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
+              </button>
+              
+              {isServicesOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-2xl border border-gray-100 py-4 z-50">
+                  {services.map((service, index) => (
+                    <Link
+                      key={index}
+                      to={service.path}
+                      onClick={handleLinkClick}
+                      className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
             
             <Link
               to="/stack"
