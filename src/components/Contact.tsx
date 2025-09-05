@@ -211,13 +211,13 @@ const Contact = () => {
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200 text-center">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-4">
             {/* Logo and Brand */}
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 flex-shrink-0">
               <img 
                 src="/WhatsApp_Image_2025-09-05_at_19.23.35-removebg-preview.png" 
                 alt="SevenX Global Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
-              <span className="text-lg sm:text-xl font-bold text-gray-800">
+              <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
                 Seven<span className="text-teal">X</span> Global
               </span>
             </div>
