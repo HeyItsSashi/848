@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
@@ -58,9 +60,10 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <Link
-              to={service.link}
-              onClick={handleLinkClick}
+              href={service.link}
               key={index}
+             legacyBehavior
+             passHref
               className={`block rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
                 index === 0 ? 'bg-golden text-white hover:bg-opacity-90' : 
                 index === 1 ? 'bg-teal text-white hover:bg-opacity-90' : 
@@ -68,7 +71,7 @@ const Services = () => {
                 'bg-sky text-white hover:bg-opacity-90'
               }`}
             >
-              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
+             <a onClick={handleLinkClick} className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div className={`w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
                   index === 0 ? 'bg-white text-golden' : 
                   index === 1 ? 'bg-white text-teal' : 
@@ -91,7 +94,7 @@ const Services = () => {
                     ))}
                   </ul>
                 </div>
-              </div>
+             </a>
             </Link>
           ))}
         </div>
