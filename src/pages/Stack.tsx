@@ -33,7 +33,7 @@ const Stack = () => {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At SevenX Global, we don't just build products. We build systems that think , 
+              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> , we don't just build products. We build systems that think , 
               adapt, and scale intelligently but behind every intelligent system is a foundation—a stack—that makes it all possible.
             </p>
             
@@ -43,7 +43,7 @@ const Stack = () => {
             </div>
             
             <p>
-              The SevenX Global Stack is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
+              The <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> Stack is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
               <HighlightOnScroll>Strategy</HighlightOnScroll> (how we deliver), and
                <HighlightOnScroll>Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
