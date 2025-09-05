@@ -90,3 +90,5 @@ const EnterpriseSolutions = () => {
              <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
   )
 }
+  )
+}
