@@ -71,7 +71,7 @@ const Careers = () => {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At 848Labs, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
+              At SevenX, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
               <HighlightOnScroll className="font-semibold text-black"> agentic</HighlightOnScroll>, 
               <HighlightOnScroll className="font-semibold text-black"> autonomous</HighlightOnScroll>, and 
               <HighlightOnScroll className="font-semibold text-black"> purpose-built</HighlightOnScroll> for real-world impact.
