@@ -234,7 +234,7 @@ const Careers = () => {
           </div>
           
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            848Labs is a next-generation technology company focused on building intelligent, balanced, 
+            SevenX Global is a next-generation technology company focused on building intelligent, balanced, 
             and scalable systems that drive real-world impact through closed-loop intelligence.
           </p>
           
