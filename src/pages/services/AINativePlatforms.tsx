@@ -294,5 +294,17 @@ const EnterpriseSolutions = () => {
                         <div className="text-sm text-gray-700">Time savings</div>
                       </div>
                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">99%+</div>
+                        <div className="text-sm text-gray-700">Quality target</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
