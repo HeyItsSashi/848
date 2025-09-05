@@ -78,7 +78,7 @@ Your Next Intelligent Move Starts Here.
 
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Partner with SevenX Global to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
+            Partner with <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
           </p>
         </div>
 
