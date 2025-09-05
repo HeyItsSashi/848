@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import HighlightOnScroll from './HighlightOnScroll';
 import { Mail, Phone, MapPin, ArrowRight, Linkedin, CheckCircle, X } from 'lucide-react';
