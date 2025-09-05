@@ -8,7 +8,7 @@ const Stack = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-            848Labs Stack
+            SevenX Stack
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Our foundation built on <HighlightOnScroll>purpose</HighlightOnScroll>, strategy, and culture that drives intelligent solutions.
