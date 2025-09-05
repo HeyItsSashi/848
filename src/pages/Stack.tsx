@@ -15,26 +15,22 @@ const Stack = () => {
       
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero Section */}
-        <div className="text-left mb-16">
-           <div className="flex items-center space-x-3 mb-8">
-            <span className="text-2xl"></span>
-          </div>
-<HighlightOnScroll className="font-semibold text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">SevenX Global Stack</HighlightOnScroll>
-          <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
+        <div className="text-left mb-20">
+          <h1 className="text-5xl md:text-6xl font-bold text-black mb-8">
+            <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll> Stack
           </h1>
-          <p className="text-2xl text-gray-700 mb-8 max-w-4xl">
-                        <h2 className="text-3xl font-bold text-black"> More than technology. More than process. A complete foundation for building intelligent systems.</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-black mb-8 leading-relaxed">
+            More than technology. More than process. A complete foundation for building intelligent systems.
           </p>
         </div>
 
-        {/* What is the Stack Section */}
+        {/* Introduction Section */}
         <div className="mb-20">
-      
-          
+          <h3 className="text-2xl font-bold text-black mb-8">What is the Stack?</h3>
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> , we don't just build products. We build systems that think , 
-              adapt, and scale intelligently but behind every intelligent system is a foundation—a stack—that makes it all possible.
+              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>, we don't just build products. We build systems that think, 
+              adapt, and scale intelligently. But behind every intelligent system is a foundation—a stack—that makes it all possible.
             </p>
             
             <div className="bg-gray-50 rounded-2xl p-8 border-l-4 border-blue-400">
@@ -43,25 +39,21 @@ const Stack = () => {
             </div>
             
             <p>
-              The <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> Stack is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
+              The <HighlightOnScroll className="font-semibold text-black">SevenX Global Stack</HighlightOnScroll> is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
               <HighlightOnScroll>Strategy</HighlightOnScroll> (how we deliver), and
                <HighlightOnScroll>Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
             </p>
           </div>
         </div>
-        {/* The Three Layers Section */}
+        {/* Stack Layers Section */}
         <div className="mb-20">
-          <div className="flex items-center space-x-3 mb-12">
-            <span className="text-2xl"></span>
-            <h2 className="text-3xl font-bold text-black">The Stack Layers</h2>
-          </div>
-          <p className="text-lg text-gray-600 mb-12 max-w-4xl">
+          <h2 className="text-4xl font-bold text-black mb-6">The Stack Layers</h2>
+          <p className="text-xl text-gray-600 mb-16 max-w-4xl">
             Each layer of our stack serves a specific function, but they work together as an integrated whole. Purpose defines our direction, Strategy guides our execution, and Culture ensures we stay true to our values as we scale.
           </p>
-        </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-20">
+          <div className="grid lg:grid-cols-3 gap-8">
           {/* Purpose Stack */}
           <div className="bg-teal rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
@@ -191,17 +183,15 @@ const Stack = () => {
             </div>
           </div>
         </div>
+        </div>
 
-        {/* How We Apply Our Stack Section */}
+        {/* Implementation Section */}
         <div className="mb-20">
-          <div className="flex items-center space-x-3 mb-8">
-            <span className="text-2xl"></span>
-            <h2 className="text-3xl font-bold text-black">How We Apply Our Stack</h2>
-          </div>
+          <h2 className="text-4xl font-bold text-black mb-8">How We Apply Our Stack</h2>
           
           <div className="bg-gray-50 rounded-2xl p-8 mb-8">
             <p className="text-lg text-gray-700 mb-6">
-              The <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>  Stack isn't just theory it's how we operate every day. From product decisions to team dynamics, 
+              The <HighlightOnScroll className="font-semibold text-black">SevenX Global Stack</HighlightOnScroll> isn't just theory—it's how we operate every day. From product decisions to team dynamics, 
               every aspect of our work is guided by these three foundational layers.
             </p>
             
@@ -235,10 +225,7 @@ const Stack = () => {
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl p-12 text-center text-white mb-20">
-          <div className="flex items-center justify-center space-x-3 mb-6">
-            <span className="text-3xl"></span>
-            <h2 className="text-3xl font-bold">Ready to Build on Our Stack?</h2>
-          </div>
+          <h2 className="text-4xl font-bold mb-6">Ready to Build on Our Stack?</h2>
           
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Whether you're looking to join our team or partner with us on your next intelligent system, 
@@ -247,13 +234,11 @@ const Stack = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button className="group bg-white text-gray-800 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden">
-              
               <span>Explore Careers</span>
               <Target className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
             
             <button className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden">
-              
               <span>Start a Project</span>
             </button>
           </div>
