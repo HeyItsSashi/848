@@ -207,8 +207,9 @@ const CaseStudyDetail = () => {
       <div className="fixed top-24 right-6 z-50">
         <Link
           href="/clients"
-          legacyBehavior
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
+          legacyBehavior
+          passHref
         >
           <a onClick={handleScrollToTop} className="flex items-center space-x-2">
             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
@@ -388,8 +389,9 @@ const CaseStudyDetail = () => {
               
               <Link
                 href="/#contact"
-                legacyBehavior
                 className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold"
+                legacyBehavior
+                passHref
               >
                 <a onClick={handleScrollToTop} className="flex items-center space-x-2">
                   <span>Start Your Project</span>
