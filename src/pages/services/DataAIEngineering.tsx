@@ -257,105 +257,114 @@ const DataAIEngineering = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <LineChart className="w-8 h-8 text-teal" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Retail Intelligence Vision</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Store Scale</span>
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <LineChart className="w-8 h-8 text-teal" />
                   </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    Envisioned unified data platforms could analyze customer behavior and inventory patterns across channels, potentially optimizing operations and driving revenue growth.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">20%+</div>
-                      <div className="text-sm text-gray-600">Expected growth</div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Retail Intelligence Vision</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Store Scale</span>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">35%+</div>
-                      <div className="text-sm text-gray-600">Target efficiency</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">Real-time</div>
-                      <div className="text-sm text-gray-600">Insight delivery</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">360°</div>
-                      <div className="text-sm text-gray-600">Data perspective</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <PieChart className="w-8 h-8 text-purple" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Financial Intelligence Future</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Portfolio Scale</span>
-                  </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    Future risk modeling systems could use advanced AI to analyze market trends and economic indicators, optimizing portfolio performance with intelligent insights.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">30%+</div>
-                      <div className="text-sm text-gray-600">Target reduction</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">45%+</div>
-                      <div className="text-sm text-gray-600">Speed improvement</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">90%+</div>
-                      <div className="text-sm text-gray-600">Target accuracy</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">$80M+</div>
-                      <div className="text-sm text-gray-600">Value potential</div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Envisioned unified data platforms could analyze customer behavior and inventory patterns across channels, potentially optimizing operations and driving revenue growth.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">20%+</div>
+                        <div className="text-sm text-gray-600">Expected growth</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">35%+</div>
+                        <div className="text-sm text-gray-600">Target efficiency</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">Real-time</div>
+                        <div className="text-sm text-gray-600">Insight delivery</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">360°</div>
+                        <div className="text-sm text-gray-600">Data perspective</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-golden to-rust rounded-3xl p-10 border-2 border-golden opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <Target className="w-8 h-8 text-golden" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Smart Manufacturing Vision</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Industrial Scale</span>
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <PieChart className="w-8 h-8 text-purple" />
                   </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    Anticipated IoT platforms could integrate sensor data from industrial equipment, enabling predictive maintenance and production optimization with intelligent analytics.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">55%+</div>
-                      <div className="text-sm text-gray-600">Expected reduction</div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Financial Intelligence Future</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Portfolio Scale</span>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">25%+</div>
-                      <div className="text-sm text-gray-600">Target efficiency</div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Future risk modeling systems could use advanced AI to analyze market trends and economic indicators, optimizing portfolio performance with intelligent insights.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">30%+</div>
+                        <div className="text-sm text-gray-600">Target reduction</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">45%+</div>
+                        <div className="text-sm text-gray-600">Speed improvement</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">90%+</div>
+                        <div className="text-sm text-gray-600">Target accuracy</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">$80M+</div>
+                        <div className="text-sm text-gray-600">Value potential</div>
+                      </div>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">85%+</div>
-                      <div className="text-sm text-gray-600">Prediction goal</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-golden to-rust rounded-3xl p-10 border-2 border-golden relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Target className="w-8 h-8 text-golden" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Smart Manufacturing Vision</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Industrial Scale</span>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">24/7</div>
-                      <div className="text-sm text-gray-600">Continuous insights</div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Anticipated IoT platforms could integrate sensor data from industrial equipment, enabling predictive maintenance and production optimization with intelligent analytics.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">55%+</div>
+                        <div className="text-sm text-gray-600">Expected reduction</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">25%+</div>
+                        <div className="text-sm text-gray-600">Target efficiency</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">85%+</div>
+                        <div className="text-sm text-gray-600">Prediction goal</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">24/7</div>
+                        <div className="text-sm text-gray-600">Continuous insights</div>
+                      </div>
                     </div>
                   </div>
                 </div>
