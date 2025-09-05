@@ -210,8 +210,20 @@ const Contact = () => {
 
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200 text-center">
           <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
+            {/* Logo and Brand */}
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/WhatsApp_Image_2025-09-05_at_19.23.35-removebg-preview.png" 
+                alt="SevenX Global Logo" 
+                className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
+              />
+              <span className="text-lg sm:text-xl font-bold text-gray-800">
+                Seven<span className="text-teal">X</span> Global
+              </span>
+            </div>
+            
             {/* Social Media Icons */}
-            <div className="flex items-center space-x-3 sm:space-x-4">
+            <div className="flex items-center space-x-3 sm:space-x-4 lg:order-2">
               <a
                 href="https://github.com/848labs"
                 target="_blank"
