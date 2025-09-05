@@ -49,7 +49,6 @@ const Stack = () => {
                <HighlightOnScroll>Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
             </p>
-          </div>
         </section>
         
         {/* Stack Layers Section */}
