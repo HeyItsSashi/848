@@ -70,7 +70,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
-              src="/WhatsApp_Image_2025-09-05_at_19.23.35-removebg-preview.png" 
+              src="/logo.png" 
               alt="SevenX Global Logo" 
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />

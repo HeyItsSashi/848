@@ -213,7 +213,7 @@ const Contact = () => {
             {/* Logo and Brand */}
             <div className="flex items-center space-x-3 flex-shrink-0">
               <img 
-                src="/WhatsApp_Image_2025-09-05_at_19.23.35-removebg-preview.png" 
+                src="/logo.png" 
                 alt="SevenX Global Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
