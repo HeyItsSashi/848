@@ -30,8 +30,7 @@ const About = () => {
             <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg cursor-pointer">
               <RefreshCw className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Infinity(8)</h3>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-stone-600 transition-colors duration-300">Infinity(8)</h3>
+            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Infinity</h3>
             <p className="text-gray-600">Continuous learning and adaptation through infinite potential and structured growth.</p>
           </div>
 
@@ -39,8 +38,8 @@ const About = () => {
             <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg cursor-pointer">
               <Brain className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Logic(4)</h3>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-stone-600 transition-colors duration-300">Logic(4)</h3>
+            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Logic</h3>
+            
             <p className="text-gray-600">Responsible, structured, human-aware AI that's explainable and sustainable.</p>
           </div>
 
@@ -48,8 +47,8 @@ const About = () => {
             <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg cursor-pointer">
               <Target className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Infinity Again(8)</h3>
-            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-stone-600 transition-colors duration-300">Infinity Again(8)</h3>
+            <h3 className="text-xl font-semibold text-black mb-4 group-hover:text-blue-600 transition-colors duration-300">Infinity Again</h3>
+            
             <p className="text-gray-600">Delivering outcomes with speed and confidence through continuous feedback loops.</p>
           </div>
         </div>
