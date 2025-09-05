@@ -188,225 +188,109 @@ const EnterpriseSolutions = () => {
           </p>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <TrendingUp className="w-8 h-8 text-golden" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Financial Services Vision</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Enterprise Scale</span>
+            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden relative">
+              {/* Background overlay for better text readability */}
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <TrendingUp className="w-8 h-8 text-golden" />
                   </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    Envisioned AI-native platforms could revolutionize fraud detection and risk assessment, processing millions of transactions with real-time intelligence.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">95%+</div>
-                      <div className="text-sm text-gray-700">Expected accuracy</div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Financial Services Vision</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Enterprise Scale</span>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">$40M+</div>
-                      <div className="text-sm text-gray-700">Projected savings</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">75%+</div>
-                      <div className="text-sm text-gray-700">Speed improvement</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-golden mb-1">24/7</div>
-                      <div className="text-sm text-gray-700">Continuous operation</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <Globe className="w-8 h-8 text-teal" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Smart Manufacturing Future</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Facility</span>
-                  </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    AI-native systems could enable predictive maintenance and automation across manufacturing facilities, optimizing production with intelligent insights.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">60%+</div>
-                      <div className="text-sm text-gray-700">Potential reduction</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">30%</div>
-                      <div className="text-sm text-gray-700">Expected efficiency</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">$20M+</div>
-                      <div className="text-sm text-gray-700">Target savings</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-teal mb-1">99%+</div>
-                      <div className="text-sm text-gray-700">Quality target</div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Envisioned AI-native platforms could revolutionize fraud detection and risk assessment, processing millions of transactions with real-time intelligence.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">95%+</div>
+                        <div className="text-sm text-gray-700">Expected accuracy</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">$40M+</div>
+                        <div className="text-sm text-gray-700">Projected savings</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">75%+</div>
+                        <div className="text-sm text-gray-700">Speed improvement</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">24/7</div>
+                        <div className="text-sm text-gray-700">Continuous operation</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple opacity-90">
-              <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                  <Lock className="w-8 h-8 text-purple" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">Healthcare Intelligence Vision</h3>
-                    <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Globe className="w-8 h-8 text-teal" />
                   </div>
-                  <p className="text-lg text-white opacity-90 mb-6">
-                    Future AI-native platforms could secure healthcare networks with intelligent compliance monitoring and automated patient data protection.
-                  </p>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">100%</div>
-                      <div className="text-sm text-gray-700">Compliance target</div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Smart Manufacturing Future</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Facility</span>
                     </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">0</div>
-                      <div className="text-sm text-gray-700">Breach goal</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">40%+</div>
-                      <div className="text-sm text-gray-700">Time savings</div>
-                    </div>
-                    <div className="bg-white rounded-xl p-4 text-center">
-                      <div className="text-3xl font-bold text-purple mb-1">1M+</div>
-                      <div className="text-sm text-gray-700">Records capacity</div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      AI-native systems could enable predictive maintenance and automation across manufacturing facilities, optimizing production with intelligent insights.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">60%+</div>
+                        <div className="text-sm text-gray-700">Potential reduction</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">30%</div>
+                        <div className="text-sm text-gray-700">Expected efficiency</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">$20M+</div>
+                        <div className="text-sm text-gray-700">Target savings</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">99%+</div>
+                        <div className="text-sm text-gray-700">Quality target</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        {/* Enterprise Features */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Enterprise-Grade Features</h2>
-          <div className="bg-gray-900 rounded-3xl p-12 text-white">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-golden mb-2">99.99%</div>
-                <div className="text-gray-300 font-medium">Uptime SLA</div>
-                <div className="text-sm text-gray-400 mt-1">Enterprise reliability</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-teal mb-2">SOC 2</div>
-                <div className="text-gray-300 font-medium">Compliance</div>
-                <div className="text-sm text-gray-400 mt-1">Type II certified</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-purple mb-2">24/7</div>
-                <div className="text-gray-300 font-medium">Support</div>
-                <div className="text-sm text-gray-400 mt-1">Dedicated team</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-gray-100 mb-2">{"<15min"}</div>
-                <div className="text-gray-300 font-medium">Response Time</div>
-                <div className="text-sm text-gray-400 mt-1">Critical issues</div>
-              </div>
-            </div>
-            
-            <div className="text-center">
-              <h3 className="text-2xl font-bold mb-6">Security & Compliance Standards</h3>
-              <div className="flex flex-wrap justify-center gap-4">
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">ISO 27001</span>
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">GDPR Compliant</span>
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">HIPAA Ready</span>
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">SOX Controls</span>
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">PCI DSS</span>
-                <span className="bg-white bg-opacity-10 px-6 py-3 rounded-full text-sm font-medium">FedRAMP</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Implementation Process */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Our Implementation Process</h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-4xl">
-            We follow a proven methodology that minimizes risk and ensures successful deployment at enterprise scale
-          </p>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-purple-300 text-center">
-              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-golden group-hover:text-white transition-all duration-300">
-                <span className="text-2xl font-bold text-golden group-hover:text-white">1</span>
-              </div>
-              <h3 className="text-lg font-bold text-black mb-3">Strategic Assessment</h3>
-              <p className="text-gray-600 text-sm">
-                Comprehensive evaluation of current systems, processes, and business objectives to define the optimal AI strategy.
-              </p>
-            </div>
-            
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-blue-300 text-center">
-              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-teal group-hover:text-white transition-all duration-300">
-                <span className="text-2xl font-bold text-teal group-hover:text-white">2</span>
-              </div>
-              <h3 className="text-lg font-bold text-black mb-3">Solution Architecture</h3>
-              <p className="text-gray-600 text-sm">
-                Design enterprise-grade architecture that integrates seamlessly with existing infrastructure and scales with growth.
-              </p>
-            </div>
-            
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-green-300 text-center">
-              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple group-hover:text-white transition-all duration-300">
-                <span className="text-2xl font-bold text-purple group-hover:text-white">3</span>
-              </div>
-              <h3 className="text-lg font-bold text-black mb-3">Phased Deployment</h3>
-              <p className="text-gray-600 text-sm">
-                Controlled rollout with pilot programs, user training, and gradual scaling to minimize business disruption.
-              </p>
-            </div>
-            
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-orange-300 text-center">
-              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-rust group-hover:text-white transition-all duration-300">
-                <span className="text-2xl font-bold text-rust group-hover:text-white">4</span>
-              </div>
-              <h3 className="text-lg font-bold text-black mb-3">Continuous Optimization</h3>
-              <p className="text-gray-600 text-sm">
-                Ongoing performance monitoring, optimization, and enhancement to ensure maximum ROI and business value.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-12 text-white text-center">
-          <h2 className="text-4xl font-bold mb-6">Transform Your Enterprise Today</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Join industry leaders who have revolutionized their operations with our AI-powered enterprise solutions. Start your transformation journey with a strategic consultation.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
-              className="group bg-white text-golden px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
-            >
-              <span>Schedule Enterprise Consultation</span>
-              <ArrowLeft className="w-5 h-5 rotate-180 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default EnterpriseSolutions;
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Lock className="w-8 h-8 text-purple" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Healthcare Intelligence Vision</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Future AI-native platforms could secure healthcare networks with intelligent compliance monitoring and automated patient data protection.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">100%</div>
+                        <div className="text-sm text-gray-700">Compliance target</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">0</div>
+                        <div className="text-sm text-gray-700">Breach goal</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">40%+</div>
+                        <div className="text-sm text-gray-700">Time savings</div>
+                      </div>
+                      <div className
