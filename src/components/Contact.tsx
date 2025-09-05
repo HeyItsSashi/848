@@ -75,8 +75,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-Your Next Intelligent Move Starts Here.
-
+            Your Next Intelligent Move Starts Here
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Partner with <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
@@ -85,7 +84,7 @@ Your Next Intelligent Move Starts Here.
 
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-8">Get in Touch</h3>
+            <h3 className="text-3xl font-bold text-black mb-8">Get in Touch</h3>
             
             <div className="space-y-6">
               <div className="flex items-center space-x-4 group cursor-pointer">
@@ -94,9 +93,12 @@ Your Next Intelligent Move Starts Here.
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Email</p>
-                  <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">200@sevenx.global</span>
-                  </p>
+                  <a 
+                    href="mailto:200@sevenx.global"
+                    className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
+                  >
+                    200@sevenx.global
+                  </a>
                 </div>
               </div>
 
@@ -106,9 +108,12 @@ Your Next Intelligent Move Starts Here.
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Phone</p>
-                  <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-purple underline-offset-2 hover:scale-105 transition-all duration-300">+91 0000 000 000</span>
-                  </p>
+                  <a 
+                    href="tel:+910000000000"
+                    className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-purple"
+                  >
+                    +91 0000 000 000
+                  </a>
                 </div>
               </div>
 
@@ -118,79 +123,83 @@ Your Next Intelligent Move Starts Here.
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Location</p>
-                  <p className="text-gray-800 font-medium transition-colors duration-300 relative group cursor-pointer">
-                    <span className="group-hover:underline decoration-2 decoration-golden underline-offset-2 hover:scale-105 transition-all duration-300">Global • Remote First</span>
+                  <p className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-golden">
+                    Global • Remote First
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-teal to-purple rounded-2xl p-8 border border-gray-200">
-            <h3 className="text-xl font-bold mb-6 text-white">Start Your Project</h3>
+          <div className="bg-gradient-to-br from-teal via-purple to-indigo-600 rounded-3xl p-8 shadow-xl border border-gray-200 relative overflow-hidden">
+            {/* Background overlay for better text readability */}
+            <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+            <div className="relative z-10">
+              <h3 className="text-2xl font-bold mb-6 text-white drop-shadow-lg">Start Your Project</h3>
             
-            <form 
-              className="space-y-4" 
-              onSubmit={handleSubmit}
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-            >
-              {/* Hidden input for Netlify Forms */}
-              <input type="hidden" name="form-name" value="contact" />
-              
-              {/* Honeypot field for spam protection */}
-              <div style={{ display: 'none' }}>
-                <label>
-                  Don't fill this out if you're human: <input name="bot-field" />
-                </label>
-              </div>
-
-              <div>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleInputChange}
-                  placeholder="Your Name"
-                  required
-                  className="w-full bg-white border border-white rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-20 transition-all duration-300 hover:border-golden"
-                />
-              </div>
-              
-              <div>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  placeholder="Your Email"
-                  required
-                  className="w-full bg-white border border-white rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-20 transition-all duration-300 hover:border-golden"
-                />
-              </div>
-              
-              <div>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  placeholder="Tell us about your project..."
-                  rows={4}
-                  required
-                  className="w-full bg-white border border-white rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-20 transition-all duration-300 resize-none hover:border-golden"
-                ></textarea>
-              </div>
-              
-              <button
-                type="submit"
-                className="w-full bg-white text-teal px-6 py-3 rounded-lg font-medium hover:bg-golden hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-lg active:scale-95 relative overflow-hidden"
+              <form 
+                className="space-y-4" 
+                onSubmit={handleSubmit}
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
               >
-                <span>Send Message</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </button>
-            </form>
+                {/* Hidden input for Netlify Forms */}
+                <input type="hidden" name="form-name" value="contact" />
+                
+                {/* Honeypot field for spam protection */}
+                <div style={{ display: 'none' }}>
+                  <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                  </label>
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleInputChange}
+                    placeholder="Your Name"
+                    required
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm"
+                  />
+                </div>
+                
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    placeholder="Your Email"
+                    required
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm"
+                  />
+                </div>
+                
+                <div>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    placeholder="Tell us about your project..."
+                    rows={4}
+                    required
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 resize-none hover:border-golden font-medium shadow-sm"
+                  ></textarea>
+                </div>
+                
+                <button
+                  type="submit"
+                  className="w-full bg-white bg-opacity-95 text-teal px-6 py-4 rounded-lg font-semibold hover:bg-golden hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-xl active:scale-95 relative overflow-hidden text-lg shadow-sm"
+                >
+                  <span>Send Message</span>
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </button>
+              </form>
+            </div>
           </div>
         </div>
 
@@ -226,13 +235,13 @@ Your Next Intelligent Move Starts Here.
             
             {/* Footer Info */}
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
-            <span>200@SevenX.global</span>
-            <span className="hidden md:block">•</span>
-            <span>+91 00000 00000</span>
-            <span className="hidden md:block">•</span>
-            <span>AI Product Engineering & Tech Consulting</span>
-            <span className="hidden md:block">•</span>
-            <span>© 2025 SevenX Global Solutions.</span>
+              <span>200@SevenX.global</span>
+              <span className="hidden md:block">•</span>
+              <span>+91 00000 00000</span>
+              <span className="hidden md:block">•</span>
+              <span>AI Product Engineering & Tech Consulting</span>
+              <span className="hidden md:block">•</span>
+              <span>© 2025 SevenX Global Solutions.</span>
             </div>
           </div>
         </div>
