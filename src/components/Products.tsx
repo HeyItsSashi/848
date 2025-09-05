@@ -15,7 +15,7 @@ const Products = () => {
             Our Vertical AI Apps
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl leading-relaxed">
-            At SevenX Global, we are building intelligent, <HighlightOnScroll>industry-focused</HighlightOnScroll> engines powered by data and analytics transforming how businesses operate in their domains.
+            At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> , we are building intelligent, <HighlightOnScroll>industry-focused</HighlightOnScroll> engines powered by data and analytics transforming how businesses operate in their domains.
           </p>
         </div>
 
