@@ -1,15 +1,12 @@
-'use client';
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Menu, X, Infinity as InfinityIcon, LogOut, ChevronDown } from 'lucide-react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const pathname = usePathname();
+  const location = useLocation();
 
   const handleScroll = useCallback(() => {
     setIsScrolled(window.scrollY > 50);
@@ -25,8 +22,8 @@ const Header = () => {
     window.location.reload();
   }, []);
 
-  const handleContactClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (pathname !== '/') {
+  const handleContactClick = useCallback((e) => {
+    if (location.pathname !== '/') {
       // If not on home page, navigate to home first
       // The scrolling will be handled by useEffect after navigation
       return; // Let the Link handle navigation
@@ -38,11 +35,11 @@ const Header = () => {
         contactSection.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  }, [pathname]);
+  }, [location.pathname]);
 
   // Handle scrolling to contact section after navigation to home page
   useEffect(() => {
-    if (pathname === '/' && window.location.hash === '#contact') {
+    if (location.pathname === '/' && location.hash === '#contact') {
       setTimeout(() => {
         const contactSection = document.getElementById('contact');
         if (contactSection) {
@@ -50,7 +47,7 @@ const Header = () => {
         }
       }, 100);
     }
-  }, [pathname]);
+  }, [location]);
 
   const handleLinkClick = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -71,7 +68,7 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
+          <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
               src="/logo.png" 
               alt="SevenX Global Logo" 
@@ -85,7 +82,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8 relative"
             onMouseLeave={() => setIsServicesOpen(false)}
           >
-            {pathname === '/' ? (
+            {location.pathname === '/' ? (
               <>
                 <a
                   href="#about"
@@ -98,18 +95,12 @@ const Header = () => {
               </>
             ) : (
               <Link
-                href="/"
+                to="/"
                 onClick={handleLinkClick}
-                legacyBehavior
-                passHref
+                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
-                <a 
-                  onClick={handleLinkClick}
-                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-                >
-                  Home
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
-                </a>
+                Home
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
               </Link>
             )}
             
@@ -130,17 +121,11 @@ const Header = () => {
                   {services.map((service, index) => (
                     <Link
                       key={index}
-                      href={service.path}
+                      to={service.path}
                       onClick={handleLinkClick}
-                      legacyBehavior
-                      passHref
+                      className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
                     >
-                      <a 
-                        onClick={handleLinkClick}
-                        className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
-                      >
-                        {service.name}
-                      </a>
+                      {service.name}
                     </Link>
                   ))}
                 </div>
@@ -148,32 +133,20 @@ const Header = () => {
             </div>
             
             <Link
-              href="/stack"
+              to="/stack"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-              >
-                Stack
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
-              </a>
+              Stack
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
             </Link>
             <Link
-              href="/clients"
+              to="/clients"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-              >
-                Clients
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
-              </a>
+              Clients
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
             </Link>
             
             <a
@@ -187,33 +160,21 @@ const Header = () => {
             </a>
             
             <Link
-              href="/careers"
+              to="/careers"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-              >
-                Careers
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-golden"></span>
-              </a>
+              Careers
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-golden"></span>
             </Link>
             
             <Link
-              href={pathname === '/' ? '#contact' : '/#contact'}
+              to={location.pathname === '/' ? '#contact' : '/#contact'}
               onClick={handleContactClick}
-              legacyBehavior
-              passHref
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
-              <a 
-                onClick={handleContactClick}
-                className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-              >
-                Contact
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
-              </a>
+              Contact
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
             </Link>
             
             <button
@@ -238,7 +199,7 @@ const Header = () => {
           isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
         } bg-white rounded-b-lg border-t border-gray-100`}>
           <nav className="pt-4 pb-2 space-y-2">
-            {pathname === '/' ? (
+            {location.pathname === '/' ? (
               <>
                 <a
                   href="#about"
@@ -250,17 +211,11 @@ const Header = () => {
               </>
             ) : (
               <Link
-                href="/"
+                to="/"
                 onClick={handleLinkClick}
-                legacyBehavior
-                passHref
+                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
               >
-                <a 
-                  onClick={handleLinkClick}
-                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                >
-                  Home
-                </a>
+                Home
               </Link>
             )}
             
@@ -269,46 +224,28 @@ const Header = () => {
               {services.map((service, index) => (
                 <Link
                   key={index}
-                  href={service.path}
+                  to={service.path}
                   onClick={handleLinkClick}
-                  legacyBehavior
-                  passHref
+                  className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
                 >
-                  <a 
-                    onClick={handleLinkClick}
-                    className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
-                  >
-                    {service.name}
-                  </a>
+                  {service.name}
                 </Link>
               ))}
             </div>
             
             <Link
-              href="/stack"
+              to="/stack"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-              >
-                Stack
-              </a>
+              Stack
             </Link>
             <Link
-              href="/clients"
+              to="/clients"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-              >
-                Clients
-              </a>
+              Clients
             </Link>
             
             <a
@@ -321,19 +258,13 @@ const Header = () => {
             </a>
             
             <Link
-              href="/careers"
+              to="/careers"
               onClick={handleLinkClick}
-              legacyBehavior
-              passHref
+              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
-              <a 
-                onClick={handleLinkClick}
-                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-              >
-                Careers
-              </a>
+              Careers
             </Link>
-            {pathname === '/' && (
+            {location.pathname === '/' && (
               <a
                 href="#contact"
                 onClick={handleLinkClick}
@@ -342,19 +273,13 @@ const Header = () => {
                 Contact
               </a>
             )}
-            {pathname !== '/' && (
+            {location.pathname !== '/' && (
               <Link
-                href="/#contact"
+                to="/#contact"
                 onClick={handleLinkClick}
-                legacyBehavior
-                passHref
+                className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
               >
-                <a 
-                  onClick={handleLinkClick}
-                  className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-                >
-                  Contact
-                </a>
+                Contact
               </Link>
             )}
             <button

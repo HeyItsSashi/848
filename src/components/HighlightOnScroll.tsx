@@ -1,7 +1,3 @@
-'use client';
-
-'use client';
-
 import React, { useRef, useEffect, useState } from 'react';
 
 interface HighlightOnScrollProps {
