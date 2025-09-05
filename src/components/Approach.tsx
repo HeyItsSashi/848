@@ -44,36 +44,32 @@ const Approach = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className={`bg-white border border-stone-200 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
-                index === 0 ? 'hover:border-teal' : 
-                index === 1 ? 'hover:border-purple' : 
-                'hover:border-golden'
+              className={`border-2 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
+                index === 0 ? 'bg-teal bg-opacity-10 border-teal' : 
+                index === 1 ? 'bg-purple bg-opacity-10 border-purple' : 
+                'bg-golden bg-opacity-10 border-golden'
               }`}
             >
               <div className="flex items-center space-x-6">
-                <div className={`w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
-                  index === 0 ? 'group-hover:bg-teal' : 
-                  index === 1 ? 'group-hover:bg-purple' : 
-                  'group-hover:bg-golden'
+                <div className={`w-20 h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
+                  index === 0 ? 'bg-teal' : 
+                  index === 1 ? 'bg-purple' : 
+                  'bg-golden'
                 }`}>
-                  <step.icon className={`w-8 h-8 text-gray-700 transition-colors duration-300 ${
-                    index === 0 ? 'group-hover:text-white' : 
-                    index === 1 ? 'group-hover:text-white' : 
-                    'group-hover:text-white'
-                  }`} />
+                  <step.icon className="w-8 h-8 text-white" />
                 </div>
                 
                 <div className="flex-1">
                   <div className="flex items-center space-x-4 mb-3">
-                    <span className={`text-3xl font-bold text-stone-300 transition-colors duration-300 ${
-                      index === 0 ? 'group-hover:text-teal' : 
-                      index === 1 ? 'group-hover:text-purple' : 
-                      'group-hover:text-golden'
+                    <span className={`text-3xl font-bold transition-colors duration-300 ${
+                      index === 0 ? 'text-teal' : 
+                      index === 1 ? 'text-purple' : 
+                      'text-golden'
                     }`}>{step.number}</span>
-                    <h3 className={`text-2xl font-bold text-black transition-colors duration-300 ${
-                      index === 0 ? 'group-hover:text-teal' : 
-                      index === 1 ? 'group-hover:text-purple' : 
-                      'group-hover:text-golden'
+                    <h3 className={`text-2xl font-bold transition-colors duration-300 ${
+                      index === 0 ? 'text-teal' : 
+                      index === 1 ? 'text-purple' : 
+                      'text-golden'
                     }`}>{step.title}</h3>
                   </div>
                   <p className="text-lg text-gray-600 leading-relaxed">

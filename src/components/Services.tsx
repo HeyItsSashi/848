@@ -61,41 +61,31 @@ const Services = () => {
               to={service.link}
               onClick={handleLinkClick}
               key={index}
-              className={`block bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border border-transparent hover:scale-[1.02] ${
-                index === 0 ? 'hover:border-golden' : 
-                index === 1 ? 'hover:border-teal' : 
-                index === 2 ? 'hover:border-purple' : 
-                'hover:border-sky'
+              className={`block rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
+                index === 0 ? 'bg-golden text-white hover:bg-opacity-90' : 
+                index === 1 ? 'bg-teal text-white hover:bg-opacity-90' : 
+                index === 2 ? 'bg-purple text-white hover:bg-opacity-90' : 
+                'bg-sky text-white hover:bg-opacity-90'
               }`}
             >
               <div className="flex items-start space-x-4">
                 <div className={`w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
-                  index === 0 ? 'group-hover:bg-golden group-hover:text-white' : 
-                  index === 1 ? 'group-hover:bg-teal group-hover:text-white' : 
-                  index === 2 ? 'group-hover:bg-purple group-hover:text-white' : 
-                  'group-hover:bg-sky group-hover:text-white'
+                  index === 0 ? 'bg-white text-golden' : 
+                  index === 1 ? 'bg-white text-teal' : 
+                  index === 2 ? 'bg-white text-purple' : 
+                  'bg-white text-sky'
                 }`}>
                   <service.icon className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
-                  <h3 className={`text-xl font-semibold text-black mb-3 transition-colors duration-300 ${
-                    index === 0 ? 'group-hover:text-golden' : 
-                    index === 1 ? 'group-hover:text-teal' : 
-                    index === 2 ? 'group-hover:text-purple' : 
-                    'group-hover:text-sky'
-                  }`}>
+                  <h3 className="text-xl font-semibold mb-3 transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
+                  <p className="mb-4 leading-relaxed opacity-90">{service.description}</p>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center space-x-2 text-sm text-gray-500 group-hover:text-gray-600 transition-colors duration-300">
-                        <span className={`w-1.5 h-1.5 rounded-full transition-colors duration-300 ${
-                          index === 0 ? 'bg-stone-400 group-hover:bg-golden' : 
-                          index === 1 ? 'bg-stone-400 group-hover:bg-teal' : 
-                          index === 2 ? 'bg-stone-400 group-hover:bg-purple' : 
-                          'bg-stone-400 group-hover:bg-sky'
-                        }`}></span>
+                      <li key={featureIndex} className="flex items-center space-x-2 text-sm opacity-80 transition-colors duration-300">
+                        <span className="w-1.5 h-1.5 bg-white rounded-full"></span>
                         <span>{feature}</span>
                       </li>
                     ))}

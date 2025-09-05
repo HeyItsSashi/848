@@ -17,12 +17,12 @@ const Stack = () => {
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Purpose Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-teal border-2 border-transparent">
+          <div className="bg-teal bg-opacity-10 border-2 border-teal rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-15 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-teal transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-teal rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Target className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-teal transition-colors duration-300">Purpose Stack</h3>
+              <h3 className="text-2xl font-bold text-teal transition-colors duration-300">Purpose Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
@@ -60,12 +60,12 @@ const Stack = () => {
           </div>
 
           {/* Strategy Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-purple border-2 border-transparent">
+          <div className="bg-purple bg-opacity-10 border-2 border-purple rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-15 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-purple transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-purple rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Users className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-purple transition-colors duration-300">Strategy Stack</h3>
+              <h3 className="text-2xl font-bold text-purple transition-colors duration-300">Strategy Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
@@ -106,12 +106,12 @@ const Stack = () => {
           </div>
 
           {/* Culture Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-golden border-2 border-transparent">
+          <div className="bg-golden bg-opacity-10 border-2 border-golden rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-15 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-golden transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-golden rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Heart className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-golden transition-colors duration-300">Culture Stack</h3>
+              <h3 className="text-2xl font-bold text-golden transition-colors duration-300">Culture Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
