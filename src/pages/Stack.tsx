@@ -33,10 +33,7 @@ const Stack = () => {
         {/* Introduction Section */}
         <section className="mb-20">
           <div className="flex items-center space-x-3 mb-8">
-            <span className="text-2xl"></span>
           </div>
-          
-          <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
               At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of SevenX stack that makes it all possible.
             </p>
