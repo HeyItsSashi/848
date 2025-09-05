@@ -68,7 +68,7 @@ const EdgeSystems = () => {
                   <Zap className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
                 <h3 className="font-bold text-black mb-2 group-hover:text-teal">Ultra-Low Latency</h3>
-                <p className="text-gray-700 text-sm">Process data in microseconds, not minutes. Critical for safety systems.</p>
+                <p className="text-gray-800 text-sm">Process data in microseconds, not minutes. Critical for safety systems.</p>
               </div>
               
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:border-black">
@@ -76,7 +76,7 @@ const EdgeSystems = () => {
                   <Shield className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
                 <h3 className="font-bold text-black mb-2 group-hover:text-purple">Offline Capability</h3>
-                <p className="text-gray-700 text-sm">Continue operations even when internet fails. Perfect for remote locations.</p>
+                <p className="text-gray-800 text-sm">Continue operations even when internet fails. Perfect for remote locations.</p>
               </div>
               
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:border-black">
@@ -84,7 +84,7 @@ const EdgeSystems = () => {
                   <Eye className="w-6 h-6 text-gray-800 group-hover:text-white" />
                 </div>
                 <h3 className="font-bold text-black mb-2 group-hover:text-golden">Local Processing</h3>
-                <p className="text-gray-700 text-sm">Keep sensitive data secure by processing locally. No data leaves your premises.</p>
+                <p className="text-gray-800 text-sm">Keep sensitive data secure by processing locally. No data leaves your premises.</p>
               </div>
             </div>
 
@@ -115,104 +115,104 @@ const EdgeSystems = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Core Technologies</h2>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <Camera className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Computer Vision at Edge
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 Advanced vision AI that runs directly on edge devices. Real-time object detection, facial recognition, and scene analysis without cloud dependency.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time object detection</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Quality inspection systems</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Security and surveillance</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Cpu className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Edge AI Processing
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 Deploy sophisticated AI models on specialized edge hardware. From NVIDIA Jetson to custom FPGA solutions for maximum performance.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Neural network acceleration</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Custom model optimization</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Hardware-specific tuning</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Wifi className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Smart Connectivity
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 Intelligent networking that adapts to bandwidth constraints and automatically optimizes data transmission based on priority and availability.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Adaptive bandwidth management</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Multi-protocol support</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Failover mechanisms</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-gray-400">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-rust cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-rust group-hover:text-white transition-all duration-300">
                 <Shield className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-rust transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Edge Security
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-4">
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 Military-grade security protocols that protect data and systems at the network edge with encrypted communication and secure boot processes.
               </p>
               <ul className="space-y-2">
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Hardware security modules</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Encrypted data streams</span>
                 </li>
-                <li className="flex items-center space-x-2 text-gray-600">
+                <li className="flex items-center space-x-2 text-gray-700">
                   <div className="w-2 h-2 bg-rust rounded-full"></div>
                   <span>Zero-trust architecture</span>
                 </li>

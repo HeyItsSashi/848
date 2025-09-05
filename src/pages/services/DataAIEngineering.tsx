@@ -102,90 +102,90 @@ const DataAIEngineering = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Complete Data Intelligence Stack</h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <BarChart3 className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Data Visualization & Analytics
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Transform complex data into compelling visual stories that drive understanding and action. Interactive dashboards and reports that make data accessible to everyone.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time interactive dashboards</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Custom reporting and alerting</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Self-service analytics platforms</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Mobile-first visualization</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Database className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Business Intelligence Platforms
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Comprehensive BI solutions that centralize data from multiple sources, providing unified insights across your entire organization's operations.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Multi-source data integration</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Advanced analytics and KPI tracking</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Automated insight generation</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Enterprise-grade security</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Brain className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Agentic Data Solutions
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 AI agents that autonomously analyze data, identify patterns, generate insights, and even take actions based on predefined business rules and objectives.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Autonomous data analysis agents</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Intelligent anomaly detection</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Predictive modeling and forecasting</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Auto-generated insights and recommendations</span>
                 </li>

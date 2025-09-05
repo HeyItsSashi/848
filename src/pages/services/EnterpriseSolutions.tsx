@@ -107,90 +107,90 @@ const EnterpriseSolutions = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Complete Solution Suite</h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
                 <Users className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-purple transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 AI-Powered Mobile & Enterprise Apps
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Custom applications that leverage AI to enhance user experience, automate processes, and provide intelligent insights across all your business operations.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Intelligent user interfaces that adapt to behavior</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Predictive analytics built into workflows</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Cross-platform deployment and synchronization</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Enterprise-grade security and compliance</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <Shield className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-teal transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 AI Assurance & Cyber Security
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Advanced security systems that use AI to detect threats, prevent breaches, and ensure compliance in real-time across your entire enterprise infrastructure.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Real-time threat detection and response</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Behavioral analysis and anomaly detection</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Automated incident response and remediation</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Compliance monitoring and reporting</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Cog className="w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-4 group-hover:text-golden transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
                 Enterprise Automation & Operations
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 End-to-end automation solutions that streamline operations, reduce costs, and improve efficiency across your organization's most critical processes.
               </p>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Intelligent process automation and optimization</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Resource allocation and performance monitoring</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Predictive maintenance and asset management</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-600">
+                <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Cost optimization and efficiency analytics</span>
                 </li>
