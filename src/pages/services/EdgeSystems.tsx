@@ -115,4 +115,148 @@ const EdgeSystems = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Core Technologies</h2>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
+                <Cpu className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+                AI Processing Units
+              </h3>
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                Custom hardware optimized for AI workloads, delivering maximum performance with minimal power consumption at the edge.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Dedicated neural processing units</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Low-power, high-throughput design</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Real-time inference capabilities</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
+                <Wifi className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+                Edge Connectivity
+              </h3>
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                Advanced networking solutions that maintain connectivity and data synchronization even in challenging environments.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Mesh networking capabilities</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Automatic failover and recovery</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Multi-protocol support</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Future Industry Applications */}
+        <div className="mb-20">
+          <h2 className="text-4xl font-bold text-black mb-8">Future Industry Applications</h2>
+          <p className="text-xl text-gray-600 mb-12 max-w-4xl">
+            Explore how edge systems could transform operations across different industries with real-time intelligence
+          </p>
+
+          <div className="space-y-8">
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Camera className="w-8 h-8 text-teal" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Smart Surveillance Future</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Real-time</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Edge-powered surveillance systems could provide instant threat detection and response without relying on cloud connectivity.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">&lt;100ms</div>
+                        <div className="text-sm text-gray-700">Response time</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">99.9%</div>
+                        <div className="text-sm text-gray-700">Accuracy target</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">24/7</div>
+                        <div className="text-sm text-gray-700">Operation</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">Local</div>
+                        <div className="text-sm text-gray-700">Processing</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <MapPin className="w-8 h-8 text-purple" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Autonomous Vehicle Vision</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Mission-Critical</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Edge computing could enable split-second decision making in autonomous vehicles, ensuring safety without network dependency.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">&lt;10ms</div>
+                        <div className="text-sm text-gray-700">Decision time</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">360°</div>
+                        <div className="text-sm text-gray-700">Awareness</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">Zero</div>
+                        <div className="text-sm text-gray-700">Cloud dependency</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">Instant</div>
+                        <div className="text-sm text-gray-700">Response</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EdgeSystems;
