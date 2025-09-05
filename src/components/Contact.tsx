@@ -18,6 +18,13 @@ const Contact = () => {
     }));
   }, []);
 
+  // Helper function to encode form data for Netlify
+  const encode = React.useCallback((data: { [key: string]: string }) => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  }, []);
+
   const handleSubmit = React.useCallback((e: React.FormEvent<HTMLFormElement>) => {
     // Show confirmation modal immediately
     setShowConfirmation(true);
@@ -29,7 +36,29 @@ const Contact = () => {
         email: '',
         message: ''
       });
-    }, 3000);
+    }, 3000); // Keep the existing UI confirmation logic
+
+    // Prevent default form submission
+    e.preventDefault();
+
+    // Send data to Netlify
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": "contact", // This must match the 'name' attribute of your form
+        "name": formData.name,
+        "email": formData.email,
+        "message": formData.message,
+        "bot-field": "" // Include the honeypot field, even if empty
+      }),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          console.error("Form submission failed:", response.statusText);
+        }
+      })
+      .catch((error) => console.error("Form submission error:", error));
   }, []);
 
   const closeConfirmation = React.useCallback(() => {
