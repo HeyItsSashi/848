@@ -115,6 +115,12 @@ const EdgeSystems = () => {
           <h2 className="text-4xl font-bold text-black mb-12">Core Technologies</h2>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500">
+              <h3 className="text-2xl font-bold text-black mb-4">Complete Core Technologies Content</h3>
+              <p className="text-gray-700">This section needs to be properly implemented with core technologies content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
   )
 }
