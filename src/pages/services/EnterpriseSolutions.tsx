@@ -91,13 +91,259 @@ const EnterpriseSolutions = () => {
                 <span>Schedule Consultation</span>
               </button>
             </div>
+
+            {/* Scroll Indicator */}
+            <div className="text-center">
+              <p className="text-gray-500 text-sm mb-4">Enterprise-grade intelligence at scale</p>
+              <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group mx-auto">
+                <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Solution Categories */}
+        <div className="mb-20">
+          <h2 className="text-4xl font-bold text-black mb-12">Enterprise Solution Portfolio</h2>
+          
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
+                <Users className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+                AI-Powered Mobile & Enterprise Apps
+              </h3>
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                Custom applications that leverage AI to enhance user experience, automate processes, and provide intelligent insights across all your business operations.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <span>Intelligent user interfaces that adapt to behavior</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <span>Predictive analytics built into workflows</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <span>Cross-platform deployment and synchronization</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <span>Enterprise-grade security and compliance</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
+                <Shield className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+                AI Assurance & Cyber Security
+              </h3>
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                Advanced security systems that use AI to detect threats, prevent breaches, and ensure compliance in real-time across your entire enterprise infrastructure.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Real-time threat detection and response</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Behavioral analysis and anomaly detection</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Automated incident response and remediation</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <span>Compliance monitoring and reporting</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-purple cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple group-hover:text-white transition-all duration-300">
+                <Cog className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
+                Enterprise Automation & Operations
+              </h3>
+              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+                End-to-end automation solutions that streamline operations, reduce costs, and improve efficiency across your organization's most critical processes.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Intelligent process automation and optimization</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Resource allocation and performance monitoring</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Predictive maintenance and asset management</span>
+                </li>
+                <li className="flex items-center space-x-3 text-gray-700">
+                  <div className="w-2 h-2 bg-purple rounded-full"></div>
+                  <span>Cost optimization and efficiency analytics</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Enterprise Impact Stories */}
+        <div className="mb-20">
+          <h2 className="text-4xl font-bold text-black mb-8">Enterprise Impact at Scale</h2>
+          <p className="text-xl text-gray-600 mb-12 max-w-4xl">
+            See how global enterprises transform their operations with our AI-powered solutions
+          </p>
+
+          <div className="space-y-8">
+            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <TrendingUp className="w-8 h-8 text-golden" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Global Financial Services</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Fortune 500</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Deployed AI-powered fraud detection across 40+ countries, processing 10M+ daily transactions with 99.8% accuracy while reducing false positives by 60%.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">99.8%</div>
+                        <div className="text-sm text-gray-700">Detection accuracy</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">$180M</div>
+                        <div className="text-sm text-gray-700">Fraud prevented</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">60%</div>
+                        <div className="text-sm text-gray-700">Fewer false positives</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-golden mb-1">&lt;50ms</div>
+                        <div className="text-sm text-gray-700">Response time</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Globe className="w-8 h-8 text-teal" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Manufacturing Giant</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Global Scale</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Implemented predictive maintenance across 200+ facilities worldwide, reducing downtime by 45% and saving $50M annually in maintenance costs.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">45%</div>
+                        <div className="text-sm text-gray-700">Less downtime</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">$50M</div>
+                        <div className="text-sm text-gray-700">Annual savings</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">200+</div>
+                        <div className="text-sm text-gray-700">Facilities</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-teal mb-1">99.5%</div>
+                        <div className="text-sm text-gray-700">Uptime achieved</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
+              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="relative z-10">
+                <div className="flex items-start space-x-6">
+                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
+                    <Lock className="w-8 h-8 text-purple" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center space-x-3 mb-2">
+                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Healthcare Network</h3>
+                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-State</span>
+                    </div>
+                    <p className="text-lg text-white mb-6 drop-shadow-md">
+                      Secured patient data across 150+ hospitals with AI-powered compliance monitoring, achieving 100% HIPAA compliance while reducing security incidents by 80%.
+                    </p>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">100%</div>
+                        <div className="text-sm text-gray-700">HIPAA compliance</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">80%</div>
+                        <div className="text-sm text-gray-700">Fewer incidents</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">150+</div>
+                        <div className="text-sm text-gray-700">Hospitals</div>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 text-center">
+                        <div className="text-3xl font-bold text-purple mb-1">5M+</div>
+                        <div className="text-sm text-gray-700">Records secured</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Call to Action */}
+        <div className="bg-gradient-to-r from-black to-gray-800 rounded-3xl p-12 text-white text-center">
+          <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Enterprise?</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <Link
+              to="/#contact"
+              onClick={handleScrollToTop}
+              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+            >
+              <span>Start Enterprise Transformation</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </Link>
           </div>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-  )
-}
-  )
-}
+export default EnterpriseSolutions;

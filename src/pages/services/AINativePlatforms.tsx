@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock, Bot, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Users, Shield, Cog, TrendingUp, Globe, Lock, Bot, ArrowRight } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
 
-const EnterpriseSolutions = () => {
+const AINativePlatforms = () => {
   const handleScrollToTop = React.useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
@@ -293,7 +293,7 @@ const EnterpriseSolutions = () => {
                         <div className="text-3xl font-bold text-purple mb-1">40%+</div>
                         <div className="text-sm text-gray-700">Time savings</div>
                       </div>
-                     <div className="bg-white rounded-xl p-4 text-center">
+                      <div className="bg-white rounded-xl p-4 text-center">
                         <div className="text-3xl font-bold text-purple mb-1">99%+</div>
                         <div className="text-sm text-gray-700">Quality target</div>
                       </div>
@@ -304,9 +304,28 @@ const EnterpriseSolutions = () => {
             </div>
           </div>
         </div>
+
+        {/* Call to Action */}
+        <div className="bg-gradient-to-r from-black to-gray-800 rounded-3xl p-12 text-white text-center">
+          <h2 className="text-4xl font-bold mb-6">Ready to Build AI-Native?</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            Transform your business with platforms where AI isn't just a feature—it's the foundation for everything you build.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <Link
+              to="/#contact"
+              onClick={handleScrollToTop}
+              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+            >
+              <span>Start Your AI Journey</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default AINativePlatforms;
