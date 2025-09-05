@@ -10,7 +10,7 @@ const AINativePlatforms = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-white">
-      {/* Back Button - Right Side */}
+      <div className="min-h-screen pt-20 bg-purple-50">
       <div className="fixed top-24 right-6 z-50">
         <Link
           to="/"
@@ -24,7 +24,7 @@ const AINativePlatforms = () => {
 
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-gray-50 to-gray-100 relative overflow-hidden mb-20 -mx-6 px-6">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-25 via-purple-50 to-purple-100 relative overflow-hidden mb-20 -mx-6 px-6">
           {/* Particle Background */}
           <ParticleBackground />
           
