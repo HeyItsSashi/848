@@ -40,3 +40,17 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Form notifications - send submissions to specified email
+[[plugins]]
+  package = "netlify-plugin-form-submissions"
+
+# Netlify Forms configuration
+[forms]
+  # Email notifications for contact form submissions
+  [forms.contact]
+    email = "200@sevenx.global"
+    subject = "New Contact Form Submission - SevenX Global"
+    name_field = "name"
+    email_field = "email"
+    message_field = "message"

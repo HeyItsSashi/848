@@ -144,9 +144,14 @@ const Contact = () => {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                action="/success"
+                netlify-emails="200@sevenx.global"
               >
                 {/* Hidden input for Netlify Forms */}
                 <input type="hidden" name="form-name" value="contact" />
+                
+                {/* Additional hidden fields for better email formatting */}
+                <input type="hidden" name="subject" value="New Contact Form Submission - SevenX Global Website" />
                 
                 {/* Honeypot field for spam protection */}
                 <div style={{ display: 'none' }}>
