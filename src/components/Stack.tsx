@@ -5,10 +5,8 @@ import HighlightOnScroll from './HighlightOnScroll';
 const Stack = () => {
   return (
     <section id="stack" className="py-20 bg-white">
-
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-left mb-16">
-          
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
            <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> 
           </h2>
