@@ -56,6 +56,9 @@ const Careers = () => {
         <section className="text-left mb-20">
           <div className="flex items-center space-x-3 mb-8">
             <span className="text-2xl"></span>
+             <h2 className="text-3xl font-bold text-black">
+              <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll> Stack
+            </h2>
           </div>
            <div className="flex items-center space-x-3 mb-8">
                          <h2 className="text-3xl font-bold text-black">We don't just hire. We build with <HighlightOnScroll>people who build</HighlightOnScroll>.</h2>
