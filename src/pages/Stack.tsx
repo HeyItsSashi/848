@@ -201,7 +201,7 @@ const Stack = () => {
           
           <div className="bg-gray-50 rounded-2xl p-8 mb-8">
             <p className="text-lg text-gray-700 mb-6">
-              The 848Labs Stack isn't just theory it's how we operate every day. From product decisions to team dynamics, 
+              The SevenX Stack isn't just theory it's how we operate every day. From product decisions to team dynamics, 
               every aspect of our work is guided by these three foundational layers.
             </p>
             
@@ -247,13 +247,13 @@ const Stack = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden">
-              onClick={handleScrollToTop}
+              
               <span>Explore Careers</span>
               <Target className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
             
             <button className="group border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden">
-              onClick={handleScrollToTop}
+              
               <span>Start a Project</span>
             </button>
           </div>
