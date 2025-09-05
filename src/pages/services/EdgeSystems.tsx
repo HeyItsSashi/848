@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Satellite, Eye, Cpu, Wifi, Shield, Zap, Camera, MapPin } from 'lucide-react';
@@ -14,11 +16,12 @@ const EdgeSystems = () => {
       <div className="fixed top-24 right-6 z-50">
         <Link
           href="/"
-          onClick={handleScrollToTop}
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >
-          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-          <span>Back to Home</span>
+          <a onClick={handleScrollToTop} className="flex items-center space-x-2">
+            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
+            <span>Back to Home</span>
+          </a>
         </Link>
       </div>
 
@@ -172,11 +175,12 @@ const EdgeSystems = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Link
                 href="/#contact"
-                onClick={handleScrollToTop}
                 className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
               >
-                <span>Start Edge Deployment</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+               <a onClick={handleScrollToTop} className="flex items-center space-x-2">
+                 <span>Start Edge Deployment</span>
+                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+               </a>
               </Link>
             </div>
           </div>

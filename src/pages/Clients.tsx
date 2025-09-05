@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { Building2, Heart, Star, Quote, ArrowRight, Users, TrendingUp, Zap } from 'lucide-react';
@@ -226,11 +228,12 @@ const Clients = () => {
                   {/* View Details Button */}
                   <Link
                     href={`/clients/case-study/${project.id}`}
-                    onClick={handleScrollToTop}
                     className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-xs sm:text-sm hover:underline"
                   >
-                    <span>View Full Case Study</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+                    <a onClick={handleScrollToTop} className="flex items-center space-x-2">
+                      <span>View Full Case Study</span>
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+                    </a>
                   </Link>
                 </div>
               </div>
