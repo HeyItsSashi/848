@@ -168,98 +168,60 @@ const Clients = () => {
           </div>
 
           {/* Projects Display */}
-          <div className="space-y-8">
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             {filteredProjects.map((project, index) => (
               <div
                 key={index}
-                className={`bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 group hover:-translate-y-2 border-l-4 ${
-                  project.color === 'teal' ? 'border-teal hover:border-teal' :
-                  project.color === 'purple' ? 'border-purple hover:border-purple' :
-                  project.color === 'golden' ? 'border-golden hover:border-golden' :
-                  project.color === 'sky' ? 'border-sky hover:border-sky' :
-                  'border-rust hover:border-rust'
-                } hover:scale-[1.02] cursor-pointer animate-fadeInUp`}
+                className={`rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:scale-[1.02] text-white relative overflow-hidden ${
+                  project.color === 'teal' ? 'bg-teal' :
+                  project.color === 'purple' ? 'bg-purple' :
+                  project.color === 'golden' ? 'bg-golden' :
+                  project.color === 'sky' ? 'bg-sky' :
+                  'bg-rust'
+                } animate-fadeInUp`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="grid lg:grid-cols-12 gap-6 items-start">
-                  {/* Project Info */}
-                  <div className="lg:col-span-3">
-                    <div className={`inline-flex px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 ${
-                      project.color === 'teal' ? 'bg-teal text-white' :
-                      project.color === 'purple' ? 'bg-purple text-white' :
-                      project.color === 'golden' ? 'bg-golden text-white' :
-                      project.color === 'sky' ? 'bg-sky text-white' :
-                      'bg-rust text-white'
-                    }`}>
-                      {project.industry}
-                    </div>
-                    <div className={`inline-flex px-2 py-1 rounded-full text-xs font-medium mb-3 ml-2 ${
-                      project.category === 'Mobile Apps' ? 'bg-teal bg-opacity-20 text-teal' :
-                      project.category === 'AI Bots' ? 'bg-purple bg-opacity-20 text-purple' :
-                      'bg-golden bg-opacity-20 text-golden'
-                    }`}>
-                      {project.category}
-                    </div>
-                    <h3 className="text-xl font-bold text-black mb-2 group-hover:text-gray-700 transition-colors duration-300">
-                      {project.project}
-                    </h3>
-                    <div className="text-sm text-gray-500 mb-4">
-                      <strong>Tech Stack:</strong>
-                      <p className="mt-1 text-gray-600 leading-relaxed">{project.techUsed}</p>
-                    </div>
+                <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative z-10 text-center">
+                  {/* Heart Icon */}
+                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 group-hover:shadow-lg">
+                    <Heart className="w-8 h-8 text-white" />
                   </div>
-
-                  {/* Business Need & Solution */}
-                  <div className="lg:col-span-5">
-                    <div className="space-y-4">
-                      <div>
-                        <h4 className="font-semibold text-black mb-2">Business Challenge</h4>
-                        <p className="text-gray-700 leading-relaxed">{project.businessNeed}</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-black mb-2">SevenX Solution</h4>
-                        <p className="text-gray-700 leading-relaxed">{project.solution}</p>
-                      </div>
-                    </div>
+                  
+                  {/* Industry Badge */}
+                  <div className="inline-flex px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 bg-white bg-opacity-20">
+                    {project.industry}
                   </div>
-
-                  {/* Impact & Testimonial */}
-                  <div className="lg:col-span-4">
-                    <div className="space-y-4">
-                      <div>
-                        <h4 className="font-semibold text-black mb-2 flex items-center space-x-2">
-                          <TrendingUp className="w-4 h-4" />
-                          <span>Impact Delivered</span>
-                        </h4>
-                        <p className="text-gray-700 leading-relaxed font-medium">{project.impact}</p>
-                      </div>
-                      
-                      <div className={`rounded-2xl p-4 ${
-                        project.color === 'teal' ? 'bg-teal bg-opacity-10 border border-teal border-opacity-20' :
-                        project.color === 'purple' ? 'bg-purple bg-opacity-10 border border-purple border-opacity-20' :
-                        project.color === 'golden' ? 'bg-golden bg-opacity-10 border border-golden border-opacity-20' :
-                        project.color === 'sky' ? 'bg-sky bg-opacity-10 border border-sky border-opacity-20' :
-                        'bg-rust bg-opacity-10 border border-rust border-opacity-20'
-                      }`}>
-                        <div className="flex items-start space-x-3">
-                          <Quote className={`w-5 h-5 mt-1 flex-shrink-0 ${
-                            project.color === 'teal' ? 'text-teal' :
-                            project.color === 'purple' ? 'text-purple' :
-                            project.color === 'golden' ? 'text-golden' :
-                            project.color === 'sky' ? 'text-sky' :
-                            'text-rust'
-                          }`} />
-                          <div>
-                            <p className="text-gray-800 italic text-sm leading-relaxed mb-2">
-                              "{project.testimonial}"
-                            </p>
-                            <p className="text-gray-600 text-xs font-semibold">
-                              — {project.client}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  
+                  {/* Project Title */}
+                  <h3 className="text-2xl font-bold text-white mb-4 transition-colors duration-300">
+                    {project.project}
+                  </h3>
+                  
+                  {/* Category */}
+                  <p className="text-white text-opacity-90 mb-4 font-medium">
+                    {project.category}
+                  </p>
+                  
+                  {/* Business Need - Shortened */}
+                  <p className="text-white text-opacity-80 text-sm leading-relaxed mb-4">
+                    {project.businessNeed.length > 100 ? 
+                      `${project.businessNeed.substring(0, 100)}...` : 
+                      project.businessNeed
+                    }
+                  </p>
+                  
+                  {/* Impact Highlight */}
+                  <div className="bg-white bg-opacity-20 rounded-lg p-3 mb-4">
+                    <p className="text-white text-sm font-semibold">
+                      {project.impact.split(',')[0]}
+                    </p>
+                  </div>
+                  
+                  {/* View Details Button */}
+                  <div className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-sm">
+                    <span>View Full Case Study</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
                 </div>
               </div>
@@ -268,7 +230,7 @@ const Clients = () => {
 
           {/* Empty state for filtered results */}
           {filteredProjects.length === 0 && (
-            <div className="text-center py-16">
+            <div className="text-center py-16 col-span-full">
               <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Building2 className="w-12 h-12 text-gray-400" />
               </div>
