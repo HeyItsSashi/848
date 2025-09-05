@@ -243,7 +243,7 @@ const Careers = () => {
               <span className="text-2xl">📩</span>
               <span>Drop us a note at</span>
               <span className="relative group cursor-pointer">
-                <span className="font-bold hover:scale-105 transition-transform duration-300">join@848labs.com</span>
+                <span className="font-bold hover:scale-105 transition-transform duration-300">join@SevenX.global</span>
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </span>
             </div>
