@@ -20,7 +20,7 @@ const Stack = () => {
             <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll> Stack
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-black mb-8 leading-relaxed">
-            More than technology. More than process. A complete foundation for building intelligent systems.
+            More than technology. More than process. Stack is our complete foundation for building systems.
           </h2>
         </div>
 
