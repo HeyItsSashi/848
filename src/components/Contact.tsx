@@ -131,7 +131,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-teal via-purple to-indigo-600 rounded-3xl p-8 shadow-xl border border-gray-200 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-teal via-purple to-golden rounded-3xl p-8 shadow-xl border border-gray-200 relative overflow-hidden">
             {/* Background overlay for better text readability */}
             <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
             <div className="relative z-10">
@@ -193,7 +193,7 @@ const Contact = () => {
                 
                 <button
                   type="submit"
-                  className="w-full bg-white bg-opacity-95 text-teal px-6 py-4 rounded-lg font-semibold hover:bg-golden hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-xl active:scale-95 relative overflow-hidden text-lg shadow-sm"
+                  className="w-full bg-white bg-opacity-95 text-black px-6 py-4 rounded-lg font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-xl active:scale-95 relative overflow-hidden text-lg shadow-sm"
                 >
                   <span>Send Message</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
