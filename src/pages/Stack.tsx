@@ -34,13 +34,11 @@ const Stack = () => {
         <section className="mb-20">
           <div className="flex items-center space-x-3 mb-8">
             <span className="text-2xl"></span>
-            <h2 className="text-3xl font-bold text-black">What is the Stack?</h2>
           </div>
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>, we don't just build products. We build systems that think, 
-              adapt, and scale intelligently. But behind every intelligent system is a foundation—a stack—that makes it all possible.
+              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of stack that makes it all possible.
             </p>
             
             <div className="bg-gray-50 rounded-2xl p-8 border-l-4 border-blue-400 my-10">
