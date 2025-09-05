@@ -58,7 +58,7 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <Link
-              to={service.link}
+              href={service.link}
               onClick={handleLinkClick}
               key={index}
               className={`block rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${

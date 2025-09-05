@@ -225,7 +225,7 @@ const Clients = () => {
                   
                   {/* View Details Button */}
                   <Link
-                    to={`/clients/case-study/${project.id}`}
+                    href={`/clients/case-study/${project.id}`}
                     onClick={handleScrollToTop}
                     className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-xs sm:text-sm hover:underline"
                   >

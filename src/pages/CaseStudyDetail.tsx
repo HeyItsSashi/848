@@ -204,7 +204,7 @@ const CaseStudyDetail = () => {
       {/* Back Button */}
       <div className="fixed top-24 right-6 z-50">
         <Link
-          to="/clients"
+          href="/clients"
           onClick={handleScrollToTop}
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >

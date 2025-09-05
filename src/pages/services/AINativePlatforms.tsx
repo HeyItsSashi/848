@@ -13,7 +13,7 @@ const AINativePlatforms = () => {
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link
-          to="/"
+          href="/"
           onClick={handleScrollToTop}
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >
@@ -179,7 +179,7 @@ const AINativePlatforms = () => {
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Link
-                to="/#contact"
+                href="/#contact"
                 onClick={handleScrollToTop}
                 className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
               >
