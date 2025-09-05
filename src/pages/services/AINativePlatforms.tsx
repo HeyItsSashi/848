@@ -329,5 +329,3 @@ const AINativePlatforms = () => {
 };
 
 export default AINativePlatforms;
-  )
-}
