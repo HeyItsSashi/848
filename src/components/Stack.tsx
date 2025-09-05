@@ -7,6 +7,9 @@ const Stack = () => {
     <section id="stack" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-left mb-16">
+      <h3 className="text-2xl font-bold text-white transition-colors duration-300">SevenX Global's Stack</h3>
+
+          
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
            <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> 
           </h2>
