@@ -66,7 +66,7 @@ const Careers = () => {
         <div className="mb-20">
           <div className="flex items-center space-x-3 mb-8">
             <span className="text-2xl">👋</span>
-            <h2 className="text-3xl font-bold text-black">Why Join 848Labs?</h2>
+            <h2 className="text-3xl font-bold text-black">Why Join SevenX?</h2>
           </div>
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
