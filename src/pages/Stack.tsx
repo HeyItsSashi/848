@@ -12,16 +12,16 @@ const Stack = () => {
     {
       icon: Building2,
       title: "Foundation First",
-      description: "Every system starts with a solid foundation—clear purpose, defined strategy, and strong values that guide every decision."
+      description: "A solid foundation is not just the start—it’s the strength that carries growth long term.."
     },
     {
       icon: Lightbulb,
-      title: "Innovation Through Structure",
+      title: "Efficiencies Next",
       description: "True innovation comes from disciplined thinking and systematic approaches, not random creativity."
     },
     {
       icon: Rocket,
-      title: "Scale with Intelligence",
+      title: "Innovation Always",
       description: "Systems that scale intelligently maintain their core principles while adapting to new challenges and opportunities."
     }
   ];
