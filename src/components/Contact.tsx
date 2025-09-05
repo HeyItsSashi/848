@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, ArrowRight, Github, Linkedin, Twitter, CheckCircle, X } from 'lucide-react';
+import HighlightOnScroll from './HighlightOnScroll';
 
 const Contact = () => {
   const [showConfirmation, setShowConfirmation] = React.useState(false);
