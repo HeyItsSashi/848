@@ -1,8 +1,5 @@
-'use client';
-
 import React from 'react';
-import Link from 'next/link';
-import { useParams } from 'next/navigation';
+import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, Building2, Target, Cog, TrendingUp, Quote, CheckCircle, Star, Heart } from 'lucide-react';
 import ParticleBackground from '../components/ParticleBackground';
 import Contact from '../components/Contact';
@@ -183,7 +180,7 @@ const CaseStudyDetail = () => {
           <h1 className="text-4xl font-bold text-black mb-4">Case Study Not Found</h1>
           <p className="text-gray-600 mb-8">The case study you're looking for doesn't exist.</p>
           <Link
-            href="/clients"
+            to="/clients"
             className="inline-flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300"
           >
             <ArrowLeft className="w-5 h-5" />
@@ -206,15 +203,12 @@ const CaseStudyDetail = () => {
       {/* Back Button */}
       <div className="fixed top-24 right-6 z-50">
         <Link
-          href="/clients"
+          to="/clients"
+          onClick={handleScrollToTop}
           className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
-          legacyBehavior
-          passHref
         >
-          <a onClick={handleScrollToTop} className="flex items-center space-x-2">
-            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-            <span>Back to Clients</span>
-          </a>
+          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
+          <span>Back to Clients</span>
         </Link>
       </div>
 
@@ -387,17 +381,13 @@ const CaseStudyDetail = () => {
                 Let's discuss how we can create a custom solution for your business challenges and drive measurable impact in your industry.
               </p>
               
-              <Link
-                href="/#contact"
-                className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold"
-                legacyBehavior
-                passHref
+              <button 
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold mx-auto"
               >
-                <a onClick={handleScrollToTop} className="flex items-center space-x-2">
-                  <span>Start Your Project</span>
-                  <Target className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </a>
-              </Link>
+                <span>Start Your Project</span>
+                <Target className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
             </div>
           </div>
         </section>
