@@ -118,7 +118,7 @@ const Stack = () => {
         <section className="mb-20">
           <div className="flex items-center space-x-3 mb-12">
             <Building2 className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Core Principles</h2>
+            <h2 className="text-3xl font-bold text-black">Core Principles - SevenX Way!</h2>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
