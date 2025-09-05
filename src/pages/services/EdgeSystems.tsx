@@ -356,7 +356,7 @@ const EdgeSystems = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-black rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl p-12 text-white text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Deploy Edge Intelligence?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Transform your operations with AI systems that think and act at the edge, delivering unprecedented speed and reliability where it matters most.
@@ -366,7 +366,7 @@ const EdgeSystems = () => {
             <Link
               to="/#contact"
               onClick={handleScrollToTop}
-              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              className="group bg-white text-gray-800 px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
             >
               <span>Start Your Edge Project</span>
               <ArrowLeft className="w-5 h-5 rotate-180 group-hover:translate-x-1 transition-transform duration-300" />

@@ -406,7 +406,7 @@ const EnterpriseSolutions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-black rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl p-12 text-white text-center">
           <h2 className="text-4xl font-bold mb-6">Transform Your Enterprise Today</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Join industry leaders who have revolutionized their operations with our AI-powered enterprise solutions. Start your transformation journey with a strategic consultation.
@@ -416,7 +416,7 @@ const EnterpriseSolutions = () => {
             <Link
               to="/#contact"
               onClick={handleScrollToTop}
-              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              className="group bg-white text-gray-800 px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
             >
               <span>Schedule Enterprise Consultation</span>
               <ArrowLeft className="w-5 h-5 rotate-180 group-hover:translate-x-1 transition-transform duration-300" />
