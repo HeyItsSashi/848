@@ -21,7 +21,7 @@ const Stack = () => {
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-black mb-8 leading-relaxed">
             More than technology. More than process. A complete foundation for building intelligent systems.
-          </p>
+          </h2>
         </div>
 
         {/* Introduction Section */}
