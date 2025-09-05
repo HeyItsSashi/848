@@ -86,17 +86,14 @@ const Header = () => {
           >
             {location.pathname === '/' ? (
               <>
-                {['About'].map((item) => (
-                  <a
-                    key={item}
-                    href={`#${item.toLowerCase()}`}
-                    onClick={handleLinkClick}
-                    className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
-                  >
-                    {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
-                  </a>
-                ))}
+                <a
+                  href="#about"
+                  onClick={handleLinkClick}
+                  className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+                >
+                  About
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
+                </a>
               </>
             ) : (
               <Link
@@ -108,20 +105,6 @@ const Header = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
               </Link>
             )}
-            
-            <div className="space-y-2">
-              <div className="py-2 text-gray-700 font-medium text-sm uppercase tracking-wider">Services</div>
-              {services.map((service, index) => (
-                <Link
-                  key={index}
-                  to={service.path}
-                  onClick={handleLinkClick}
-                  className="block py-2 pl-4 text-gray-700 hover:text-black transition-colors duration-200 text-sm"
-                >
-                  {service.name}
-                </Link>
-              ))}
-            </div>
             
             <div 
               className="relative group"
@@ -197,7 +180,7 @@ const Header = () => {
 
         <div className={`md:hidden transition-all duration-300 overflow-hidden ${
           isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
-        }`}>
+        } bg-white rounded-b-lg border-t border-gray-100`}>
           <nav className="pt-4 pb-2 space-y-2">
             {location.pathname === '/' ? (
               <>
@@ -218,6 +201,21 @@ const Header = () => {
                 Home
               </Link>
             )}
+            
+            <div className="py-2">
+              <div className="py-2 text-gray-700 font-medium text-sm uppercase tracking-wider">Services</div>
+              {services.map((service, index) => (
+                <Link
+                  key={index}
+                  to={service.path}
+                  onClick={handleLinkClick}
+                  className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
+                >
+                  {service.name}
+                </Link>
+              ))}
+            </div>
+            
             <Link
               to="/stack"
               onClick={handleLinkClick}
