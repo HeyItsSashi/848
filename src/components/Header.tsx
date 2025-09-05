@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Menu, X, Infinity as InfinityIcon, LogOut, ChevronDown } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
 
   const handleScroll = useCallback(() => {
     setIsScrolled(window.scrollY > 50);
@@ -23,7 +24,7 @@ const Header = () => {
   }, []);
 
   const handleContactClick = useCallback((e) => {
-    if (location.pathname !== '/') {
+    if (pathname !== '/') {
       // If not on home page, navigate to home first
       // The scrolling will be handled by useEffect after navigation
       return; // Let the Link handle navigation
@@ -35,11 +36,11 @@ const Header = () => {
         contactSection.scrollIntoView({ behavior: 'smooth' });
       }
     }
-  }, [location.pathname]);
+  }, [pathname]);
 
   // Handle scrolling to contact section after navigation to home page
   useEffect(() => {
-    if (location.pathname === '/' && location.hash === '#contact') {
+    if (pathname === '/' && window.location.hash === '#contact') {
       setTimeout(() => {
         const contactSection = document.getElementById('contact');
         if (contactSection) {
@@ -47,7 +48,7 @@ const Header = () => {
         }
       }, 100);
     }
-  }, [location]);
+  }, [pathname]);
 
   const handleLinkClick = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -82,7 +83,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8 relative"
             onMouseLeave={() => setIsServicesOpen(false)}
           >
-            {location.pathname === '/' ? (
+            {pathname === '/' ? (
               <>
                 <a
                   href="#about"
@@ -169,7 +170,7 @@ const Header = () => {
             </Link>
             
             <Link
-              to={location.pathname === '/' ? '#contact' : '/#contact'}
+              href={pathname === '/' ? '#contact' : '/#contact'}
               onClick={handleContactClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
@@ -199,7 +200,7 @@ const Header = () => {
           isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
         } bg-white rounded-b-lg border-t border-gray-100`}>
           <nav className="pt-4 pb-2 space-y-2">
-            {location.pathname === '/' ? (
+            {pathname === '/' ? (
               <>
                 <a
                   href="#about"
@@ -211,7 +212,7 @@ const Header = () => {
               </>
             ) : (
               <Link
-                to="/"
+                href="/"
                 onClick={handleLinkClick}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
               >
@@ -224,7 +225,7 @@ const Header = () => {
               {services.map((service, index) => (
                 <Link
                   key={index}
-                  to={service.path}
+                  href={service.path}
                   onClick={handleLinkClick}
                   className="block py-2 pl-4 text-gray-600 hover:text-black transition-colors duration-200 text-sm"
                 >
@@ -234,14 +235,14 @@ const Header = () => {
             </div>
             
             <Link
-              to="/stack"
+              href="/stack"
               onClick={handleLinkClick}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
               Stack
             </Link>
             <Link
-              to="/clients"
+              href="/clients"
               onClick={handleLinkClick}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
@@ -258,13 +259,13 @@ const Header = () => {
             </a>
             
             <Link
-              to="/careers"
+              href="/careers"
               onClick={handleLinkClick}
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
             >
               Careers
             </Link>
-            {location.pathname === '/' && (
+            {pathname === '/' && (
               <a
                 href="#contact"
                 onClick={handleLinkClick}
@@ -273,9 +274,9 @@ const Header = () => {
                 Contact
               </a>
             )}
-            {location.pathname !== '/' && (
+            {pathname !== '/' && (
               <Link
-                to="/#contact"
+                href="/#contact"
                 onClick={handleLinkClick}
                 className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
               >
