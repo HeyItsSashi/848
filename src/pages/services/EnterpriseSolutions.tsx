@@ -9,7 +9,7 @@ const EnterpriseSolutions = () => {
   }, []);
 
   return (
-    <div className="min-h-screen pt-20 bg-purple-50">
+    <div className="min-h-screen pt-20 bg-gradient-to-br from-purple/10 via-golden/5 to-teal/10">
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link
@@ -24,7 +24,7 @@ const EnterpriseSolutions = () => {
 
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-25 via-purple-50 to-purple-100 relative overflow-hidden mb-20 -mx-6 px-6">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple/20 via-golden/10 to-teal/15 relative overflow-hidden mb-20 -mx-6 px-6">
           {/* Particle Background */}
           <ParticleBackground />
           
@@ -61,25 +61,6 @@ const EnterpriseSolutions = () => {
               <span className="font-semibold text-black"> measurable ROI and competitive advantage</span> at scale.
             </p>
 
-            {/* Feature Highlights */}
-            <div className="bg-white rounded-3xl p-8 border-2 border-gray-200 mb-16 max-w-4xl mx-auto">
-              <h3 className="text-2xl font-bold text-black mb-6">Enterprise-Grade Excellence</h3>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-black mb-2">99.99%</div>
-                  <div className="text-sm text-gray-600">Uptime SLA</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-black mb-2">24/7</div>
-                  <div className="text-sm text-gray-600">Support</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-black mb-2">SOC 2</div>
-                  <div className="text-sm text-gray-600">Certified</div>
-                </div>
-              </div>
-            </div>
-
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
               <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
@@ -90,14 +71,6 @@ const EnterpriseSolutions = () => {
               <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
                 <span>Schedule Consultation</span>
               </button>
-            </div>
-
-            {/* Scroll Indicator */}
-            <div className="text-center">
-              <p className="text-gray-500 text-sm mb-4">Enterprise-grade intelligence at scale</p>
-              <div className="w-6 h-10 border-2 border-gray-300 rounded-full relative hover:border-black transition-colors duration-300 cursor-pointer group mx-auto">
-                <div className="w-1 h-3 bg-gray-400 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 animate-bounce group-hover:bg-black transition-colors duration-300"></div>
-              </div>
             </div>
           </div>
         </div>
@@ -130,10 +103,6 @@ const EnterpriseSolutions = () => {
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Cross-platform deployment and synchronization</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-golden rounded-full"></div>
-                  <span>Enterprise-grade security and compliance</span>
-                </li>
               </ul>
             </div>
 
@@ -159,10 +128,6 @@ const EnterpriseSolutions = () => {
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Automated incident response and remediation</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-teal rounded-full"></div>
-                  <span>Compliance monitoring and reporting</span>
                 </li>
               </ul>
             </div>
@@ -190,135 +155,7 @@ const EnterpriseSolutions = () => {
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
                   <span>Predictive maintenance and asset management</span>
                 </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-purple rounded-full"></div>
-                  <span>Cost optimization and efficiency analytics</span>
-                </li>
               </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Enterprise Impact Stories */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Enterprise Impact at Scale</h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-4xl">
-            See how global enterprises transform their operations with our AI-powered solutions
-          </p>
-
-          <div className="space-y-8">
-            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-golden/90 to-teal/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <TrendingUp className="w-8 h-8 text-golden" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Global Financial Services</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Fortune 500</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      Deployed AI-powered fraud detection across 40+ countries, processing 10M+ daily transactions with 99.8% accuracy while reducing false positives by 60%.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">99.8%</div>
-                        <div className="text-sm text-gray-700">Detection accuracy</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">$180M</div>
-                        <div className="text-sm text-gray-700">Fraud prevented</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">60%</div>
-                        <div className="text-sm text-gray-700">Fewer false positives</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">&lt;50ms</div>
-                        <div className="text-sm text-gray-700">Response time</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-teal/90 to-purple/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <Globe className="w-8 h-8 text-teal" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Manufacturing Giant</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Global Scale</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      Implemented predictive maintenance across 200+ facilities worldwide, reducing downtime by 45% and saving $50M annually in maintenance costs.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">45%</div>
-                        <div className="text-sm text-gray-700">Less downtime</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">$50M</div>
-                        <div className="text-sm text-gray-700">Annual savings</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">200+</div>
-                        <div className="text-sm text-gray-700">Facilities</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">99.5%</div>
-                        <div className="text-sm text-gray-700">Uptime achieved</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple/90 to-golden/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <Lock className="w-8 h-8 text-purple" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Healthcare Network</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-State</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      Secured patient data across 150+ hospitals with AI-powered compliance monitoring, achieving 100% HIPAA compliance while reducing security incidents by 80%.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">100%</div>
-                        <div className="text-sm text-gray-700">HIPAA compliance</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">80%</div>
-                        <div className="text-sm text-gray-700">Fewer incidents</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">150+</div>
-                        <div className="text-sm text-gray-700">Hospitals</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">5M+</div>
-                        <div className="text-sm text-gray-700">Records secured</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -327,20 +164,21 @@ const EnterpriseSolutions = () => {
         <div className="bg-gradient-to-r from-golden via-purple to-teal rounded-3xl p-12 text-white text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
           <div className="relative z-10">
-          <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Enterprise?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
-              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
-            >
-              <span>Start Enterprise Transformation</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
+            <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Enterprise?</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+              Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+              <Link
+                to="/#contact"
+                onClick={handleScrollToTop}
+                className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              >
+                <span>Start Enterprise Transformation</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -349,7 +187,3 @@ const EnterpriseSolutions = () => {
 };
 
 export default EnterpriseSolutions;
-  )
-}
-  )
-}

@@ -9,7 +9,7 @@ const AINativePlatforms = () => {
   }, []);
 
   return (
-    <div className="min-h-screen pt-20 bg-purple-50">
+    <div className="min-h-screen pt-20 bg-gradient-to-br from-teal/10 via-purple/5 to-golden/10">
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link
@@ -24,7 +24,7 @@ const AINativePlatforms = () => {
 
       <div className="max-w-7xl mx-auto px-6 pb-20">
         {/* Hero Section */}
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-25 via-purple-50 to-purple-100 relative overflow-hidden mb-20 -mx-6 px-6">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal/20 via-purple/10 to-golden/15 relative overflow-hidden mb-20 -mx-6 px-6">
           {/* Particle Background */}
           <ParticleBackground />
           
@@ -93,27 +93,23 @@ const AINativePlatforms = () => {
                 <Users className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
-                AI-Powered Mobile & Enterprise Apps
+                AI Consulting & Solution Design
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Custom applications that leverage AI to enhance user experience, automate processes, and provide intelligent insights across all your business operations.
+                Strategic consulting to design and implement AI-native architectures that align with your business goals and technical requirements.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
-                  <span>Intelligent user interfaces that adapt to behavior</span>
+                  <span>AI strategy and roadmap development</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
-                  <span>Predictive analytics built into workflows</span>
+                  <span>Technical architecture design</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-golden rounded-full"></div>
-                  <span>Cross-platform deployment and synchronization</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-golden rounded-full"></div>
-                  <span>Enterprise-grade security and compliance</span>
+                  <span>Implementation planning and execution</span>
                 </li>
               </ul>
             </div>
@@ -123,27 +119,23 @@ const AINativePlatforms = () => {
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
-                AI Assurance & Cyber Security
+                AI Product Development
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Advanced security systems that use AI to detect threats, prevent breaches, and ensure compliance in real-time across your entire enterprise infrastructure.
+                End-to-end development of AI-powered products that deliver intelligent user experiences and autonomous decision-making capabilities.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
-                  <span>Real-time threat detection and response</span>
+                  <span>Custom AI application development</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
-                  <span>Behavioral analysis and anomaly detection</span>
+                  <span>Intelligent user interface design</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-teal rounded-full"></div>
-                  <span>Automated incident response and remediation</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-teal rounded-full"></div>
-                  <span>Compliance monitoring and reporting</span>
+                  <span>Machine learning model integration</span>
                 </li>
               </ul>
             </div>
@@ -153,153 +145,25 @@ const AINativePlatforms = () => {
                 <Cog className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
-                Enterprise Automation & Operations
+                AI System Modernization
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                End-to-end automation solutions that streamline operations, reduce costs, and improve efficiency across your organization's most critical processes.
+                Transform legacy systems into intelligent, adaptive platforms that learn from data and improve performance over time.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
-                  <span>Intelligent process automation and optimization</span>
+                  <span>Legacy system AI integration</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
-                  <span>Resource allocation and performance monitoring</span>
+                  <span>Performance optimization with AI</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
                   <div className="w-2 h-2 bg-purple rounded-full"></div>
-                  <span>Predictive maintenance and asset management</span>
-                </li>
-                <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-purple rounded-full"></div>
-                  <span>Cost optimization and efficiency analytics</span>
+                  <span>Continuous learning implementation</span>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Industry Success Stories */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-8">Anticipated Industry Impact</h2>
-          <p className="text-xl text-gray-600 mb-12 max-w-4xl">
-            Envision how organizations across industries could transform their operations with our AI-native platforms
-          </p>
-
-          <div className="space-y-8">
-            <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-golden/90 to-teal/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <TrendingUp className="w-8 h-8 text-golden" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Financial Services Vision</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Enterprise Scale</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      Envisioned AI-native platforms could revolutionize fraud detection and risk assessment, processing millions of transactions with real-time intelligence.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">95%+</div>
-                        <div className="text-sm text-gray-700">Expected accuracy</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">$40M+</div>
-                        <div className="text-sm text-gray-700">Projected savings</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">75%+</div>
-                        <div className="text-sm text-gray-700">Speed improvement</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-golden mb-1">24/7</div>
-                        <div className="text-sm text-gray-700">Continuous operation</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-teal/90 to-purple/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <Globe className="w-8 h-8 text-teal" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Smart Manufacturing Future</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Multi-Facility</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      AI-native systems could enable predictive maintenance and automation across manufacturing facilities, optimizing production with intelligent insights.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">60%+</div>
-                        <div className="text-sm text-gray-700">Potential reduction</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">30%</div>
-                        <div className="text-sm text-gray-700">Expected efficiency</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">$20M+</div>
-                        <div className="text-sm text-gray-700">Target savings</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-teal mb-1">99%+</div>
-                        <div className="text-sm text-gray-700">Quality target</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple/90 to-golden/90 rounded-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
-                    <Lock className="w-8 h-8 text-purple" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-2xl font-bold text-white drop-shadow-lg">Healthcare Intelligence Vision</h3>
-                      <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">Network Scale</span>
-                    </div>
-                    <p className="text-lg text-white mb-6 drop-shadow-md">
-                      Future AI-native platforms could secure healthcare networks with intelligent compliance monitoring and automated patient data protection.
-                    </p>
-                    <div className="grid md:grid-cols-4 gap-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">100%</div>
-                        <div className="text-sm text-gray-700">Compliance target</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">0</div>
-                        <div className="text-sm text-gray-700">Breach goal</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">40%+</div>
-                        <div className="text-sm text-gray-700">Time savings</div>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <div className="text-3xl font-bold text-purple mb-1">99%+</div>
-                        <div className="text-sm text-gray-700">Quality target</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -308,20 +172,21 @@ const AINativePlatforms = () => {
         <div className="bg-gradient-to-r from-purple via-teal to-golden rounded-3xl p-12 text-white text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
           <div className="relative z-10">
-          <h2 className="text-4xl font-bold mb-6">Ready to Build AI-Native?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Transform your business with platforms where AI isn't just a feature—it's the foundation for everything you build.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link
-              to="/#contact"
-              onClick={handleScrollToTop}
-              className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
-            >
-              <span>Start Your AI Journey</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
+            <h2 className="text-4xl font-bold mb-6">Ready to Build AI-Native?</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+              Transform your business with platforms where AI isn't just a feature—it's the foundation for everything you build.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+              <Link
+                to="/#contact"
+                onClick={handleScrollToTop}
+                className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+              >
+                <span>Start Your AI Journey</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -330,7 +195,3 @@ const AINativePlatforms = () => {
 };
 
 export default AINativePlatforms;
-  )
-}
-  )
-}
