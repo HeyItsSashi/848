@@ -62,14 +62,14 @@ const Approach = () => {
                 <div className="flex-1">
                   <div className="flex items-center space-x-4 mb-3">
                     <span className={`text-3xl font-bold transition-colors duration-300 ${
-                      index === 0 ? 'text-teal' : 
-                      index === 1 ? 'text-purple' : 
-                      'text-golden'
+                      index === 0 ? 'text-white' : 
+                      index === 1 ? 'text-white' : 
+                      'text-white'
                     }`}>{step.number}</span>
                     <h3 className={`text-2xl font-bold transition-colors duration-300 ${
-                      index === 0 ? 'text-teal' : 
-                      index === 1 ? 'text-purple' : 
-                      'text-golden'
+                      index === 0 ? 'text-white' : 
+                      index === 1 ? 'text-white' : 
+                      'text-white'
                     }`}>{step.title}</h3>
                   </div>
                   <p className="text-lg text-gray-600 leading-relaxed">
