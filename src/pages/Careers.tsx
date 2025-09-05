@@ -57,7 +57,7 @@ const Careers = () => {
           <div className="flex items-center space-x-3 mb-8">
             <span className="text-2xl"></span>
              <h2 className="text-3xl font-bold text-black">
-              <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll> Careers
+              <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll>
             </h2>
           </div>
            <div className="flex items-center space-x-3 mb-8">
