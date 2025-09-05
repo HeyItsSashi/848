@@ -26,18 +26,6 @@ const Contact = () => {
   }, []);
 
   const handleSubmit = React.useCallback((e: React.FormEvent<HTMLFormElement>) => {
-    // Show confirmation modal immediately
-    setShowConfirmation(true);
-    
-    // Reset form after showing confirmation
-    setTimeout(() => {
-      setFormData({
-        name: '',
-        email: '',
-        message: ''
-      });
-    }, 3000); // Keep the existing UI confirmation logic
-
     // Prevent default form submission
     e.preventDefault();
 
@@ -56,10 +44,36 @@ const Contact = () => {
       .then((response) => {
         if (!response.ok) {
           console.error("Form submission failed:", response.statusText);
+        } else {
+          console.log("Form submitted successfully");
+          // Show confirmation modal after successful submission
+          setShowConfirmation(true);
+          
+          // Reset form after showing confirmation
+          setTimeout(() => {
+            setFormData({
+              name: '',
+              email: '',
+              message: ''
+            });
+          }, 1000);
         }
       })
-      .catch((error) => console.error("Form submission error:", error));
-  }, []);
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        // Still show confirmation even if there's an error
+        setShowConfirmation(true);
+        
+        // Reset form
+        setTimeout(() => {
+          setFormData({
+            name: '',
+            email: '',
+            message: ''
+          });
+        }, 1000);
+      });
+  }, [formData, encode]);
 
   const closeConfirmation = React.useCallback(() => {
     setShowConfirmation(false);
