@@ -1,6 +1,6 @@
 import React from 'react';
 import HighlightOnScroll from './HighlightOnScroll';
-import { Mail, Phone, MapPin, ArrowRight, Linkedin, CheckCircle, X } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowRight, Linkedin, CheckCircle, X, Twitter } from 'lucide-react';
 
 const Contact = () => {
   const [showConfirmation, setShowConfirmation] = React.useState(false);
@@ -219,6 +219,14 @@ const Contact = () => {
             
             {/* Social Media Icons */}
             <div className="flex items-center space-x-3">
+              <a
+                href="https://x.com/sevenxglobal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
+              >
+                <Twitter className="w-4 sm:w-5 h-4 sm:h-5" />
+              </a>
               <a
                 href="https://www.linkedin.com/company/sevenx-global/"
                 target="_blank"
