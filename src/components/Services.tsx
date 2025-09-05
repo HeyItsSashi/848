@@ -47,28 +47,28 @@ const Services = () => {
             <Bot className="w-5 h-5" />
             <span className="text-sm font-medium tracking-wider uppercase">What We Do</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
             Our Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
             We build <HighlightOnScroll>End-to-End Intelligence</HighlightOnScroll> across systems from Edge to Enterprise that sense, think, decide, and act.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <Link
               to={service.link}
               onClick={handleLinkClick}
               key={index}
-              className={`block rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
+              className={`block rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
                 index === 0 ? 'bg-golden text-white hover:bg-opacity-90' : 
                 index === 1 ? 'bg-teal text-white hover:bg-opacity-90' : 
                 index === 2 ? 'bg-purple text-white hover:bg-opacity-90' : 
                 'bg-sky text-white hover:bg-opacity-90'
               }`}
             >
-              <div className="flex items-start space-x-4">
+              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div className={`w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
                   index === 0 ? 'bg-white text-golden' : 
                   index === 1 ? 'bg-white text-teal' : 
@@ -78,10 +78,10 @@ const Services = () => {
                   <service.icon className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3 transition-colors duration-300">
+                  <h3 className="text-lg sm:text-xl font-semibold mb-3 transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="mb-4 leading-relaxed opacity-90">{service.description}</p>
+                  <p className="text-sm sm:text-base mb-4 leading-relaxed opacity-90">{service.description}</p>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center space-x-2 text-sm opacity-80 transition-colors duration-300">

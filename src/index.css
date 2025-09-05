@@ -182,12 +182,36 @@ textarea:focus {
 /* Responsive typography */
 @media (max-width: 640px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  /* Ensure text is always readable */
+  .text-xs { font-size: 0.75rem; }
+  .text-sm { font-size: 0.875rem; }
+  .text-base { font-size: 1rem; }
+  .text-lg { font-size: 1.125rem; }
+}
+
+/* Medium screen adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+    line-height: 1.2;
   }
 }

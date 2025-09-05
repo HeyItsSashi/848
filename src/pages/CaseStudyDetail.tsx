@@ -220,7 +220,7 @@ const CaseStudyDetail = () => {
             <span className="text-sm font-medium tracking-wider uppercase text-gray-500">Case Study</span>
           </div>
 
-          <div className={`rounded-3xl p-12 mb-12 text-white relative overflow-hidden ${
+          <div className={`rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 mb-8 sm:mb-12 text-white relative overflow-hidden ${
             project.color === 'teal' ? 'bg-teal' :
             project.color === 'purple' ? 'bg-purple' :
             project.color === 'golden' ? 'bg-golden' :
@@ -229,30 +229,30 @@ const CaseStudyDetail = () => {
           }`}>
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
             <div className="relative z-10">
-              <div className="flex items-center space-x-4 mb-6">
-                <div className="w-16 h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center">
-                  <Heart className="w-8 h-8 text-white" />
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
+                <div className="w-12 sm:w-16 h-12 sm:h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center">
+                  <Heart className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                 </div>
                 <div>
-                  <div className="inline-flex px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wider bg-white bg-opacity-20 mb-2">
+                  <div className="inline-flex px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold uppercase tracking-wider bg-white bg-opacity-20 mb-2">
                     {project.industry}
                   </div>
-                  <h1 className="text-4xl md:text-5xl font-bold text-white">
+                  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                     {project.project}
                   </h1>
                 </div>
               </div>
               
-              <p className="text-2xl text-white text-opacity-90 mb-6 leading-relaxed">
+              <p className="text-lg sm:text-xl lg:text-2xl text-white text-opacity-90 mb-4 sm:mb-6 leading-relaxed">
                 {project.businessNeed}
               </p>
               
-              <div className="flex flex-wrap gap-4">
-                <div className="bg-white bg-opacity-20 rounded-lg px-4 py-2">
-                  <span className="font-semibold text-sm">{project.category}</span>
+              <div className="flex flex-wrap gap-2 sm:gap-4">
+                <div className="bg-white bg-opacity-20 rounded-lg px-3 sm:px-4 py-1 sm:py-2">
+                  <span className="font-semibold text-xs sm:text-sm">{project.category}</span>
                 </div>
-                <div className="bg-white bg-opacity-20 rounded-lg px-4 py-2">
-                  <span className="font-semibold text-sm">{project.industry}</span>
+                <div className="bg-white bg-opacity-20 rounded-lg px-3 sm:px-4 py-1 sm:py-2">
+                  <span className="font-semibold text-xs sm:text-sm">{project.industry}</span>
                 </div>
               </div>
             </div>
@@ -263,20 +263,20 @@ const CaseStudyDetail = () => {
         <section className="mb-16">
           <div className="flex items-center space-x-3 mb-8">
             <Target className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">The Challenge</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black">The Challenge</h2>
           </div>
           
-          <div className="bg-gray-50 rounded-2xl p-8 mb-8">
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+          <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 mb-8">
+            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
               {project.businessNeed}
             </p>
             
-            <h3 className="text-xl font-semibold text-black mb-4">Key Challenges:</h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-black mb-4">Key Challenges:</h3>
             <ul className="space-y-3">
               {project.challenges.map((challenge, index) => (
                 <li key={index} className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-400 rounded-full mt-3 flex-shrink-0"></div>
-                  <span className="text-gray-700 leading-relaxed">{challenge}</span>
+                  <span className="text-sm sm:text-base text-gray-700 leading-relaxed">{challenge}</span>
                 </li>
               ))}
             </ul>
@@ -287,32 +287,32 @@ const CaseStudyDetail = () => {
         <section className="mb-16">
           <div className="flex items-center space-x-3 mb-8">
             <Cog className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Our Solution</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black">Our Solution</h2>
           </div>
           
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 mb-8">
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 border border-blue-200 mb-8">
+            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6">
               {project.solution}
             </p>
             
-            <h3 className="text-xl font-semibold text-black mb-4">Solution Components:</h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-black mb-4">Solution Components:</h3>
             <ul className="space-y-3">
               {project.solutionDetails.map((detail, index) => (
                 <li key={index} className="flex items-start space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 leading-relaxed">{detail}</span>
+                  <span className="text-sm sm:text-base text-gray-700 leading-relaxed">{detail}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-xl font-semibold text-black mb-4">Technology Stack:</h3>
-            <div className="flex flex-wrap gap-3">
+          <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-lg sm:text-xl font-semibold text-black mb-4">Technology Stack:</h3>
+            <div className="flex flex-wrap gap-2 sm:gap-3">
               {project.techUsed.split(', ').map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                  className="bg-gray-100 text-gray-700 px-3 sm:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
                 >
                   {tech}
                 </span>
@@ -325,18 +325,18 @@ const CaseStudyDetail = () => {
         <section className="mb-16">
           <div className="flex items-center space-x-3 mb-8">
             <TrendingUp className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Results & Impact</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black">Results & Impact</h2>
           </div>
           
-          <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-200 mb-8">
-            <h3 className="text-xl font-semibold text-black mb-6">Measurable Outcomes:</h3>
-            <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 sm:p-8 border border-green-200 mb-8">
+            <h3 className="text-lg sm:text-xl font-semibold text-black mb-4 sm:mb-6">Measurable Outcomes:</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               {project.results.map((result, index) => (
                 <div key={index} className="flex items-start space-x-3">
                   <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <Star className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-gray-700 font-medium leading-relaxed">{result}</span>
+                  <span className="text-sm sm:text-base text-gray-700 font-medium leading-relaxed">{result}</span>
                 </div>
               ))}
             </div>
@@ -347,24 +347,24 @@ const CaseStudyDetail = () => {
         <section className="mb-16">
           <div className="flex items-center space-x-3 mb-8">
             <Quote className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Client Testimonial</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black">Client Testimonial</h2>
           </div>
           
-          <div className="bg-gray-800 rounded-2xl p-12 text-white relative overflow-hidden">
-            <div className="absolute top-6 left-8">
-              <Quote className="w-12 h-12 text-white opacity-20" />
+          <div className="bg-gray-800 rounded-2xl p-6 sm:p-8 lg:p-12 text-white relative overflow-hidden">
+            <div className="absolute top-4 sm:top-6 left-4 sm:left-8">
+              <Quote className="w-8 sm:w-12 h-8 sm:h-12 text-white opacity-20" />
             </div>
             <div className="relative z-10 text-center">
-              <p className="text-2xl leading-relaxed mb-8 italic">
+              <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed mb-6 sm:mb-8 italic">
                 "{project.testimonial}"
               </p>
-              <div className="flex items-center justify-center space-x-4">
-                <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+              <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
                   <Building2 className="w-6 h-6 text-white" />
                 </div>
-                <div className="text-left">
-                  <div className="font-semibold text-lg">{project.client}</div>
-                  <div className="text-white text-opacity-80">{project.industry}</div>
+                <div className="text-center sm:text-left">
+                  <div className="font-semibold text-base sm:text-lg">{project.client}</div>
+                  <div className="text-sm sm:text-base text-white text-opacity-80">{project.industry}</div>
                 </div>
               </div>
             </div>
@@ -373,17 +373,17 @@ const CaseStudyDetail = () => {
 
         {/* CTA Section */}
         <section className="mb-16">
-          <div className="bg-gradient-to-r from-black via-gray-800 to-gray-700 rounded-3xl p-12 text-center text-white relative overflow-hidden">
+          <div className="bg-gradient-to-r from-black via-gray-800 to-gray-700 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 text-center text-white relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-teal/20 via-purple/20 to-golden/20 opacity-50"></div>
             <div className="relative z-10">
-              <h2 className="text-3xl font-bold mb-4">Ready for Similar Results?</h2>
-              <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4">Ready for Similar Results?</h2>
+              <p className="text-gray-300 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-3xl mx-auto">
                 Let's discuss how we can create a custom solution for your business challenges and drive measurable impact in your industry.
               </p>
               
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold mx-auto"
+                className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold mx-auto"
               >
                 <span>Start Your Project</span>
                 <Target className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />

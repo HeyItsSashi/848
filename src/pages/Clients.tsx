@@ -105,38 +105,38 @@ const Clients = () => {
           </div>
 
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-black mb-4 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-4 leading-tight">
               <HighlightOnScroll className="font-semibold">Transforming Industries</HighlightOnScroll>
               <span className="block text-gray-600 mt-2">One Solution at a Time</span>
             </h1>
           </div>
 
           <div className="max-w-4xl">
-            <p className="text-2xl md:text-3xl text-gray-700 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-700 mb-6 sm:mb-8 leading-relaxed">
               From startups to enterprises, we've partnered with organizations across industries to deliver 
               <span className="font-semibold text-black"> measurable results through intelligent solutions</span>.
             </p>
             
             <div className="flex items-center space-x-4 text-gray-600 mb-12">
               <Star className="w-5 h-5" />
-              <span className="text-lg">Real projects. Real impact. Real testimonials.</span>
+              <span className="text-sm sm:text-base lg:text-lg">Real projects. Real impact. Real testimonials.</span>
               <Star className="w-5 h-5" />
             </div>
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mb-12">
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl mb-8 sm:mb-12">
             <div className="text-center group cursor-pointer">
-              <div className="text-3xl font-bold text-teal group-hover:scale-110 transition-transform duration-300">50+</div>
-              <div className="text-sm text-gray-600 uppercase tracking-wider">Projects Delivered</div>
+              <div className="text-2xl sm:text-3xl font-bold text-teal group-hover:scale-110 transition-transform duration-300">50+</div>
+              <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wider">Projects Delivered</div>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="text-3xl font-bold text-purple group-hover:scale-110 transition-transform duration-300">5</div>
-              <div className="text-sm text-gray-600 uppercase tracking-wider">Industries</div>
+              <div className="text-2xl sm:text-3xl font-bold text-purple group-hover:scale-110 transition-transform duration-300">5</div>
+              <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wider">Industries</div>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="text-3xl font-bold text-golden group-hover:scale-110 transition-transform duration-300">100%</div>
-              <div className="text-sm text-gray-600 uppercase tracking-wider">Success Rate</div>
+              <div className="text-2xl sm:text-3xl font-bold text-golden group-hover:scale-110 transition-transform duration-300">100%</div>
+              <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wider">Success Rate</div>
             </div>
           </div>
         </section>
@@ -145,16 +145,16 @@ const Clients = () => {
         <section className="mb-20">
           <div className="flex items-center space-x-3 mb-12">
             <Users className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Project Portfolio</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black">Project Portfolio</h2>
           </div>
 
           {/* Tabbed Navigation */}
-          <div className="flex flex-wrap gap-2 mb-8 bg-gray-100 p-2 rounded-2xl">
+          <div className="flex flex-wrap gap-1 sm:gap-2 mb-6 sm:mb-8 bg-gray-100 p-1 sm:p-2 rounded-2xl overflow-x-auto">
             {projectCategories.map((category, index) => (
               <button
                 key={index}
                 onClick={() => setActiveTab(index)}
-                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 flex-1 min-w-fit ${
+                className={`px-3 sm:px-4 lg:px-6 py-2 sm:py-3 rounded-lg sm:rounded-xl font-semibold transition-all duration-300 flex-1 min-w-fit text-sm sm:text-base whitespace-nowrap ${
                   activeTab === index
                     ? 'bg-black text-white shadow-lg transform scale-105'
                     : 'bg-transparent text-gray-600 hover:text-black hover:bg-white hover:shadow-md hover:scale-102'
@@ -163,7 +163,7 @@ const Clients = () => {
                 <span className="flex items-center justify-center space-x-2">
                   <span>{category.name}</span>
                   {activeTab === index && (
-                    <span className="bg-white text-black text-xs px-2 py-1 rounded-full">
+                    <span className="hidden sm:inline bg-white text-black text-xs px-2 py-1 rounded-full">
                       {index === 0 ? clientProjects.length : filteredProjects.length}
                     </span>
                   )}
@@ -173,11 +173,11 @@ const Clients = () => {
           </div>
 
           {/* Projects Display */}
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
             {filteredProjects.map((project, index) => (
               <div
                 key={index}
-                className={`rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:scale-[1.02] text-white relative overflow-hidden ${
+                className={`rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:scale-[1.02] text-white relative overflow-hidden ${
                   project.color === 'teal' ? 'bg-teal' :
                   project.color === 'purple' ? 'bg-purple' :
                   project.color === 'golden' ? 'bg-golden' :
@@ -189,27 +189,27 @@ const Clients = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative z-10 text-center">
                   {/* Heart Icon */}
-                  <div className="w-16 h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 group-hover:shadow-lg">
-                    <Heart className="w-8 h-8 text-white" />
+                  <div className="w-12 sm:w-16 h-12 sm:h-16 bg-white bg-opacity-20 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:bg-opacity-30 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 group-hover:shadow-lg">
+                    <Heart className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                   </div>
                   
                   {/* Industry Badge */}
-                  <div className="inline-flex px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 bg-white bg-opacity-20">
+                  <div className="inline-flex px-2 sm:px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 bg-white bg-opacity-20">
                     {project.industry}
                   </div>
                   
                   {/* Project Title */}
-                  <h3 className="text-2xl font-bold text-white mb-4 transition-colors duration-300">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-3 sm:mb-4 transition-colors duration-300">
                     {project.project}
                   </h3>
                   
                   {/* Category */}
-                  <p className="text-white text-opacity-90 mb-4 font-medium">
+                  <p className="text-white text-opacity-90 mb-3 sm:mb-4 font-medium text-sm sm:text-base">
                     {project.category}
                   </p>
                   
                   {/* Business Need - Shortened */}
-                  <p className="text-white text-opacity-80 text-sm leading-relaxed mb-4">
+                  <p className="text-white text-opacity-80 text-xs sm:text-sm leading-relaxed mb-3 sm:mb-4">
                     {project.businessNeed.length > 100 ? 
                       `${project.businessNeed.substring(0, 100)}...` : 
                       project.businessNeed
@@ -217,8 +217,8 @@ const Clients = () => {
                   </p>
                   
                   {/* Impact Highlight */}
-                  <div className="bg-white bg-opacity-20 rounded-lg p-3 mb-4">
-                    <p className="text-white text-sm font-semibold">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-2 sm:p-3 mb-3 sm:mb-4">
+                    <p className="text-white text-xs sm:text-sm font-semibold">
                       {project.impact.split(',')[0]}
                     </p>
                   </div>
@@ -227,7 +227,7 @@ const Clients = () => {
                   <Link
                     to={`/clients/case-study/${project.id}`}
                     onClick={handleScrollToTop}
-                    className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-sm hover:underline"
+                    className="flex items-center justify-center space-x-2 text-white text-opacity-80 group-hover:text-white transition-all duration-300 text-xs sm:text-sm hover:underline"
                   >
                     <span>View Full Case Study</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -240,11 +240,11 @@ const Clients = () => {
           {/* Empty state for filtered results */}
           {filteredProjects.length === 0 && (
             <div className="text-center py-16 col-span-full">
-              <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Building2 className="w-12 h-12 text-gray-400" />
+              <div className="w-20 sm:w-24 h-20 sm:h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                <Building2 className="w-10 sm:w-12 h-10 sm:h-12 text-gray-400" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 mb-4">No projects found</h3>
-              <p className="text-gray-500">Try selecting a different category to view our work.</p>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-600 mb-4">No projects found</h3>
+              <p className="text-sm sm:text-base text-gray-500">Try selecting a different category to view our work.</p>
             </div>
           )}
         </section>
@@ -252,22 +252,22 @@ const Clients = () => {
 
         {/* CTA Section */}
         <section className="mb-20">
-          <div className="bg-gradient-to-r from-black via-gray-800 to-gray-700 rounded-3xl p-12 text-center text-white relative overflow-hidden">
+          <div className="bg-gradient-to-r from-black via-gray-800 to-gray-700 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 text-center text-white relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-teal/20 via-purple/20 to-golden/20 opacity-50"></div>
             <div className="relative z-10">
               <div className="flex items-center justify-center space-x-3 text-lg mb-6">
                 <Star className="w-6 h-6 text-golden" />
-                <span className="font-bold text-2xl">Ready to Join Our Success Stories?</span>
+                <span className="font-bold text-lg sm:text-xl lg:text-2xl">Ready to Join Our Success Stories?</span>
                 <Star className="w-6 h-6 text-golden" />
               </div>
-              <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
+              <p className="text-gray-300 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-3xl mx-auto">
                 Whether you're looking to streamline operations, enhance customer experience, or drive innovation, we're here to transform your vision into measurable results.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <button 
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold"
+                  className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden font-semibold w-full sm:w-auto justify-center"
                 >
                   <span>Start Your Success Story</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />

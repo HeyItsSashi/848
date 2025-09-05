@@ -74,28 +74,28 @@ const Contact = () => {
 
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Your Next Intelligent Move Starts Here
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
             Partner with <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           <div>
-            <h3 className="text-3xl font-bold text-black mb-8">Get in Touch</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold text-black mb-6 sm:mb-8">Get in Touch</h3>
             
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               <div className="flex items-center space-x-4 group cursor-pointer">
-                <div className="w-12 h-12 bg-teal rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 bg-teal rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-gray-500 text-sm">Email</p>
+                  <p className="text-gray-500 text-xs sm:text-sm">Email</p>
                   <a 
                     href="mailto:200@sevenx.global"
-                    className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
+                    className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
                   >
                     200@sevenx.global
                   </a>
@@ -103,14 +103,14 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center space-x-4 group cursor-pointer">
-                <div className="w-12 h-12 bg-purple rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 bg-purple rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-gray-500 text-sm">Phone</p>
+                  <p className="text-gray-500 text-xs sm:text-sm">Phone</p>
                   <a 
                     href="tel:+910000000000"
-                    className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-purple"
+                    className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-purple"
                   >
                     +91 0000 000 000
                   </a>
@@ -118,12 +118,12 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center space-x-4 group cursor-pointer">
-                <div className="w-12 h-12 bg-golden rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 bg-golden rounded-lg flex items-center justify-center group-hover:bg-opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-gray-500 text-sm">Location</p>
-                  <p className="text-gray-800 font-semibold text-lg transition-colors duration-300 relative group cursor-pointer hover:text-golden">
+                  <p className="text-gray-500 text-xs sm:text-sm">Location</p>
+                  <p className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-golden">
                     Global • Remote First
                   </p>
                 </div>
@@ -131,11 +131,11 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-teal via-purple to-golden rounded-3xl p-8 shadow-xl border border-gray-200 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-teal via-purple to-golden rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-200 relative overflow-hidden">
             {/* Background overlay for better text readability */}
             <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl font-bold mb-6 text-white drop-shadow-lg">Start Your Project</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-6 text-white drop-shadow-lg">Start Your Project</h3>
             
               <form 
                 className="space-y-4" 
@@ -168,7 +168,7 @@ const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="Your Name"
                     required
-                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm"
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2 sm:py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm text-sm sm:text-base"
                   />
                 </div>
                 
@@ -180,7 +180,7 @@ const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="Your Email"
                     required
-                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm"
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2 sm:py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 hover:border-golden font-medium shadow-sm text-sm sm:text-base"
                   />
                 </div>
                 
@@ -192,13 +192,13 @@ const Contact = () => {
                     placeholder="Tell us about your project..."
                     rows={4}
                     required
-                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 resize-none hover:border-golden font-medium shadow-sm"
+                    className="w-full bg-white bg-opacity-95 border-2 border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2 sm:py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:border-golden focus:ring-2 focus:ring-golden focus:ring-opacity-30 focus:bg-white transition-all duration-300 resize-none hover:border-golden font-medium shadow-sm text-sm sm:text-base"
                   ></textarea>
                 </div>
                 
                 <button
                   type="submit"
-                  className="w-full bg-white bg-opacity-95 text-black px-6 py-4 rounded-lg font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-xl active:scale-95 relative overflow-hidden text-lg shadow-sm"
+                  className="w-full bg-white bg-opacity-95 text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 group hover:shadow-xl active:scale-95 relative overflow-hidden text-base sm:text-lg shadow-sm"
                 >
                   <span>Send Message</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -208,44 +208,44 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-gray-200 text-center">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+        <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200 text-center">
+          <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
             {/* Social Media Icons */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-3 sm:space-x-4">
               <a
                 href="https://github.com/848labs"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
+                className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
               >
-                <Github className="w-5 h-5" />
+                <Github className="w-4 sm:w-5 h-4 sm:h-5" />
               </a>
               <a
                 href="https://linkedin.com/company/848labs"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
+                className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-4 sm:w-5 h-4 sm:h-5" />
               </a>
               <a
                 href="https://twitter.com/848labs"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
+                className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
               >
-                <Twitter className="w-5 h-5" />
+                <Twitter className="w-4 sm:w-5 h-4 sm:h-5" />
               </a>
             </div>
             
             {/* Footer Info */}
-            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-500 text-sm">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 lg:space-x-8 text-gray-500 text-xs sm:text-sm text-center">
               <span>200@SevenX.global</span>
-              <span className="hidden md:block">•</span>
+              <span className="hidden sm:block">•</span>
               <span>+91 00000 00000</span>
-              <span className="hidden md:block">•</span>
+              <span className="hidden sm:block">•</span>
               <span>AI Product Engineering & Tech Consulting</span>
-              <span className="hidden md:block">•</span>
+              <span className="hidden lg:block">•</span>
               <span>© 2025 SevenX Global Solutions.</span>
             </div>
           </div>

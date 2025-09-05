@@ -27,10 +27,10 @@ const Approach = () => {
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
             Our Approach
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
             From <span className="relative group cursor-pointer">
               <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
             </span> to <span className="relative group cursor-pointer">
@@ -44,35 +44,35 @@ const Approach = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className={`border-2 rounded-2xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
+              className={`border-2 rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
                 index === 0 ? 'bg-teal bg-opacity-10 border-teal' : 
                 index === 1 ? 'bg-purple bg-opacity-10 border-purple' : 
                 'bg-golden bg-opacity-10 border-golden'
               }`}
             >
-              <div className="flex items-center space-x-6">
-                <div className={`w-20 h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <div className={`w-16 sm:w-20 h-16 sm:h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
                   index === 0 ? 'bg-teal' : 
                   index === 1 ? 'bg-purple' : 
                   'bg-golden'
                 }`}>
-                  <step.icon className="w-8 h-8 text-white" />
+                  <step.icon className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                 </div>
                 
                 <div className="flex-1">
-                  <div className="flex items-center space-x-4 mb-3">
-                    <span className={`text-3xl font-bold transition-colors duration-300 ${
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4 mb-3">
+                    <span className={`text-2xl sm:text-3xl font-bold transition-colors duration-300 ${
                       index === 0 ? 'text-white' : 
                       index === 1 ? 'text-white' : 
                       'text-white'
                     }`}>{step.number}</span>
-                    <h3 className={`text-2xl font-bold transition-colors duration-300 ${
+                    <h3 className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
                       index === 0 ? 'text-white' : 
                       index === 1 ? 'text-white' : 
                       'text-white'
                     }`}>{step.title}</h3>
                   </div>
-                  <p className="text-lg text-gray-600 leading-relaxed">
+                  <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
                     {step.description}
                   </p>
                 </div>
