@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { ArrowLeft, Building2, Target, Cog, TrendingUp, Quote, CheckCircle, Star, Heart } from 'lucide-react';
 import ParticleBackground from '../components/ParticleBackground';
 import Contact from '../components/Contact';

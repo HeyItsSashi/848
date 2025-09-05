@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowLeft, ArrowRight, TrendingUp, Database, Brain, BarChart3, Zap, Target, LineChart, PieChart } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
 

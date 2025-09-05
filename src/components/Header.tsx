@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { Menu, X, Infinity as InfinityIcon, LogOut, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
@@ -23,7 +25,7 @@ const Header = () => {
     window.location.reload();
   }, []);
 
-  const handleContactClick = useCallback((e) => {
+  const handleContactClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
     if (pathname !== '/') {
       // If not on home page, navigate to home first
       // The scrolling will be handled by useEffect after navigation
@@ -69,7 +71,7 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
+          <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
               src="/logo.png" 
               alt="SevenX Global Logo" 
@@ -96,7 +98,7 @@ const Header = () => {
               </>
             ) : (
               <Link
-                to="/"
+                href="/"
                 onClick={handleLinkClick}
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
@@ -122,7 +124,7 @@ const Header = () => {
                   {services.map((service, index) => (
                     <Link
                       key={index}
-                      to={service.path}
+                      href={service.path}
                       onClick={handleLinkClick}
                       className="block px-6 py-3 text-gray-700 hover:text-black hover:bg-gray-50 transition-all duration-200 text-sm font-medium"
                     >
@@ -134,7 +136,7 @@ const Header = () => {
             </div>
             
             <Link
-              to="/stack"
+              href="/stack"
               onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
@@ -142,7 +144,7 @@ const Header = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
             </Link>
             <Link
-              to="/clients"
+              href="/clients"
               onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
@@ -161,7 +163,7 @@ const Header = () => {
             </a>
             
             <Link
-              to="/careers"
+              href="/careers"
               onClick={handleLinkClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
