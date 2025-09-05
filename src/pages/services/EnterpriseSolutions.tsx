@@ -94,9 +94,8 @@ const EnterpriseSolutions = () => {
           </div>
         </div>
       </div>
-  );
-};
+    );
+  };
 
-export default EnterpriseSolutions;
   )
 }

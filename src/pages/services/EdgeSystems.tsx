@@ -122,9 +122,6 @@ const EdgeSystems = () => {
           </div>
         </div>
       </div>
-
-export default EdgeSystems;
-  )
 }
   )
 }
