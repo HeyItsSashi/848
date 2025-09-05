@@ -22,7 +22,7 @@ const Stack = () => {
     {
       icon: Rocket,
       title: "Innovation Always",
-      description: "Systems that scale intelligently maintain their core principles while adapting to new challenges and opportunities."
+      description: "Innovation is woven into our culture, driving us to reimagine possibilities and shape the future.."
     }
   ];
 
