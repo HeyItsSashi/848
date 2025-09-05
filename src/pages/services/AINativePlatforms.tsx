@@ -307,4 +307,6 @@ const EnterpriseSolutions = () => {
       </div>
     </div>
   )
-}
+};
+
+export default AINativePlatforms;
