@@ -158,7 +158,6 @@ const Careers = () => {
             <p className="text-gray-300">Tell us what excites you and where you want to make an impact.</p>
           </div>
           <button className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden mx-auto mt-8">
-            onClick={handleScrollToTop}
             <Mail className="w-5 h-5" />
             <span>Get in Touch</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
