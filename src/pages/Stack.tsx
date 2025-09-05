@@ -17,7 +17,7 @@ const Stack = () => {
     {
       icon: Lightbulb,
       title: "Efficiencies Next",
-      description: "True innovation comes from disciplined thinking and systematic approaches, not random creativity."
+      description: "Once the foundation is set, efficiency becomes the driver that accelerates progress and performance.."
     },
     {
       icon: Rocket,
