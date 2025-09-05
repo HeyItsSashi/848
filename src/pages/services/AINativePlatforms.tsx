@@ -9,8 +9,8 @@ const AINativePlatforms = () => {
   }, []);
 
   return (
-    <div className="min-h-screen pt-20 bg-white">
-      <div className="min-h-screen pt-20 bg-purple-50">
+    <div className="min-h-screen pt-20 bg-purple-50">
+      {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link
           to="/"
@@ -329,5 +329,3 @@ const AINativePlatforms = () => {
 };
 
 export default AINativePlatforms;
-  )
-}
