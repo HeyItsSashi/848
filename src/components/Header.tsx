@@ -148,6 +148,17 @@ const Header = () => {
               Clients
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
             </Link>
+            
+            <a
+              href="https://blog.sevenx.global/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
+            >
+              Blogs
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-rust"></span>
+            </a>
+            
             <Link
               to="/careers"
               onClick={handleLinkClick}
@@ -236,6 +247,16 @@ const Header = () => {
             >
               Clients
             </Link>
+            
+            <a
+              href="https://blog.sevenx.global/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
+            >
+              Blogs
+            </a>
+            
             <Link
               to="/careers"
               onClick={handleLinkClick}
