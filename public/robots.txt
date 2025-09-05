@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Disallow:
 
-Sitemap: https://848labs.com/sitemap.xml
+Sitemap: https://sevenx.global/sitemap.xml
