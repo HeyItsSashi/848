@@ -250,7 +250,9 @@ const DataAIEngineering = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-golden via-sky to-purple rounded-3xl p-12 text-white text-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+          <div className="relative z-10">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Data Into Intelligence?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Stop letting valuable data sit unused. Let's build AI-powered systems that turn your information into competitive advantage and measurable business outcomes.

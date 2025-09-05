@@ -208,7 +208,7 @@ const EnterpriseSolutions = () => {
 
           <div className="space-y-8">
             <div className="bg-gradient-to-r from-golden to-teal rounded-3xl p-10 border-2 border-golden relative">
-              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-golden/90 to-teal/90 rounded-3xl"></div>
               <div className="relative z-10">
                 <div className="flex items-start space-x-6">
                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
@@ -246,7 +246,7 @@ const EnterpriseSolutions = () => {
             </div>
 
             <div className="bg-gradient-to-r from-teal to-purple rounded-3xl p-10 border-2 border-teal relative">
-              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-teal/90 to-purple/90 rounded-3xl"></div>
               <div className="relative z-10">
                 <div className="flex items-start space-x-6">
                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
@@ -284,7 +284,7 @@ const EnterpriseSolutions = () => {
             </div>
 
             <div className="bg-gradient-to-r from-purple to-golden rounded-3xl p-10 border-2 border-purple relative">
-              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-purple/90 to-golden/90 rounded-3xl"></div>
               <div className="relative z-10">
                 <div className="flex items-start space-x-6">
                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center">
@@ -324,7 +324,9 @@ const EnterpriseSolutions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-black to-gray-800 rounded-3xl p-12 text-white text-center">
+        <div className="bg-gradient-to-r from-golden via-purple to-teal rounded-3xl p-12 text-white text-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
+          <div className="relative z-10">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Enterprise?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.
