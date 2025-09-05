@@ -74,6 +74,9 @@ const Header = () => {
               alt="SevenX Global Logo" 
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />
+            <span className="text-2xl font-bold">
+              Seven<span className="text-teal">X</span> Global
+            </span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8 relative"
