@@ -19,20 +19,8 @@ const Contact = () => {
   }, []);
 
   const handleSubmit = React.useCallback((e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    
     // Show confirmation modal immediately
     setShowConfirmation(true);
-    
-    // Submit form data to Netlify
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData as any).toString()
-    }).catch(error => console.error('Form submission error:', error));
     
     // Reset form after showing confirmation
     setTimeout(() => {
@@ -151,6 +139,8 @@ const Contact = () => {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                data-netlify-emails="200@sevenx.global"
+                action="/success.html"
               >
                 {/* Hidden input for Netlify Forms */}
                 <input type="hidden" name="form-name" value="contact" />
