@@ -63,42 +63,42 @@ const Stack = () => {
 
         <div className="grid lg:grid-cols-3 gap-8 mb-20">
           {/* Purpose Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-teal rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                <Target className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+                <Target className="w-5 h-5 text-teal" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Purpose Stack</h3>
+              <h3 className="text-2xl font-bold text-white transition-colors duration-300">Purpose Stack</h3>
             </div>
             
-            <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+            <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
               Why & What for We Exist
             </p>
 
             <div className="space-y-8">
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   A world where every decision enriches human experience.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Empower businesses to transform data into decisive intelligence.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Data to Decisions — Intelligently.
                 </p>
               </div>
@@ -106,42 +106,42 @@ const Stack = () => {
           </div>
 
           {/* Strategy Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-purple rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                <Users className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+                <Users className="w-5 h-5 text-purple" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Strategy Stack</h3>
+              <h3 className="text-2xl font-bold text-white transition-colors duration-300">Strategy Stack</h3>
             </div>
             
-            <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+            <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
               How We Deliver Results
             </p>
 
             <div className="space-y-8">
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">People</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">People</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Visionaries · Leaders · Executors
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Process</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Process</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Repeatable. Reliable. Measurable
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Technology</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Technology</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Future-Ready · Innovative
                 </p>
               </div>
@@ -149,42 +149,42 @@ const Stack = () => {
           </div>
 
           {/* Culture Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-golden rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02]">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                <Heart className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+                <Heart className="w-5 h-5 text-golden" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Culture Stack</h3>
+              <h3 className="text-2xl font-bold text-white transition-colors duration-300">Culture Stack</h3>
             </div>
             
-            <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+            <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
               Values That Drive Us
             </p>
 
             <div className="space-y-8">
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Mindset First</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Mindset First</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Well-Being · Merit that wins
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Integrity Always</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Integrity Always</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Transparent and Explainable
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-blue-400 underline-offset-2 hover:scale-105 transition-all duration-300">Impact Forever</span>
+                <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative group cursor-pointer">
+                  <span className="group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Impact Forever</span>
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white text-opacity-90 leading-relaxed">
                   Being a change agent
                 </p>
               </div>
@@ -207,24 +207,24 @@ const Stack = () => {
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Target className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-teal rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Target className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="font-semibold text-black mb-2">In Product Development</h4>
                 <p className="text-sm text-gray-600">Every feature aligns with our mission to transform data into decisive intelligence</p>
               </div>
               
               <div className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Users className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-purple rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Users className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="font-semibold text-black mb-2">In Team Collaboration</h4>
                 <p className="text-sm text-gray-600">Cross-functional teams work with shared processes and clear accountability</p>
               </div>
               
               <div className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Heart className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-golden rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Heart className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="font-semibold text-black mb-2">In Client Relationships</h4>
                 <p className="text-sm text-gray-600">Integrity and transparency guide every interaction and delivery</p>
