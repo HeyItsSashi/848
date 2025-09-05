@@ -154,44 +154,44 @@ const Stack = () => {
 
           <div className="grid lg:grid-cols-3 gap-8 mb-12">
             {/* Purpose Stack */}
-            <div className="bg-teal rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02] relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:border-teal hover:scale-[1.02] relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-teal/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                    <Target className="w-6 h-6 text-teal" />
+                  <div className="w-12 h-12 bg-teal bg-opacity-10 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg group-hover:bg-teal group-hover:bg-opacity-100">
+                    <Target className="w-6 h-6 text-teal group-hover:text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white transition-colors duration-300">Purpose Stack</h3>
+                  <h3 className="text-2xl font-bold text-black group-hover:text-teal transition-colors duration-300">Purpose Stack</h3>
                 </div>
                 
-                <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
+                <p className="text-sm font-medium text-gray-600 uppercase tracking-wider mb-8">
                   Why & What for We Exist
                 </p>
 
                 <div className="space-y-8">
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       A world where every decision enriches human experience.
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Empower businesses to transform data into decisive intelligence.
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Data to Decisions — Intelligently.
                     </p>
                   </div>
@@ -200,44 +200,44 @@ const Stack = () => {
             </div>
 
             {/* Strategy Stack */}
-            <div className="bg-purple rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02] relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:border-purple hover:scale-[1.02] relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                    <Users className="w-6 h-6 text-purple" />
+                  <div className="w-12 h-12 bg-purple bg-opacity-10 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg group-hover:bg-purple group-hover:bg-opacity-100">
+                    <Users className="w-6 h-6 text-purple group-hover:text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white transition-colors duration-300">Strategy Stack</h3>
+                  <h3 className="text-2xl font-bold text-black group-hover:text-purple transition-colors duration-300">Strategy Stack</h3>
                 </div>
                 
-                <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
+                <p className="text-sm font-medium text-gray-600 uppercase tracking-wider mb-8">
                   How We Deliver Results
                 </p>
 
                 <div className="space-y-8">
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">People</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-purple underline-offset-2 hover:scale-105 transition-all duration-300">People</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Visionaries · Leaders · Executors
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Process</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-purple underline-offset-2 hover:scale-105 transition-all duration-300">Process</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Repeatable. Reliable. Measurable
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Technology</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-purple underline-offset-2 hover:scale-105 transition-all duration-300">Technology</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Future-Ready · Innovative
                     </p>
                   </div>
@@ -246,44 +246,44 @@ const Stack = () => {
             </div>
 
             {/* Culture Stack */}
-            <div className="bg-golden rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:bg-opacity-90 hover:scale-[1.02] relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 cursor-pointer hover:border-golden hover:scale-[1.02] relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-golden/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
-                    <Heart className="w-6 h-6 text-golden" />
+                  <div className="w-12 h-12 bg-golden bg-opacity-10 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg group-hover:bg-golden group-hover:bg-opacity-100">
+                    <Heart className="w-6 h-6 text-golden group-hover:text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white transition-colors duration-300">Culture Stack</h3>
+                  <h3 className="text-2xl font-bold text-black group-hover:text-golden transition-colors duration-300">Culture Stack</h3>
                 </div>
                 
-                <p className="text-sm font-medium text-white text-opacity-80 uppercase tracking-wider mb-8">
+                <p className="text-sm font-medium text-gray-600 uppercase tracking-wider mb-8">
                   Values That Drive Us
                 </p>
 
                 <div className="space-y-8">
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Mindset First</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-golden underline-offset-2 hover:scale-105 transition-all duration-300">Mindset First</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Well-Being · Merit that wins
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Integrity Always</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-golden underline-offset-2 hover:scale-105 transition-all duration-300">Integrity Always</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Transparent and Explainable
                     </p>
                   </div>
 
                   <div className="group/item">
-                    <h4 className="text-lg font-bold text-white mb-2 transition-colors duration-300 relative cursor-pointer">
-                      <span className="group-hover/item:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">Impact Forever</span>
+                    <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative cursor-pointer">
+                      <span className="group-hover/item:underline decoration-2 decoration-golden underline-offset-2 hover:scale-105 transition-all duration-300">Impact Forever</span>
                     </h4>
-                    <p className="text-white text-opacity-90 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed">
                       Being a change agent
                     </p>
                   </div>
@@ -311,26 +311,26 @@ const Stack = () => {
             <h3 className="text-2xl font-bold text-black mb-8 text-center">Stack in Action</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center group">
-                <div className="w-16 h-16 bg-teal rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg transition-all duration-300">
-                  <Target className="w-8 h-8 text-white" />
+               <div className="w-16 h-16 bg-teal bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg group-hover:bg-teal transition-all duration-300">
+                 <Target className="w-8 h-8 text-teal group-hover:text-white" />
                 </div>
                 <h4 className="font-semibold text-black mb-3">In Product Development</h4>
                 <p className="text-sm text-gray-600 leading-relaxed">Every feature aligns with our mission to transform data into decisive intelligence</p>
               </div>
               
               <div className="text-center group">
-                <div className="w-16 h-16 bg-purple rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg transition-all duration-300">
-                  <Users className="w-8 h-8 text-white" />
+               <div className="w-16 h-16 bg-purple bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg group-hover:bg-purple transition-all duration-300">
+                 <Users className="w-8 h-8 text-purple group-hover:text-white" />
                 </div>
                 <h4 className="font-semibold text-black mb-3">In Team Collaboration</h4>
                 <p className="text-sm text-gray-600 leading-relaxed">Cross-functional teams work with shared processes and clear accountability</p>
               </div>
               
               <div className="text-center group">
-                <div className="w-16 h-16 bg-golden rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg transition-all duration-300">
-                  <Heart className="w-8 h-8 text-white" />
+               <div className="w-16 h-16 bg-golden bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg group-hover:bg-golden transition-all duration-300">
+                 <Heart className="w-8 h-8 text-golden group-hover:text-white" />
                 </div>
-                <h4 className="font-semibent text-black mb-3">In Client Relationships</h4>
+               <h4 className="font-semibold text-black mb-3">In Client Relationships</h4>
                 <p className="text-sm text-gray-600 leading-relaxed">Integrity and transparency guide every interaction and delivery</p>
               </div>
             </div>
