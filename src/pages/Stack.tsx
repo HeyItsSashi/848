@@ -43,7 +43,7 @@ const Stack = () => {
             </div>
             
             <p>
-              The 848Labs Stack is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
+              The SevenX Global Stack is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
               <HighlightOnScroll>Strategy</HighlightOnScroll> (how we deliver), and
                <HighlightOnScroll>Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
