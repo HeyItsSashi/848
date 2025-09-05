@@ -5,8 +5,11 @@ import ParticleBackground from '../components/ParticleBackground';
 import Contact from '../components/Contact';
 
 const Clients = () => {
+  const [activeTab, setActiveTab] = React.useState(0);
+
   const clientProjects = [
     {
+      id: 'healthcare',
       project: "HealthTrack Mobile App",
       industry: "Healthcare",
       businessNeed: "Remote patient monitoring and medication adherence tracking for chronic disease management",
@@ -15,9 +18,11 @@ const Clients = () => {
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
       testimonial: "SevenX Global transformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
-      color: "teal"
+      color: "teal",
+      category: "Mobile Apps"
     },
     {
+      id: 'retail',
       project: "RetailBot Assistant",
       industry: "Retail & E-commerce",
       businessNeed: "24/7 customer support automation and personalized product recommendations to increase sales conversion",
@@ -26,9 +31,11 @@ const Clients = () => {
       impact: "300% increase in customer engagement, 65% reduction in support tickets, 45% boost in average order value",
       testimonial: "Our customers love the instant, personalized support. The bot handles complex queries beautifully and has significantly improved our sales metrics.",
       client: "Michael Chen, VP of Customer Experience",
-      color: "purple"
+      color: "purple",
+      category: "AI Bots"
     },
     {
+      id: 'manufacturing',
       project: "SmartFactory Automation",
       industry: "Manufacturing",
       businessNeed: "Streamline production workflows, reduce manual errors, and optimize equipment maintenance scheduling",
@@ -37,9 +44,11 @@ const Clients = () => {
       impact: "50% reduction in production downtime, 30% decrease in manufacturing defects, 25% cost savings annually",
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
-      color: "golden"
+      color: "golden",
+      category: "Automation"
     },
     {
+      id: 'finance',
       project: "FinanceFlow Mobile Suite",
       industry: "Financial Services",
       businessNeed: "Modernize legacy banking systems with secure mobile banking and automated compliance reporting",
@@ -48,9 +57,11 @@ const Clients = () => {
       impact: "90% faster transaction processing, 99.8% fraud detection accuracy, full regulatory compliance achieved",
       testimonial: "SevenX Global delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
       client: "Robert Kim, Chief Technology Officer",
-      color: "sky"
+      color: "sky",
+      category: "Mobile Apps"
     },
     {
+      id: 'education',
       project: "EduAdapt Learning Platform",
       industry: "Education Technology",
       businessNeed: "Personalized learning experiences that adapt to individual student progress and learning styles",
@@ -59,10 +70,21 @@ const Clients = () => {
       impact: "70% improvement in student engagement, 55% faster learning progression, 95% student satisfaction rate",
       testimonial: "The platform has revolutionized how our students learn. Each student now gets a truly personalized education experience that adapts to their needs.",
       client: "Dr. Amanda Foster, Head of Digital Learning",
-      color: "rust"
+      color: "rust",
+      category: "Automation"
     }
   ];
 
+  const projectCategories = [
+    { name: "All Projects", key: "all" },
+    { name: "Mobile Apps", key: "Mobile Apps" },
+    { name: "AI Bots", key: "AI Bots" },
+    { name: "Automation", key: "Automation" }
+  ];
+
+  const filteredProjects = activeTab === 0 
+    ? clientProjects 
+    : clientProjects.filter(project => project.category === projectCategories[activeTab].key);
   return (
     <div className="min-h-screen pt-20 bg-white relative">
       {/* Particle Background */}
@@ -120,8 +142,33 @@ const Clients = () => {
             <h2 className="text-3xl font-bold text-black">Project Portfolio</h2>
           </div>
 
+          {/* Tabbed Navigation */}
+          <div className="flex flex-wrap gap-2 mb-8 bg-gray-100 p-2 rounded-2xl">
+            {projectCategories.map((category, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveTab(index)}
+                className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 flex-1 min-w-fit ${
+                  activeTab === index
+                    ? 'bg-black text-white shadow-lg transform scale-105'
+                    : 'bg-transparent text-gray-600 hover:text-black hover:bg-white hover:shadow-md hover:scale-102'
+                }`}
+              >
+                <span className="flex items-center justify-center space-x-2">
+                  <span>{category.name}</span>
+                  {activeTab === index && (
+                    <span className="bg-white text-black text-xs px-2 py-1 rounded-full">
+                      {index === 0 ? clientProjects.length : filteredProjects.length}
+                    </span>
+                  )}
+                </span>
+              </button>
+            ))}
+          </div>
+
+          {/* Projects Display */}
           <div className="space-y-8">
-            {clientProjects.map((project, index) => (
+            {filteredProjects.map((project, index) => (
               <div
                 key={index}
                 className={`bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 group hover:-translate-y-2 border-l-4 ${
@@ -130,7 +177,8 @@ const Clients = () => {
                   project.color === 'golden' ? 'border-golden hover:border-golden' :
                   project.color === 'sky' ? 'border-sky hover:border-sky' :
                   'border-rust hover:border-rust'
-                } hover:scale-[1.02] cursor-pointer`}
+                } hover:scale-[1.02] cursor-pointer animate-fadeInUp`}
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="grid lg:grid-cols-12 gap-6 items-start">
                   {/* Project Info */}
@@ -143,6 +191,13 @@ const Clients = () => {
                       'bg-rust text-white'
                     }`}>
                       {project.industry}
+                    </div>
+                    <div className={`inline-flex px-2 py-1 rounded-full text-xs font-medium mb-3 ml-2 ${
+                      project.category === 'Mobile Apps' ? 'bg-teal bg-opacity-20 text-teal' :
+                      project.category === 'AI Bots' ? 'bg-purple bg-opacity-20 text-purple' :
+                      'bg-golden bg-opacity-20 text-golden'
+                    }`}>
+                      {project.category}
                     </div>
                     <h3 className="text-xl font-bold text-black mb-2 group-hover:text-gray-700 transition-colors duration-300">
                       {project.project}
@@ -209,6 +264,17 @@ const Clients = () => {
               </div>
             ))}
           </div>
+
+          {/* Empty state for filtered results */}
+          {filteredProjects.length === 0 && (
+            <div className="text-center py-16">
+              <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Building2 className="w-12 h-12 text-gray-400" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-600 mb-4">No projects found</h3>
+              <p className="text-gray-500">Try selecting a different category to view our work.</p>
+            </div>
+          )}
         </section>
 
         {/* Industries We Serve */}
