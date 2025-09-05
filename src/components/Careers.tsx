@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Users, Zap, Mail, ArrowRight, Heart, Target, Lightbulb } from 'lucide-react';
+import { Brain, Users, Zap, Mail, ArrowRight, Heart, Target } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Careers = () => {

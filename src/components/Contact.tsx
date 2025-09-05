@@ -18,7 +18,7 @@ const Contact = () => {
     }));
   }, []);
 
-  const handleSubmit = React.useCallback((e: React.FormEvent) => {
+  const handleSubmit = React.useCallback(() => {
     // Don't prevent default - let Netlify handle the submission
     // e.preventDefault(); // Commented out to allow Netlify to process the form
     

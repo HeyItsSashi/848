@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Menu, X, Infinity, ChevronDown, LogOut } from 'lucide-react';
+import { Menu, X, Infinity as InfinityIcon, LogOut } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -48,16 +48,6 @@ const Header = () => {
     }
   }, [location]);
 
-  const handleCareersClick = useCallback(() => {
-    window.scrollTo(0, 0);
-    setIsMenuOpen(false);
-  }, []);
-
-  const handleScrollToTop = useCallback(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setIsMenuOpen(false);
-  }, []);
-
   const handleLinkClick = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setIsMenuOpen(false);
@@ -71,7 +61,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <div className="relative w-10 h-10 flex items-center justify-center group">
-              <Infinity className="w-10 h-10 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 text-stone-500" />
+              <InfinityIcon className="w-10 h-10 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 text-stone-500" />
               <div className="absolute inset-0 w-10 h-10">
                 <div className="w-1 h-1 bg-gray-600 rounded-full animate-infinity-dot"></div>
               </div>
