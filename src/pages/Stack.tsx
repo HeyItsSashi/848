@@ -46,8 +46,8 @@ const Stack = () => {
 
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-black mb-4 leading-tight">
-              <HighlightOnScroll className="font-semibold">SevenX Global</HighlightOnScroll>
-              <span className="block text-gray-600 mt-2">Stack</span>
+              <HighlightOnScroll className="font-semibold">SevenX Stack</HighlightOnScroll>
+              <span className="block text-gray-600 mt-2"></span>
             </h1>
           </div>
 
