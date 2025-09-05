@@ -17,12 +17,12 @@ const Stack = () => {
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Purpose Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-teal border-2 border-transparent">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-teal transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Target className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Purpose Stack</h3>
+              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-teal transition-colors duration-300">Purpose Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
@@ -32,7 +32,7 @@ const Stack = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
+                  <span className="group-hover:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   A world where every decision enriches human experience.
@@ -41,7 +41,7 @@ const Stack = () => {
 
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
+                  <span className="group-hover:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Mission</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Empower businesses to transform data into decisive intelligence.
@@ -50,7 +50,7 @@ const Stack = () => {
 
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
-                  <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
+                  <span className="group-hover:underline decoration-2 decoration-teal underline-offset-2 hover:scale-105 transition-all duration-300">Brand Promise</span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Data to Decisions — Intelligently.
@@ -60,12 +60,12 @@ const Stack = () => {
           </div>
 
           {/* Strategy Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-purple border-2 border-transparent">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-purple transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Users className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Strategy Stack</h3>
+              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-purple transition-colors duration-300">Strategy Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
@@ -76,7 +76,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">People</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Visionaries · Leaders · Executors
@@ -86,7 +86,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">Process</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Repeatable. Reliable. Measurable
@@ -96,7 +96,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">Technology</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Future-Ready · Innovative
@@ -106,12 +106,12 @@ const Stack = () => {
           </div>
 
           {/* Culture Stack */}
-          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02]">
+          <div className="bg-gray-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:bg-gray-100 hover:scale-[1.02] hover:border-2 hover:border-golden border-2 border-transparent">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-black transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center group-hover:bg-golden transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
                 <Heart className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-black transition-colors duration-300">Culture Stack</h3>
+              <h3 className="text-2xl font-bold text-gray-600 group-hover:text-golden transition-colors duration-300">Culture Stack</h3>
             </div>
             
             <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
@@ -122,7 +122,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">Mindset First</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-golden transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Well-Being · Merit that wins
@@ -132,7 +132,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">Integrity Always</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-golden transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Transparent and Explainable
@@ -142,7 +142,7 @@ const Stack = () => {
               <div>
                 <h4 className="text-lg font-bold text-black mb-2 transition-colors duration-300 relative group cursor-pointer">
                   <span className="hover:scale-105 transition-transform duration-300">Impact Forever</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-golden transition-all duration-300 group-hover:w-full"></span>
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
                   Being a change agent

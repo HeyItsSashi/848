@@ -58,6 +58,25 @@ textarea:focus {
   text-wrap: balance;
 }
 
+/* Enhanced color palette inspired by professional designs */
+.bg-golden { background-color: #D4A574; }
+.bg-teal { background-color: #4A9B8E; }
+.bg-purple { background-color: #8B7EC8; }
+.bg-rust { background-color: #C17A47; }
+.bg-sky { background-color: #5B9BD5; }
+
+.text-golden { color: #D4A574; }
+.text-teal { color: #4A9B8E; }
+.text-purple { color: #8B7EC8; }
+.text-rust { color: #C17A47; }
+.text-sky { color: #5B9BD5; }
+
+.border-golden { border-color: #D4A574; }
+.border-teal { border-color: #4A9B8E; }
+.border-purple { border-color: #8B7EC8; }
+.border-rust { border-color: #C17A47; }
+.border-sky { border-color: #5B9BD5; }
+
 /* Enhanced micro-interactions */
 .hover-glow {
   transition: all 0.3s ease;

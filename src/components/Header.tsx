@@ -78,7 +78,7 @@ const Header = () => {
             <span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
             </span>
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8 relative">
@@ -92,7 +92,7 @@ const Header = () => {
                     className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
                   >
                     {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
                   </a>
                 ))}
               </>
@@ -103,7 +103,7 @@ const Header = () => {
                 className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
               >
                 Home
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-stone-500"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-teal"></span>
               </Link>
             )}
             
@@ -113,7 +113,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Stack
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-purple"></span>
             </Link>
             <Link
               to="/careers"
@@ -121,7 +121,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Careers
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-golden"></span>
             </Link>
             
             <Link
@@ -130,7 +130,7 @@ const Header = () => {
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
             >
               Contact
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-gradient-to-r from-blue-400 to-purple-600"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
             </Link>
             
             <button
