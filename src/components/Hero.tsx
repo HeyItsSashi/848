@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-6xl md:text-8xl font-bold text-black mb-6 tracking-tight text-left">
-          <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg hover:text-blue-400">Seven</span>X
+          <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg hover:text-blue-400">SevenX</span>
           <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-225 cursor-pointer hover:drop-shadow-lg">   Global</span>
         </h1>
 
