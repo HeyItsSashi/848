@@ -8,6 +8,10 @@ import Contact from '../components/Contact';
 const Clients = () => {
   const [activeTab, setActiveTab] = React.useState(0);
 
+  const handleScrollToTop = React.useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   const clientProjects = [
     {
       id: 'healthcare',
