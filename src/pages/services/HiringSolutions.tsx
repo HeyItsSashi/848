@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, GraduationCap, BrainCircuit, Crown, Target, Clock, DollarSign, Award } from 'lucide-react';
+import { Users, GraduationCap, BrainCircuit, Crown, Target, Clock, DollarSign, Award, Shield } from 'lucide-react';
 import ServiceTemplate from './ServiceTemplate';
 
 const HiringSolutions = () => {
