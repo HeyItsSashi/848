@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Menu, X, Infinity as InfinityIcon, LogOut, ChevronDown } from 'lucide-react';
+import { Menu, X, LogOut, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -59,7 +59,8 @@ const Header = () => {
     { name: 'AI-Native Platforms', path: '/services/ai-native-platforms' },
     { name: 'Edge Systems', path: '/services/edge-systems' },
     { name: 'Enterprise Solutions', path: '/services/enterprise-solutions' },
-    { name: 'Data & AI Engineering', path: '/services/data-ai-engineering' }
+    { name: 'Data & AI Engineering', path: '/services/data-ai-engineering' },
+    { name: 'Hiring Solutions', path: '/services/hiring-solutions' }
   ];
 
   return (

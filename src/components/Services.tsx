@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
+import { Bot, Satellite, Factory, TrendingUp, Users } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
@@ -36,6 +36,13 @@ const Services = () => {
       description: "Help businesses turn data into measurable outcomes through intelligent analysis.",
       features: ["Data Visualization", "Business Intelligence", "Agentic Data Solutions"],
       link: "/services/data-ai-engineering"
+    },
+    {
+      icon: Users,
+      title: "Hiring Solutions",
+      description: "Deploy trained AI team members from college to campus with cost optimization and expert talent acquisition.",
+      features: ["AI-Trained Campus Talent", "Senior Tech & Leadership Roles", "Permanent FTE Placements"],
+      link: "/services/hiring-solutions"
     }
   ];
 
