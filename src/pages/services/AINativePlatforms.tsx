@@ -15,7 +15,7 @@ const AINativePlatforms = () => {
         <Link
           to="/"
           onClick={handleScrollToTop}
-          className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
+          className="group bg-teal text-white px-6 py-3 rounded-lg hover:bg-opacity-80 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
           <span>Back to Home</span>
@@ -37,7 +37,7 @@ const AINativePlatforms = () => {
 
           <div className="max-w-6xl mx-auto text-center relative z-10">
             {/* Icon */}
-            <div className="w-24 h-24 bg-black rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
+            <div className="w-24 h-24 bg-purple rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
               <Bot className="w-12 h-12 text-white" />
             </div>
 
@@ -50,9 +50,9 @@ const AINativePlatforms = () => {
 
             {/* Subtitle */}
             <div className="mb-8 flex items-center justify-center space-x-4 text-gray-600">
-              <Bot className="w-6 h-6 animate-pulse" />
+              <Bot className="w-6 h-6 animate-pulse text-purple" />
               <span className="text-xl font-medium">Intelligence That Learns, Adapts & Evolves</span>
-              <Bot className="w-6 h-6 animate-pulse" />
+              <Bot className="w-6 h-6 animate-pulse text-purple" />
             </div>
 
             {/* Description */}
@@ -63,12 +63,12 @@ const AINativePlatforms = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
-              <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
+              <button className="group bg-purple text-white px-8 py-4 rounded-lg hover:bg-opacity-80 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
                 <span>Explore AI Platforms</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
               
-              <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
+              <button className="group border-2 border-purple text-purple px-8 py-4 rounded-lg hover:border-purple hover:bg-purple hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
                 <span>See Case Studies</span>
               </button>
             </div>
@@ -85,11 +85,11 @@ const AINativePlatforms = () => {
 
         {/* Solution Categories */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-12">Complete Solution Suite</h2>
+          <h2 className="text-4xl font-bold text-purple mb-12">Complete Solution Suite</h2>
           
           <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
                 <Users className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
@@ -100,22 +100,22 @@ const AINativePlatforms = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>AI strategy and roadmap development</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Technical architecture design</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-golden rounded-full"></div>
+                  <div className="w-2 h-2 bg-teal rounded-full"></div>
                   <span>Implementation planning and execution</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-teal cursor-pointer">
-              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal group-hover:text-white transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 group hover:-translate-y-3 hover:border-golden cursor-pointer">
+              <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-golden group-hover:text-white transition-all duration-300">
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
@@ -126,15 +126,15 @@ const AINativePlatforms = () => {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Custom AI application development</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Intelligent user interface design</span>
                 </li>
                 <li className="flex items-center space-x-3 text-gray-700">
-                  <div className="w-2 h-2 bg-teal rounded-full"></div>
+                  <div className="w-2 h-2 bg-golden rounded-full"></div>
                   <span>Machine learning model integration</span>
                 </li>
               </ul>
@@ -170,7 +170,7 @@ const AINativePlatforms = () => {
 
         {/* Call to Action */}
         <div className="bg-gradient-to-r from-purple via-teal to-golden rounded-3xl p-12 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
           <div className="relative z-10">
             <h2 className="text-4xl font-bold mb-6">Ready to Build AI-Native?</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
@@ -181,7 +181,7 @@ const AINativePlatforms = () => {
               <Link
                 to="/#contact"
                 onClick={handleScrollToTop}
-                className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+                className="group bg-white text-purple px-8 py-4 rounded-lg hover:bg-purple hover:text-white transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
               >
                 <span>Start Your AI Journey</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
