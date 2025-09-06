@@ -10,6 +10,7 @@ import AINativePlatforms from './pages/services/AINativePlatforms';
 import EdgeSystems from './pages/services/EdgeSystems';
 import EnterpriseSolutions from './pages/services/EnterpriseSolutions';
 import DataAIEngineering from './pages/services/DataAIEngineering';
+import HiringSolutions from './pages/services/HiringSolutions';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/services/edge-systems" element={<EdgeSystems />} />
           <Route path="/services/enterprise-solutions" element={<EnterpriseSolutions />} />
           <Route path="/services/data-ai-engineering" element={<DataAIEngineering />} />
+          <Route path="/services/hiring-solutions" element={<HiringSolutions />} />
         </Routes>
       </div>
     </Router>
