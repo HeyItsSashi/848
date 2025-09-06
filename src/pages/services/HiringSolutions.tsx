@@ -189,7 +189,7 @@ const HiringSolutions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-purple bg-opacity-20 rounded-3xl p-12 text-center relative overflow-hidden">
+        <div className="bg-purple bg-opacity-5 rounded-3xl p-12 text-center relative overflow-hidden">
           <div className="relative z-10">
             <h2 className="text-4xl font-bold mb-6 text-black">Your business doesn't wait—and neither do we.</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-700">
