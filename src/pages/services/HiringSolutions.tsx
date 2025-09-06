@@ -38,7 +38,7 @@ const HiringSolutions = () => {
         <Link
           to="/"
           onClick={handleScrollToTop}
-          className="group bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
+          className="group bg-teal text-white px-6 py-3 rounded-lg hover:bg-opacity-80 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
           <span>Back to Home</span>
@@ -60,7 +60,7 @@ const HiringSolutions = () => {
 
           <div className="max-w-6xl mx-auto text-center relative z-10">
             {/* Icon */}
-            <div className="w-24 h-24 bg-black rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
+            <div className="w-24 h-24 bg-purple rounded-3xl flex items-center justify-center mx-auto mb-8 transform hover:scale-110 transition-all duration-500 hover:rotate-6 shadow-2xl">
               <Users className="w-12 h-12 text-white" />
             </div>
 
@@ -73,9 +73,9 @@ const HiringSolutions = () => {
 
             {/* Subtitle */}
             <div className="mb-8 flex items-center justify-center space-x-4 text-gray-600">
-              <Clock className="w-6 h-6 animate-pulse" />
+              <Clock className="w-6 h-6 animate-pulse text-golden" />
               <span className="text-xl font-medium">We understand, we act, we fill</span>
-              <Clock className="w-6 h-6 animate-pulse" />
+              <Clock className="w-6 h-6 animate-pulse text-golden" />
             </div>
 
             {/* Description */}
@@ -86,12 +86,12 @@ const HiringSolutions = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
-              <button className="group bg-black text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
+              <button className="group bg-golden text-white px-8 py-4 rounded-lg hover:bg-opacity-80 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95">
                 <span>Find Talent Now</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
               
-              <button className="group border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-black hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
+              <button className="group border-2 border-purple text-purple px-8 py-4 rounded-lg hover:border-purple hover:bg-purple hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95">
                 <span>Learn Our Process</span>
               </button>
             </div>
@@ -100,9 +100,9 @@ const HiringSolutions = () => {
 
         {/* Our Approach */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-12">Staffing Made Simple</h2>
+          <h2 className="text-4xl font-bold text-purple mb-12">Staffing Made Simple</h2>
           
-          <div className="bg-gray-50 rounded-3xl p-8 mb-12">
+          <div className="bg-gradient-to-r from-teal/10 to-purple/10 rounded-3xl p-8 mb-12">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
               Staffing doesn't need to be complicated. The traditional hiring process often feels slow, uncertain, and disconnected from business urgency. At SevenX Global, we've built a straightforward, outcomes-first approach to staffing:
             </p>
@@ -149,20 +149,35 @@ const HiringSolutions = () => {
 
         {/* Why Choose Us */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-black mb-12">Why Choose SevenX Global as Your Staffing Partner?</h2>
+          <h2 className="text-4xl font-bold text-purple mb-12">Why Choose SevenX Global as Your Staffing Partner?</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             {whyChoosePoints.map((point, index) => (
               <div
                 key={index}
-                className="bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:border-teal"
+                className={`bg-white border-2 border-gray-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer ${
+                  index === 0 ? 'hover:border-golden' : 
+                  index === 1 ? 'hover:border-teal' : 
+                  index === 2 ? 'hover:border-purple' : 
+                  'hover:border-rust'
+                }`}
               >
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center group-hover:bg-teal group-hover:text-white transition-all duration-300 flex-shrink-0">
+                  <div className={`w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center group-hover:text-white transition-all duration-300 flex-shrink-0 ${
+                    index === 0 ? 'group-hover:bg-golden' : 
+                    index === 1 ? 'group-hover:bg-teal' : 
+                    index === 2 ? 'group-hover:bg-purple' : 
+                    'group-hover:bg-rust'
+                  }`}>
                     <point.icon className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-black mb-2 group-hover:text-teal transition-colors duration-300">
+                    <h3 className={`text-xl font-bold text-black mb-2 transition-colors duration-300 ${
+                      index === 0 ? 'group-hover:text-golden' : 
+                      index === 1 ? 'group-hover:text-teal' : 
+                      index === 2 ? 'group-hover:text-purple' : 
+                      'group-hover:text-rust'
+                    }`}>
                       {point.title}
                     </h3>
                     <p className="text-gray-700 leading-relaxed">{point.description}</p>
@@ -175,7 +190,7 @@ const HiringSolutions = () => {
 
         {/* Call to Action */}
         <div className="bg-gradient-to-r from-rust via-golden to-purple rounded-3xl p-12 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
           <div className="relative z-10">
             <h2 className="text-4xl font-bold mb-6">Your business doesn't wait—and neither do we.</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
@@ -186,7 +201,7 @@ const HiringSolutions = () => {
               <Link
                 to="/#contact"
                 onClick={handleScrollToTop}
-                className="group bg-white text-black px-8 py-4 rounded-lg hover:bg-gray-200 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
+                className="group bg-white text-teal px-8 py-4 rounded-lg hover:bg-teal hover:text-white transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 font-semibold"
               >
                 <span>Start Hiring Today</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
