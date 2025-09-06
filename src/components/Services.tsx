@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Bot, Satellite, Factory, TrendingUp } from 'lucide-react';
+import { Bot, Satellite, Factory, TrendingUp, Users } from 'lucide-react';
 import HighlightOnScroll from './HighlightOnScroll';
 
 const Services = () => {
@@ -36,6 +36,13 @@ const Services = () => {
       description: "Help businesses turn data into measurable outcomes through intelligent analysis.",
       features: ["Data Visualization", "Business Intelligence", "Agentic Data Solutions"],
       link: "/services/data-ai-engineering"
+    },
+    {
+      icon: Users,
+      title: "Hiring Solutions",
+      description: "Staffing made simple: we understand, we act, we fill the right talent quickly.",
+      features: ["AI-Powered Screening", "Scalable Team Building", "Outcome-Driven Placement"],
+      link: "/services/hiring-solutions"
     }
   ];
 
@@ -65,7 +72,8 @@ const Services = () => {
                 index === 0 ? 'bg-golden text-white hover:bg-opacity-90' : 
                 index === 1 ? 'bg-teal text-white hover:bg-opacity-90' : 
                 index === 2 ? 'bg-purple text-white hover:bg-opacity-90' : 
-                'bg-sky text-white hover:bg-opacity-90'
+                index === 3 ? 'bg-sky text-white hover:bg-opacity-90' : 
+                'bg-rust text-white hover:bg-opacity-90'
               }`}
             >
               <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
@@ -73,7 +81,8 @@ const Services = () => {
                   index === 0 ? 'bg-white text-golden' : 
                   index === 1 ? 'bg-white text-teal' : 
                   index === 2 ? 'bg-white text-purple' : 
-                  'bg-white text-sky'
+                  index === 3 ? 'bg-white text-sky' : 
+                  'bg-white text-rust'
                 }`}>
                   <service.icon className="w-6 h-6" />
                 </div>
