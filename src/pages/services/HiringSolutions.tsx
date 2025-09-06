@@ -73,9 +73,9 @@ const HiringSolutions = () => {
 
             {/* Subtitle */}
             <div className="mb-8 flex items-center justify-center space-x-4 text-gray-600">
-              <Clock className="w-6 h-6 animate-pulse text-golden" />
+              <Clock className="w-6 h-6 animate-pulse text-purple" />
               <span className="text-xl font-medium">We understand, we act, we fill</span>
-              <Clock className="w-6 h-6 animate-pulse text-golden" />
+              <Clock className="w-6 h-6 animate-pulse text-purple" />
             </div>
 
             {/* Description */}
