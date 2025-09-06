@@ -169,11 +169,10 @@ const AINativePlatforms = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-purple via-teal to-golden rounded-3xl p-12 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+        <div className="bg-purple bg-opacity-20 rounded-3xl p-12 text-center relative overflow-hidden">
           <div className="relative z-10">
-            <h2 className="text-4xl font-bold mb-6">Ready to Build AI-Native?</h2>
-            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            <h2 className="text-4xl font-bold mb-6 text-black">Ready to Build AI-Native?</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-700">
               Transform your business with platforms where AI isn't just a feature—it's the foundation for everything you build.
             </p>
             

@@ -161,11 +161,10 @@ const EnterpriseSolutions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-golden via-purple to-teal rounded-3xl p-12 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-black bg-opacity-20 rounded-3xl"></div>
+        <div className="bg-purple bg-opacity-20 rounded-3xl p-12 text-center relative overflow-hidden">
           <div className="relative z-10">
-            <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Enterprise?</h2>
-            <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+            <h2 className="text-4xl font-bold mb-6 text-black">Ready to Transform Your Enterprise?</h2>
+            <p className="text-xl mb-8 max-w-3xl mx-auto text-gray-700">
               Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.
             </p>
             
