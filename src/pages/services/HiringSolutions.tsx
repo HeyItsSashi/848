@@ -117,7 +117,7 @@ const HiringSolutions = () => {
                 We Understand
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed">
-                We start by deeply grasping your role requirements, culture fit, and business goals. No copy-paste resumes—just clarity.
+                We start by deeply grasping your role requirements, culture fit, and business goals.
               </p>
             </div>
 
