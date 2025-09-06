@@ -141,7 +141,7 @@ const HiringSolutions = () => {
                 We Fill
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed">
-                We don't stop at shortlisting—we fill your positions with the right people who can deliver impact from day one.
+                We fill your positions with the right people who can deliver impact from day one.
               </p>
             </div>
           </div>
