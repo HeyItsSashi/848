@@ -177,7 +177,6 @@ const Contact = () => {
             
               <form 
                 className="space-y-4" 
-                onSubmit={handleSubmit}
                 name="contact"
                 method="POST"
                 data-netlify="true"
