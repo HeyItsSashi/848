@@ -80,7 +80,7 @@ const HiringSolutions = () => {
 
             {/* Description */}
             <p className="text-2xl md:text-3xl text-gray-700 mb-12 max-w-5xl leading-relaxed mx-auto">
-              At SevenX Global, we don't just promise talent—<span className="font-semibold text-black">we deliver it</span>. 
+              At SevenX Global, we don't just promise talent—<span className="font-semibold text-black">We deliver it</span>. 
               We take your hiring needs, move fast, and place the right people where they're needed most.
             </p>
 
