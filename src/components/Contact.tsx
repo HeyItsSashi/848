@@ -150,7 +150,7 @@ const Contact = () => {
                     href="tel:+910000000000"
                     className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-purple"
                   >
-                    +91 0000 000 000
+                    +91 6304 108 601
                   </a>
                 </div>
               </div>
