@@ -255,7 +255,7 @@ const Contact = () => {
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
               <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
-                Seven<span className="text-teal">X</span> Global
+                Code<span className="text-teal">Signs</span> 
               </span>
             </div>
             
