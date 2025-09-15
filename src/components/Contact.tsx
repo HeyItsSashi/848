@@ -135,7 +135,7 @@ const Contact = () => {
                     href="mailto:200@sevenx.global"
                     className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
                   >
-                    200@sevenxg.com
+                    200@848labs.com
                   </a>
                 </div>
               </div>
@@ -255,7 +255,7 @@ const Contact = () => {
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
               <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
-                Code<span className="text-teal">Signs</span> 
+                848<span className="text-teal">Labs</span> 
               </span>
             </div>
             
@@ -281,7 +281,7 @@ const Contact = () => {
             
             {/* Footer Info */}
             <div className="flex flex-wrap items-center justify-center sm:justify-end space-x-2 sm:space-x-4 text-gray-500 text-xs sm:text-sm text-center">
-              <span>© 2025 SevenX Global Solutions.</span>
+              <span>© 2025 848 Labs</span>
               <span>•</span>
               <span>AI Product Engineering & Tech Consulting</span>
             </div>
