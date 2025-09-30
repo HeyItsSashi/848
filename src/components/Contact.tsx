@@ -116,7 +116,7 @@ const Contact = () => {
             Your Next Intelligent Move Starts Here
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            Partner with <HighlightOnScroll className="font-semibold text-black">848 Labs</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
+            Partner with <HighlightOnScroll className="font-semibold text-black">ReferanTics</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ const Contact = () => {
                     href="mailto:200@sevenx.global"
                     className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
                   >
-                    200@848labs.com
+                    200@referantics.com
                   </a>
                 </div>
               </div>
@@ -255,7 +255,7 @@ const Contact = () => {
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
               <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
-                848<span className="text-teal">Labs</span> 
+                ReferanTics<span className="text-teal">Global</span> 
               </span>
             </div>
             
@@ -281,7 +281,7 @@ const Contact = () => {
             
             {/* Footer Info */}
             <div className="flex flex-wrap items-center justify-center sm:justify-end space-x-2 sm:space-x-4 text-gray-500 text-xs sm:text-sm text-center">
-              <span>© 2025 848 Labs</span>
+              <span>© 2025 Codesigns</span>
               <span>•</span>
               <span>AI Product Engineering & Tech Consulting</span>
             </div>
