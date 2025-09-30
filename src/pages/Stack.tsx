@@ -107,7 +107,7 @@ const Stack = () => {
             </div>
             
             <p>
-              The <HighlightOnScroll className="font-semibold text-black">SevenX Global Stack</HighlightOnScroll> is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
+              The <HighlightOnScroll className="font-semibold text-black">CodeSigns Stack</HighlightOnScroll> is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
               <HighlightOnScroll>Strategy</HighlightOnScroll> (how we deliver), and
                <HighlightOnScroll> Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
