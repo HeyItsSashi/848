@@ -71,7 +71,7 @@ const Careers = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll> , we create technologies that think, adapt, and scale. Our products aren't just smart, they're 
+              At <HighlightOnScroll className="font-semibold text-black">Codesigns</HighlightOnScroll> , we create technologies that think, adapt, and scale. Our products aren't just smart, they're 
               agentic , autonomous and purpose-built for real-world impact.
             </p>
             <p>
@@ -170,7 +170,7 @@ const Careers = () => {
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-3 text-lg">
               <span className="text-2xl"></span>
-                <span className="font-bold group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">join@SevenX.global</span>
+                <span className="font-bold group-hover:underline decoration-2 decoration-white underline-offset-2 hover:scale-105 transition-all duration-300">join@codesigns.org</span>
             </div>
             <p className="text-gray-300">Tell us what excites you and where you want to make an impact.</p>
           </div>
