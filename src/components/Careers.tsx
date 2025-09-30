@@ -66,12 +66,12 @@ const Careers = () => {
         <div className="mb-20">
           <div className="flex items-center space-x-3 mb-8">
             <span className="text-2xl">👋</span>
-            <h2 className="text-3xl font-bold text-black">Why Join SevenX?</h2>
+            <h2 className="text-3xl font-bold text-black">Why Join CodeSigns?</h2>
           </div>
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At SevenX, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
+              At CodeSigns, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
               <HighlightOnScroll className="font-semibold text-black"> agentic</HighlightOnScroll>, 
               <HighlightOnScroll className="font-semibold text-black"> autonomous</HighlightOnScroll>, and 
               <HighlightOnScroll className="font-semibold text-black"> purpose-built</HighlightOnScroll> for real-world impact.
