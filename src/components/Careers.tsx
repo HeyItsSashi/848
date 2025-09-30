@@ -55,7 +55,7 @@ const Careers = () => {
         {/* Hero Section */}
         <div className="text-left mb-20">
           <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
-            Careers at SevenX Global
+            Careers at Codesigns
           </h1>
           <p className="text-2xl text-gray-700 mb-8 max-w-4xl">
             We don't just hire. We build with <HighlightOnScroll>people who build</HighlightOnScroll>.
