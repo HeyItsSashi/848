@@ -76,7 +76,7 @@ const Header = () => {
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />
             <span className="text-2xl font-bold">
-              Seven<span className="text-teal">X</span> Global
+              Code<span className="text-teal"></span> Signs
             </span>
           </Link>
           
