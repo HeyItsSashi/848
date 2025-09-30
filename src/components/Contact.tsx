@@ -132,7 +132,7 @@ const Contact = () => {
                 <div>
                   <p className="text-gray-500 text-xs sm:text-sm">Email</p>
                   <a 
-                    href="mailto:200@sevenx.global"
+                    href="mailto:200@codesigns.org"
                     className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
                   >
                     200@codesigns.org
