@@ -23,9 +23,9 @@ const Hero = () => {
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 tracking-tight text-left">
           <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg hover:text-blue-400">
-            ReferanTics<span className="text-teal">X</span>
+            Codesigns<span className="text-teal"></span>
           </span>
-          <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-225 cursor-pointer hover:drop-shadow-lg ml-2 sm:ml-4"> Global</span>
+          <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-225 cursor-pointer hover:drop-shadow-lg ml-2 sm:ml-4"></span>
         </h1>
 
         <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-start space-y-2 sm:space-y-0 sm:space-x-4 text-gray-600">
