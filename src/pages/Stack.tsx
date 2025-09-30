@@ -91,7 +91,7 @@ const Stack = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">SevenX Global</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of SevenX stack that makes it all possible.
+              At <HighlightOnScroll className="font-semibold text-black">CodeSigns</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of SevenX stack that makes it all possible.
             </p>
             
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8 border border-blue-200 my-10">
