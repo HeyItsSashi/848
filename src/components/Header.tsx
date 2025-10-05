@@ -250,7 +250,7 @@ const Header = () => {
             </Link>
             
             <a
-              href="https://blog.sevenx.global/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
