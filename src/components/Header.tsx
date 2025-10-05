@@ -151,7 +151,7 @@ const Header = () => {
             </Link>
             
             <a
-              href="https://blog.sevenx.global/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105"
