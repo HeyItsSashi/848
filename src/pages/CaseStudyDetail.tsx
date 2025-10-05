@@ -112,7 +112,7 @@ const CaseStudyDetail = () => {
       solution: "AI-native fintech platform with biometric security, automated fraud detection, and regulatory compliance",
       techUsed: "Flutter, Node.js, Blockchain, AI/ML APIs, Biometric Authentication, AWS Security, Compliance APIs",
       impact: "90% faster transaction processing, 99.8% fraud detection accuracy, full regulatory compliance achieved",
-      testimonial: "SevenX Global delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
+      testimonial: "CodeSignsdelivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
       client: "Robert Kim, Chief Technology Officer",
       color: "sky",
       category: "Mobile Apps",
