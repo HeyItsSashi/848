@@ -21,7 +21,7 @@ const Clients = () => {
       solution: "AI-powered mobile health platform with predictive analytics and automated alert systems",
       techUsed: "React Native, TensorFlow Lite, Node.js, PostgreSQL, AWS IoT, Machine Learning APIs",
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
-      testimonial: "CodeSignstransformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
+      testimonial: "CodeSigns transformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
       color: "teal",
       category: "Mobile Apps"
@@ -60,7 +60,7 @@ const Clients = () => {
       solution: "AI-native fintech platform with biometric security, automated fraud detection, and regulatory compliance",
       techUsed: "Flutter, Node.js, Blockchain, AI/ML APIs, Biometric Authentication, AWS Security, Compliance APIs",
       impact: "90% faster transaction processing, 99.8% fraud detection accuracy, full regulatory compliance achieved",
-      testimonial: "SevenX Global delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
+      testimonial: "CodeSigns delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
       client: "Robert Kim, Chief Technology Officer",
       color: "sky",
       category: "Mobile Apps"
