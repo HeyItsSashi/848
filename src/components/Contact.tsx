@@ -188,7 +188,7 @@ const Contact = () => {
                 <input type="hidden" name="form-name" value="contact" />
                 
                 {/* Additional hidden fields for better email formatting */}
-                <input type="hidden" name="subject" value="New Contact Form Submission - SevenX Global Website" />
+                <input type="hidden" name="subject" value="New Contact Form Submission - CodeSigns Website" />
                 
                 {/* Honeypot field for spam protection */}
                 <div style={{ display: 'none' }}>
@@ -251,7 +251,7 @@ const Contact = () => {
             <div className="flex items-center space-x-3 flex-shrink-0">
               <img 
                 src="/logo.png" 
-                alt="SevenX Global Logo" 
+                alt="Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
               <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
@@ -270,7 +270,7 @@ const Contact = () => {
                 <span className="font-bold text-sm sm:text-base">𝕏</span>
               </a>
               <a
-                href="https://www.linkedin.com/company/coesignss"
+                href="https://www.linkedin.com/company/codesignss"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="w-8 sm:w-10 h-8 sm:h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 group hover:scale-110 hover:shadow-lg"
