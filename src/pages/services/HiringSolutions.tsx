@@ -149,7 +149,7 @@ const HiringSolutions = () => {
 
         {/* Why Choose Us */}
         <div className="mb-20">
-          <h2 className="text-4xl font-bold text-purple mb-12">Why Choose SevenX Global as Your Staffing Partner?</h2>
+          <h2 className="text-4xl font-bold text-purple mb-12">Why Choose CodeSigns  as Your Staffing Partner?</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             {whyChoosePoints.map((point, index) => (
