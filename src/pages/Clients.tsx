@@ -21,7 +21,7 @@ const Clients = () => {
       solution: "AI-powered mobile health platform with predictive analytics and automated alert systems",
       techUsed: "React Native, TensorFlow Lite, Node.js, PostgreSQL, AWS IoT, Machine Learning APIs",
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
-      testimonial: "SevenX Global transformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
+      testimonial: "CodeSignstransformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
       color: "teal",
       category: "Mobile Apps"
