@@ -303,7 +303,7 @@ const Stack = () => {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl mb-12">
             <p>
-              The <HighlightOnScroll className="font-semibold text-black">SevenX Global Stack</HighlightOnScroll> isn't just theory—it's how we operate every day. From product decisions to team dynamics, 
+              The <HighlightOnScroll className="font-semibold text-black">CodeSigns Stack</HighlightOnScroll> isn't just theory—it's how we operate every day. From product decisions to team dynamics, 
               every aspect of our work is guided by these three foundational layers.
             </p>
           </div>
