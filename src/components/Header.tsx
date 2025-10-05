@@ -72,7 +72,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
               src="/logo.png" 
-              alt="SevenX Global Logo" 
+              alt="Logo" 
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />
             <span className="text-2xl font-bold">
