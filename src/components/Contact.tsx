@@ -135,7 +135,7 @@ const Contact = () => {
                     href="mailto:200@codesigns.org"
                     className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-teal"
                   >
-                    200@codesigns.org
+                    200@Acantix.com
                   </a>
                 </div>
               </div>
