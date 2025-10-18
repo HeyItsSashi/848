@@ -55,7 +55,7 @@ const Careers = () => {
         {/* Hero Section */}
         <div className="text-left mb-20">
           <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
-            Careers at CodeSigns
+            Careers at Acantix
           </h1>
           <p className="text-2xl text-gray-700 mb-8 max-w-4xl">
             We don't just hire. We build with <HighlightOnScroll>people who build</HighlightOnScroll>.
@@ -71,7 +71,7 @@ const Careers = () => {
           
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At CodeSigns, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
+              At Acantix, we create technologies that think, adapt, and scale. Our products aren't just smart—they're 
               <HighlightOnScroll className="font-semibold text-black"> agentic</HighlightOnScroll>, 
               <HighlightOnScroll className="font-semibold text-black"> autonomous</HighlightOnScroll>, and 
               <HighlightOnScroll className="font-semibold text-black"> purpose-built</HighlightOnScroll> for real-world impact.
@@ -154,7 +154,7 @@ const Careers = () => {
               <p className="text-lg font-semibold text-black">We hire primarily through referrals and conversations.</p>
             </div>
             <p className="text-gray-700">
-              If someone at CoeSigns knows you, start there. If not, email us at 
+              If someone at Acantix knows you, start there. If not, email us at 
               <span className="relative group cursor-pointer mx-1">
                 <span className="font-semibold text-black hover:scale-105 transition-transform duration-300">join@codesigns.org</span>
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
