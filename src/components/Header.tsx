@@ -71,12 +71,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
-              src="/logo.png" 
+              src="/log" 
               alt="Logo" 
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />
             <span className="text-2xl font-bold">
-              Acantix<span className="text-teal">Global</span>
+              Acantix<span className="text">Global</span>
             </span>
           </Link>
           
