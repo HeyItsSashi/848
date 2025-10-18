@@ -75,9 +75,7 @@ const Header = () => {
               alt="Logo" 
               className="h-10 w-auto hover:scale-110 transition-all duration-300"
             />
-           
-          </Link>
-          
+          </Link>          
           <nav className="hidden md:flex items-center space-x-8 relative"
             onMouseLeave={() => setIsServicesOpen(false)}
           >
