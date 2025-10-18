@@ -188,7 +188,7 @@ const Contact = () => {
                 <input type="hidden" name="form-name" value="contact" />
                 
                 {/* Additional hidden fields for better email formatting */}
-                <input type="hidden" name="subject" value="New Contact Form Submission - CodeSigns Website" />
+                <input type="hidden" name="subject" value="New Contact Form Submission - Acantix Website" />
                 
                 {/* Honeypot field for spam protection */}
                 <div style={{ display: 'none' }}>
