@@ -156,7 +156,7 @@ const Careers = () => {
             <p className="text-gray-700">
               If someone at Acantix knows you, start there. If not, email us at 
               <span className="relative group cursor-pointer mx-1">
-                <span className="font-semibold text-black hover:scale-105 transition-transform duration-300">join@codesigns.org</span>
+                <span className="font-semibold text-black hover:scale-105 transition-transform duration-300">join@Acantix.org</span>
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r transition-all duration-300 group-hover:w-full" style={{background: 'linear-gradient(to right, rgba(59, 130, 246, 0.5), #9333ea)'}}></span>
               </span>
               with a note on what you're obsessed with solving.
