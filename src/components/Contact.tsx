@@ -181,7 +181,7 @@ const Contact = () => {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                data-netlify-emails="200@codesigns.org"
+                data-netlify-emails="200@Acantix.com"
                 action="/success.html"
               >
                 {/* Hidden input for Netlify Forms */}
