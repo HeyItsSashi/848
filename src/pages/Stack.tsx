@@ -47,7 +47,7 @@ const Stack = () => {
 
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-black mb-4 leading-tight">
-              <HighlightOnScroll className="font-semibold">Codesigns Stack</HighlightOnScroll>
+              <HighlightOnScroll className="font-semibold">Acantix Stack</HighlightOnScroll>
               <span className="block text-gray-600 mt-2"></span>
             </h1>
           </div>
@@ -91,7 +91,7 @@ const Stack = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">CodeSigns</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of stack that makes it all possible.
+              At <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of stack that makes it all possible.
             </p>
             
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8 border border-blue-200 my-10">
