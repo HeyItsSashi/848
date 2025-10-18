@@ -3,49 +3,49 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://codesigns.org/</loc>
+    <loc>https://Acantix.org/</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/stack</loc>
+    <loc>https://acantix.org/stack</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/careers</loc>
+    <loc>https://acantix.org/careers</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/services/ai-native-platforms</loc>
+    <loc>https://acantix.org/services/ai-native-platforms</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/services/edge-systems</loc>
+    <loc>https://acantix.org/services/edge-systems</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/services/enterprise-solutions</loc>
+    <loc>https://acantix.org/services/enterprise-solutions</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://codesigns.org/services/data-ai-engineering</loc>
+    <loc>https://acantix.org/services/data-ai-engineering</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
