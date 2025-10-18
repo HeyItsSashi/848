@@ -8,10 +8,10 @@ const Stack = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-           <HighlightOnScroll className="font-semibold text-black">Codesigns</HighlightOnScroll> 
+           <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll> 
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Our foundation built on <HighlightOnScroll>purpose</HighlightOnScroll>, strategy, and culture that drives intelligent solutions.
+            Our foundation is built on <HighlightOnScroll>purpose</HighlightOnScroll>, strategy, and culture that drives intelligent solutions.
           </p>
         </div>
 
