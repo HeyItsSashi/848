@@ -104,7 +104,7 @@ const HiringSolutions = () => {
           
           <div className="bg-gradient-to-r from-teal/10 to-purple/10 rounded-3xl p-8 mb-12">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Staffing doesn't need to be complicated. The traditional hiring process often feels slow, uncertain, and disconnected from business urgency. At CodeSigns, we've built a straightforward, outcomes-first approach to staffing:
+              Staffing doesn't need to be complicated. The traditional hiring process often feels slow, uncertain, and disconnected from business urgency. At Acantix, we've built a straightforward, outcomes-first approach to staffing:
             </p>
           </div>
 
