@@ -91,7 +91,7 @@ const Stack = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed max-w-4xl">
             <p>
-              At <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll>, we don't just build products. We go by strong values, principles build systems that think, behind every system there is a foundation of stack that makes it all possible.
+              At <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll>, we don't just build products. We go by strong values, principles that build systems that think. Behind every system, there is a foundation of a stack that makes it all possible.
             </p>
             
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8 border border-blue-200 my-10">
@@ -107,7 +107,7 @@ const Stack = () => {
             </div>
             
             <p>
-              The <HighlightOnScroll className="font-semibold text-black">CodeSigns Stack</HighlightOnScroll> is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
+              The <HighlightOnScroll className="font-semibold text-black">Acantix Stack</HighlightOnScroll> is built on three interconnected layers: <HighlightOnScroll>Purpose</HighlightOnScroll> (why we exist), 
               <HighlightOnScroll>Strategy</HighlightOnScroll> (how we deliver), and
                <HighlightOnScroll> Culture</HighlightOnScroll> (the values that drive us). 
               Together, they form the foundation for everything we create.
@@ -119,7 +119,7 @@ const Stack = () => {
         <section className="mb-20">
           <div className="flex items-center space-x-3 mb-12">
             <Building2 className="w-6 h-6 text-gray-400" />
-            <h2 className="text-3xl font-bold text-black">Core Principles - Codesigns Way!</h2>
+            <h2 className="text-3xl font-bold text-black">Core Principles - Acantix Way!</h2>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
