@@ -69,7 +69,7 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2 text-2xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
+          <Link to="/" className="flex items-center space-x-2 text-6xl font-bold text-black hover:scale-105 transition-transform duration-200 cursor-pointer">
             <img 
               src="/logo.png" 
               alt="Logo" 
