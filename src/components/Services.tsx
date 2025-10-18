@@ -37,13 +37,7 @@ const Services = () => {
       features: ["Data Visualization", "Business Intelligence", "Agentic Data Solutions"],
       link: "/services/data-ai-engineering"
     },
-    {
-      icon: Users,
-      title: "Hiring Solutions",
-      description: "Staffing made simple: we understand, we act, we fill the right talent quickly.",
-      features: ["AI-Powered Screening", "Scalable Team Building", "Outcome-Driven Placement"],
-      link: "/services/hiring-solutions"
-    }
+    
   ];
 
   return (
