@@ -46,7 +46,7 @@ const Approach = () => {
               key={index}
               className={`border-2 rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
                 index === 0 ? 'bg-teal bg-opacity-10 border-teal' : 
-                index === 1 ? 'bg-purple bg-opacity-10 border-purple' : 
+                index === 1 ? 'bg-teal bg-opacity-10 border-purple' : 
                 'bg-golden bg-opacity-10 border-golden'
               }`}
             >
