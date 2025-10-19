@@ -1,13 +1,26 @@
-User-agent: GPTBot
-Allow: /
+# ================================
+# Acantix Global | AI-Native Platforms
+# robots.txt - SEO + AI Crawler Optimized
+# ================================
 
 User-agent: *
 Allow: /
 
+# ✅ Allow OpenAI's GPT crawler
+User-agent: GPTBot
+Allow: /
+
+# ✅ Allow ChatGPT plugin / browsing bot
 User-agent: ChatGPT-User
 Allow: /
 
+# ✅ Allow Google's AI crawler
 User-agent: Google-Extended
 Allow: /
 
+# ✅ Allow Bing's AI crawler
+User-agent: Bingbot
+Allow: /
+
+# ✅ Sitemap declaration
 Sitemap: https://acantix.com/sitemap.xml
