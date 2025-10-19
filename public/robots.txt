@@ -4,4 +4,7 @@ Allow: /
 User-agent: *
 Disallow:
 
-Sitemap: https://acantix.com/itemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://acantix.com/sitemap.xml
