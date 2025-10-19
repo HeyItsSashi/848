@@ -162,8 +162,7 @@ const Contact = () => {
                 <div>
                   <p className="text-gray-500 text-xs sm:text-sm">Location</p>
                   <p className="text-gray-800 font-semibold text-base sm:text-lg transition-colors duration-300 relative group cursor-pointer hover:text-golden">
-                    30 N Gould St.
-Sheridan, WY 82801
+                    30 N Gould St.Sheridan, WY 82801
                   </p>
                 </div>
               </div>
