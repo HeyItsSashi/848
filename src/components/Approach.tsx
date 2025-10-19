@@ -45,16 +45,16 @@ const Approach = () => {
             <div
               key={index}
               className={`border-2 rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
-                index === 0 ? 'bg-golden bg-opacity-10 border-teal' : 
-                index === 1 ? 'bg-golden bg-opacity-10 border-teal' : 
-                'bg-golden bg-opacity-10 border-teal'
+                index === 0 ? 'bg-golden bg-opacity-10 border-golden' : 
+                index === 1 ? 'bg-golden bg-opacity-10 border-golden' : 
+                'bg-golden bg-opacity-10 border-golden'
               }`}
             >
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <div className={`w-16 sm:w-20 h-16 sm:h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
-                  index === 0 ? 'bg-teal' : 
-                  index === 1 ? 'bg-teal' : 
-                  'bg-teal'
+                  index === 0 ? 'bg-golden' : 
+                  index === 1 ? 'bg-golden' : 
+                  'bg-golden'
                 }`}>
                   <step.icon className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                 </div>
