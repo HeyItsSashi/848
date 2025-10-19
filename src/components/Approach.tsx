@@ -53,8 +53,8 @@ const Approach = () => {
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <div className={`w-16 sm:w-20 h-16 sm:h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
                   index === 0 ? 'bg-teal' : 
-                  index === 1 ? 'bg-purple' : 
-                  'bg-golden'
+                  index === 1 ? 'bg-teal' : 
+                  'bg-teal'
                 }`}>
                   <step.icon className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                 </div>
