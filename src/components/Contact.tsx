@@ -254,9 +254,7 @@ const Contact = () => {
                 alt="Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
-              <span className="text-lg sm:text-xl font-bold text-gray-800 whitespace-nowrap">
-                Acantix<span className="text-teal">Global</span> 
-              </span>
+            
             </div>
             
             {/* Social Media Icons */}
