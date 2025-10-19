@@ -36,7 +36,7 @@ const Products = () => {
           ))}
         </div>
 
-        <div className="bg-teal rounded-3xl p-6 sm:p-8 lg:p-12 text-left">
+        <div className="bg-purple rounded-3xl p-6 sm:p-8 lg:p-12 text-left">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl">
             <div className="flex items-center justify-start space-x-3 text-white hover:text-blue-300 transition-colors duration-300 cursor-pointer group">
               <div className="flex items-center justify-start space-x-3 text-white transition-colors duration-300 cursor-pointer group" style={{'&:hover': {color: 'rgba(59, 130, 246, 0.5)'}}}>
