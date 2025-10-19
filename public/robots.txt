@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Disallow:
 
-Sitemap: https://coesigns.org/itemap.xml
+Sitemap: https://acantix.com/itemap.xml
