@@ -50,7 +50,7 @@ const CaseStudyDetail = () => {
       impact: "300% increase in customer engagement, 65% reduction in support tickets, 45% boost in average order value",
       testimonial: "Our customers love the instant, personalised support. The bot handles complex queries beautifully and has significantly improved our sales metrics.",
       client: "Michael Chen, VP of Customer Experience",
-      color: "teal",
+      colour: "teal",
       category: "AI Bots",
       challenges: [
         "High volume of repetitive customer inquiries",
@@ -82,7 +82,7 @@ const CaseStudyDetail = () => {
       impact: "50% reduction in production downtime, 30% decrease in manufacturing defects, 25% cost savings annually",
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
-      color: "teal",
+      colour: "teal",
       category: "Manufacturing",
       challenges: [
         "Frequent unexpected equipment failures causing downtime",
@@ -114,7 +114,7 @@ const CaseStudyDetail = () => {
       impact: "90% faster transaction processing, 99.8% fraud detection accuracy, full regulatory compliance achieved",
       testimonial: "Acantix delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
       client: "Robert Kim, Chief Technology Officer",
-      color: "sky",
+      colour: "sky",
       category: "Mobile Apps",
       challenges: [
         "Outdated legacy systems causing slow transaction processing",
@@ -146,7 +146,7 @@ const CaseStudyDetail = () => {
       impact: "70% improvement in student engagement, 55% faster learning progression, 95% student satisfaction rate",
       testimonial: "The platform has revolutionised how our students learn. Each student now gets a truly personalised education experience that adapts to their needs.",
       client: "Dr. Amanda Foster, Head of Digital Learning",
-      color: "grey",
+      colour: "grey",
       category: "Automation",
       challenges: [
         "One-size-fits-all learning approach not meeting individual needs",
