@@ -82,7 +82,7 @@ const CaseStudyDetail = () => {
       impact: "50% reduction in production downtime, 30% decrease in manufacturing defects, 25% cost savings annually",
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
-      color: "grey",
+      color: "teal",
       category: "Manufacturing",
       challenges: [
         "Frequent unexpected equipment failures causing downtime",
