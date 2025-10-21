@@ -245,14 +245,7 @@ const Header = () => {
               Case Studies
             </Link>
             
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block py-2 text-gray-700 hover:text-black transition-colors duration-200"
-            >
-              Blogs
-            </a>
+            
             
             <Link
               to="/careers"
