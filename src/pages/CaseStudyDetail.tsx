@@ -50,7 +50,7 @@ const CaseStudyDetail = () => {
       impact: "300% increase in customer engagement, 65% reduction in support tickets, 45% boost in average order value",
       testimonial: "Our customers love the instant, personalised support. The bot handles complex queries beautifully and has significantly improved our sales metrics.",
       client: "Michael Chen, VP of Customer Experience",
-      color: "grey",
+      color: "teal",
       category: "AI Bots",
       challenges: [
         "High volume of repetitive customer inquiries",
