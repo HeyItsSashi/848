@@ -18,7 +18,7 @@ const CaseStudyDetail = () => {
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
       testimonial: "Acantix transformed our patient care delivery. The AI-driven insights have revolutionised how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
-      color: "grey",
+      color: "black",
       category: "Mobile Apps",
       challenges: [
         "Patients struggling with medication compliance",
