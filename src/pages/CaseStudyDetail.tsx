@@ -55,12 +55,12 @@ const CaseStudyDetail = () => {
       challenges: [
         "High volume of repetitive customer inquiries",
         "Limited customer support hours affecting sales",
-        "Difficulty providing personalized shopping experiences at scale",
+        "Difficulty providing personalised shopping experiences at scale",
         "Low conversion rates from browsing to purchase"
       ],
       solutionDetails: [
-        "Built intelligent chatbot with natural language understanding",
-        "Integrated machine learning for personalized product recommendations",
+        "Built an intelligent chatbot with natural language understanding",
+        "Integrated machine learning for personalised product recommendations",
         "Implemented sentiment analysis for better customer interaction",
         "Created seamless handoff system to human agents when needed"
       ],
