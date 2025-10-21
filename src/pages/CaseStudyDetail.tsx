@@ -146,7 +146,7 @@ const CaseStudyDetail = () => {
       impact: "70% improvement in student engagement, 55% faster learning progression, 95% student satisfaction rate",
       testimonial: "The platform has revolutionised how our students learn. Each student now gets a truly personalised education experience that adapts to their needs.",
       client: "Dr. Amanda Foster, Head of Digital Learning",
-      color: "rust",
+      color: "grey",
       category: "Automation",
       challenges: [
         "One-size-fits-all learning approach not meeting individual needs",
@@ -221,10 +221,10 @@ const CaseStudyDetail = () => {
           </div>
 
           <div className={`rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 mb-8 sm:mb-12 text-white relative overflow-hidden ${
-            project.color === 'teal' ? 'bg-teal' :
-            project.color === 'purple' ? 'bg-purple' :
-            project.color === 'golden' ? 'bg-golden' :
-            project.color === 'sky' ? 'bg-sky' :
+            project.color === 'grey' ? 'bg-grey' :
+            project.color === 'grey' ? 'bg-grey' :
+            project.color === 'grey' ? 'bg-grey' :
+            project.color === 'grey' ? 'bg-grey' :
             'bg-rust'
           }`}>
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
