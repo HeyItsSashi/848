@@ -18,7 +18,7 @@ const CaseStudyDetail = () => {
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
       testimonial: "Acantix transformed our patient care delivery. The AI-driven insights have revolutionised how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
-      color: "teal",
+      color: "grey",
       category: "Mobile Apps",
       challenges: [
         "Patients struggling with medication compliance",
@@ -50,7 +50,7 @@ const CaseStudyDetail = () => {
       impact: "300% increase in customer engagement, 65% reduction in support tickets, 45% boost in average order value",
       testimonial: "Our customers love the instant, personalised support. The bot handles complex queries beautifully and has significantly improved our sales metrics.",
       client: "Michael Chen, VP of Customer Experience",
-      color: "purple",
+      color: "grey",
       category: "AI Bots",
       challenges: [
         "High volume of repetitive customer inquiries",
@@ -82,7 +82,7 @@ const CaseStudyDetail = () => {
       impact: "50% reduction in production downtime, 30% decrease in manufacturing defects, 25% cost savings annually",
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
-      color: "golden",
+      color: "grey",
       category: "Manufacturing",
       challenges: [
         "Frequent unexpected equipment failures causing downtime",
