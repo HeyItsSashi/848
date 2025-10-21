@@ -23,7 +23,7 @@ const Clients = () => {
       impact: "85% improvement in patient medication adherence, 40% reduction in hospital readmissions, serving 50K+ patients",
       testimonial: "Acantix transformed our patient care delivery. The AI-driven insights have revolutionized how we monitor and support our chronic disease patients.",
       client: "Dr. Sarah Johnson, Chief Medical Officer",
-      color: "teal",
+      colour: "grey",
       category: "Mobile Apps"
     },
     {
@@ -36,7 +36,7 @@ const Clients = () => {
       impact: "300% increase in customer engagement, 65% reduction in support tickets, 45% boost in average order value",
       testimonial: "Our customers love the instant, personalized support. The bot handles complex queries beautifully and has significantly improved our sales metrics.",
       client: "Michael Chen, VP of Customer Experience",
-      color: "purple",
+      colour: "grey",
       category: "AI Bots"
     },
     {
@@ -49,7 +49,7 @@ const Clients = () => {
       impact: "50% reduction in production downtime, 30% decrease in manufacturing defects, 25% cost savings annually",
       testimonial: "The automation platform has transformed our manufacturing efficiency. We now predict equipment failures before they happen and maintain consistent quality.",
       client: "Jennifer Rodriguez, Operations Director",
-      color: "golden",
+      colour: "grey",
       category: "Manufacturing"
     },
     {
@@ -62,7 +62,7 @@ const Clients = () => {
       impact: "90% faster transaction processing, 99.8% fraud detection accuracy, full regulatory compliance achieved",
       testimonial: "Acantix delivered a banking solution that exceeds industry security standards while providing an exceptional user experience.",
       client: "Robert Kim, Chief Technology Officer",
-      color: "sky",
+      colour: "grey",
       category: "Mobile Apps"
     },
     {
@@ -75,7 +75,7 @@ const Clients = () => {
       impact: "70% improvement in student engagement, 55% faster learning progression, 95% student satisfaction rate",
       testimonial: "The platform has revolutionized how our students learn. Each student now gets a truly personalized education experience that adapts to their needs.",
       client: "Dr. Amanda Foster, Head of Digital Learning",
-      color: "rust",
+      colour: "grey",
       category: "Automation"
     }
   ];
