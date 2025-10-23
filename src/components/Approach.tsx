@@ -66,7 +66,7 @@ const Approach = () => {
                       index === 1 ? 'text-white' : 
                       'text-white'
                     }`}>{step.number}</span>
-                    <h3 className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
+                    <h3 className={`text-2xl sm:text-3xl font-bold transition-colors duration-300 ${
                       index === 0 ? 'text-white' : 
                       index === 1 ? 'text-white' : 
                       'text-white'
