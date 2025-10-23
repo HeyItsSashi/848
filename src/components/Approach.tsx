@@ -45,9 +45,9 @@ const Approach = () => {
             <div
               key={index}
               className={`border-2 rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer hover:scale-[1.02] ${
-                index === 0 ? 'bg-golden bg-opacity-10 border-golden' : 
-                index === 1 ? 'bg-golden bg-opacity-10 border-golden' : 
-                'bg-golden bg-opacity-10 border-golden'
+                index === 0 ? 'bg-black bg-opacity-10 border-black' : 
+                index === 1 ? 'bg-black bg-opacity-10 border-black' : 
+                'bg-black bg-opacity-10 border-black'
               }`}
             >
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
