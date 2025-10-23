@@ -30,7 +30,7 @@ const Approach = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
             Our Approach
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
+          <p className="text-lg sm:text-xl text-black-600 max-w-3xl">
             From <span className="relative group cursor-pointer">
               <span className="group-hover:underline decoration-2 decoration-stone-400 underline-offset-2 hover:scale-105 transition-all duration-300">Vision</span>
             </span> to <span className="relative group cursor-pointer">
