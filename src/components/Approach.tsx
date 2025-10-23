@@ -54,7 +54,7 @@ const Approach = () => {
                 <div className={`w-16 sm:w-20 h-16 sm:h-20 rounded-2xl flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg ${
                   index === 0 ? 'bg-black' : 
                   index === 1 ? 'bg-black' : 
-                  'bg-white'
+                  'bg-black'
                 }`}>
                   <step.icon className="w-6 sm:w-8 h-6 sm:h-8 text-white" />
                 </div>
