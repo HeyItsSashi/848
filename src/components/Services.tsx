@@ -64,9 +64,9 @@ const Services = () => {
               key={index}
               className={`block rounded-2xl p-6 sm:p-8 hover:shadow-xl transition-all duration-500 group hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:scale-[1.02] ${
                 index === 0 ? 'bg-gray text-white hover:bg-opacity-90' : 
-                index === 1 ? 'bg-teal text-white hover:bg-opacity-90' : 
-                index === 2 ? 'bg-teal text-white hover:bg-opacity-90' : 
-                index === 3 ? 'bg-teal text-white hover:bg-opacity-90' : 
+                index === 1 ? 'bg-gray text-white hover:bg-opacity-90' : 
+                index === 2 ? 'bg-gray text-white hover:bg-opacity-90' : 
+                index === 3 ? 'bg-gray text-white hover:bg-opacity-90' : 
                 'bg-rust text-white hover:bg-opacity-90'
               }`}
             >
