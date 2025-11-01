@@ -175,14 +175,6 @@ const Header = () => {
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full bg-sky"></span>
             </Link>
-          <button
-            onClick={handleAICallerClick}
-            className="block py-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 px-4 rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 flex items-center space-x-2 mx-2"
-          >
-            <Phone className="w-4 h-4" />
-            <span>Talk to Riya Now!</span>
-          </button>
-            
             <button
               onClick={handleAICallerClick}
               className="text-gray-700 hover:text-black transition-all duration-300 relative group hover:scale-105 flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-pink-600"
