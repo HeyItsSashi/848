@@ -57,7 +57,7 @@ const DataAIEngineering = () => {
 
             {/* Description */}
             <p className="text-2xl md:text-3xl text-gray-700 mb-12 max-w-5xl leading-relaxed mx-auto">
-              We help businesses unlock the full potential of their data through intelligent analysis, visualizstion, and 
+              We help businesses unlock the full potential of their data through intelligent analysis, visualizsaion, and 
               <span className="font-semibold text-black"> AI-powered insights that drive measurable outcomes</span>.
             </p>
 
