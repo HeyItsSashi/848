@@ -194,7 +194,7 @@ const Clients = () => {
                   project.color === 'purple' ? 'bg-purple' :
                   project.color === 'golden' ? 'bg-golden' :
                   project.color === 'sky' ? 'bg-sky' :
-                  'bg-rust'
+                  'bg-black'
                 } animate-fadeInUp`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
