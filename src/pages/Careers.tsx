@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Brain, Users, Zap, Mail, ArrowRight, Heart, Target, Lightbulb } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
@@ -49,6 +50,17 @@ const Careers = () => {
 
   return (
     <div className="min-h-screen pt-20 relative">
+      <Helmet>
+        <title>Careers at Acantix | Join Our AI Innovation Team</title>
+        <meta name="description" content="Join Acantix and build the future of AI. We're hiring passionate individuals for AI Engineering, Product Design, Platform Engineering, and more. Remote-first culture with global impact." />
+        <meta name="keywords" content="AI careers, AI engineer jobs, product designer jobs, platform engineer careers, remote AI jobs, artificial intelligence careers, machine learning jobs, tech careers, startup jobs" />
+        <link rel="canonical" href="https://acantix.com/careers" />
+        <meta property="og:title" content="Careers at Acantix | Join Our AI Innovation Team" />
+        <meta property="og:description" content="We don't just hire. Careers aren't jobs — they're journeys of building impact. Join our team of deep thinkers and restless builders." />
+        <meta property="og:url" content="https://acantix.com/careers" />
+        <meta name="twitter:title" content="Careers at Acantix | Join Our AI Innovation Team" />
+        <meta name="twitter:description" content="Build the future of AI with us. We're looking for passionate individuals who want to create technologies that think, adapt, and scale." />
+      </Helmet>
       {/* Particle Background */}
       <ParticleBackground />
       

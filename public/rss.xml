@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Acantix Global - AI-Native Platforms &amp; Solutions</title>
+    <description>Latest insights and updates from Acantix Global on AI-Native Platforms, Edge Systems, Enterprise Solutions, and Data Engineering.</description>
+    <link>https://acantix.com</link>
+    <atom:link href="https://acantix.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://acantix.com/logo.png</url>
+      <title>Acantix Global</title>
+      <link>https://acantix.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <managingEditor>ai@acantix.com (Acantix Global)</managingEditor>
+    <webMaster>ai@acantix.com (Acantix Global)</webMaster>
+    <category>Technology</category>
+    <category>Artificial Intelligence</category>
+    <category>Enterprise Solutions</category>
+    <category>Data Engineering</category>
+    
+    <item>
+      <title>AI-Native Platforms: The Future of Enterprise Intelligence</title>
+      <description>Discover how AI-native platforms are transforming enterprise operations with closed-loop intelligence that learns and adapts continuously.</description>
+      <link>https://acantix.com/services/ai-native-platforms</link>
+      <guid>https://acantix.com/services/ai-native-platforms</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+      <category>AI Platforms</category>
+      <category>Enterprise</category>
+      <dc:creator>Acantix Global</dc:creator>
+      <content:encoded><![CDATA[
+        <p>Build platforms where AI isn't an add-on feature—it's the foundation. Our AI-native systems think, learn, and evolve with your business.</p>
+        <p>We offer comprehensive AI consulting, product development, and system modernization services to transform your enterprise with intelligent automation.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Edge Systems: Intelligence at the Speed of Life</title>
+      <description>When milliseconds matter and connectivity can't be guaranteed, our edge systems bring AI processing directly to where decisions need to be made.</description>
+      <link>https://acantix.com/services/edge-systems</link>
+      <guid>https://acantix.com/services/edge-systems</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Edge Computing</category>
+      <category>IoT</category>
+      <category>Computer Vision</category>
+      <dc:creator>Acantix Global</dc:creator>
+      <content:encoded><![CDATA[
+        <p>Advanced computer vision solutions, IoT integration, and embedded security systems that process data in real-time at the edge.</p>
+        <p>Enable instant decision-making without cloud dependency through our comprehensive edge intelligence solutions.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Enterprise Solutions: Scalable AI for Global Operations</title>
+      <description>Transform your enterprise with AI-powered solutions that integrate seamlessly into your existing infrastructure while delivering measurable ROI.</description>
+      <link>https://acantix.com/services/enterprise-solutions</link>
+      <guid>https://acantix.com/services/enterprise-solutions</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Enterprise</category>
+      <category>Mobile Apps</category>
+      <category>Cybersecurity</category>
+      <category>Automation</category>
+      <dc:creator>Acantix Global</dc:creator>
+      <content:encoded><![CDATA[
+        <p>AI-powered mobile and enterprise applications, advanced security systems, and comprehensive automation solutions for global operations.</p>
+        <p>Join global leaders who trust our AI-powered solutions to drive their digital transformation at enterprise scale.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Data &amp; AI Engineering: Turn Data Into Decisive Advantage</title>
+      <description>Unlock the full potential of your data through intelligent analysis, visualization, and AI-powered insights that drive measurable outcomes.</description>
+      <link>https://acantix.com/services/data-ai-engineering</link>
+      <guid>https://acantix.com/services/data-ai-engineering</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Data Engineering</category>
+      <category>Business Intelligence</category>
+      <category>Analytics</category>
+      <dc:creator>Acantix Global</dc:creator>
+      <content:encoded><![CDATA[
+        <p>Comprehensive data intelligence stack including visualization, business intelligence, and agentic data solutions.</p>
+        <p>Transform complex data into compelling visual stories and autonomous AI agents that analyze, identify patterns, and take actions.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Client Success Stories: Transforming Industries</title>
+      <description>From startups to enterprises, we've partnered with organizations across industries to deliver measurable results through intelligent solutions.</description>
+      <link>https://acantix.com/clients</link>
+      <guid>https://acantix.com/clients</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Case Studies</category>
+      <category>Success Stories</category>
+      <dc:creator>Acantix Global</dc:creator>
+      <content:encoded><![CDATA[
+        <p>Real projects, real impact, real testimonials from healthcare, retail, manufacturing, finance, and education sectors.</p>
+        <p>Discover how we've delivered 50+ projects with 100% success rate across 5 industries worldwide.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

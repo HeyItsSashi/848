@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Users, Shield, Cog, TrendingUp, Globe, Lock, Bot, ArrowRight } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
@@ -10,6 +11,17 @@ const AINativePlatforms = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br from-teal/10 via-purple/5 to-golden/10">
+      <Helmet>
+        <title>AI-Native Platforms | Intelligent Systems That Learn & Evolve</title>
+        <meta name="description" content="Build platforms where AI isn't an add-on feature—it's the foundation. Our AI-native systems think, learn, and evolve with your business through closed-loop intelligence." />
+        <meta name="keywords" content="AI-native platforms, intelligent systems, AI consulting, AI product development, AI system modernization, closed-loop intelligence, adaptive AI, enterprise AI platforms" />
+        <link rel="canonical" href="https://acantix.com/services/ai-native-platforms" />
+        <meta property="og:title" content="AI-Native Platforms | Intelligence That Learns & Adapts" />
+        <meta property="og:description" content="Transform your business with platforms where AI is the foundation, not an add-on. Systems that think, learn, and evolve continuously." />
+        <meta property="og:url" content="https://acantix.com/services/ai-native-platforms" />
+        <meta name="twitter:title" content="AI-Native Platforms | Intelligent Systems That Evolve" />
+        <meta name="twitter:description" content="Build platforms where AI isn't a feature—it's the foundation. Intelligence that learns, adapts, and evolves with your business." />
+      </Helmet>
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link

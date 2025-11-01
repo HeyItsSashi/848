@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, TrendingUp, Database, Brain, BarChart3, Zap, Target, LineChart, PieChart } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
@@ -10,6 +11,17 @@ const DataAIEngineering = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br from-golden/10 via-sky/5 to-purple/10">
+      <Helmet>
+        <title>Data & AI Engineering | Turn Data Into Decisive Advantage</title>
+        <meta name="description" content="Unlock the full potential of your data through intelligent analysis, visualization, and AI-powered insights. Data visualization, business intelligence, and agentic data solutions that drive measurable outcomes." />
+        <meta name="keywords" content="data engineering, AI engineering, data visualization, business intelligence, agentic data solutions, data analytics, predictive analytics, data science, AI-powered insights, data transformation" />
+        <link rel="canonical" href="https://acantix.com/services/data-ai-engineering" />
+        <meta property="og:title" content="Data & AI Engineering | Transform Data Into Intelligence" />
+        <meta property="og:description" content="Stop letting valuable data sit unused. Build AI-powered systems that turn information into competitive advantage." />
+        <meta property="og:url" content="https://acantix.com/services/data-ai-engineering" />
+        <meta name="twitter:title" content="Data & AI Engineering | Turn Data Into Decisive Advantage" />
+        <meta name="twitter:description" content="Unlock data potential through intelligent analysis, visualization, and AI agents that autonomously analyze and act." />
+      </Helmet>
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link

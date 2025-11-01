@@ -1,26 +1,154 @@
 # ================================
 # Acantix Global | AI-Native Platforms
 # robots.txt - SEO + AI Crawler Optimized
+# Updated: 2025-01-19
 # ================================
 
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
 # ✅ Allow OpenAI's GPT crawler
 User-agent: GPTBot
 Allow: /
+Crawl-delay: 1
 
 # ✅ Allow ChatGPT plugin/browsing bot
 User-agent: ChatGPT-User
 Allow: /
+Crawl-delay: 1
+
+# ✅ Allow OpenAI's web crawler
+User-agent: OAI-SearchBot
+Allow: /
+Crawl-delay: 1
 
 # ✅ Allow Google's AI crawler
 User-agent: Google-Extended
 Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Google's standard bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
 
 # ✅ Allow Bing's AI crawler
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Claude's web crawler
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Anthropic's crawler
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Cohere AI
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow You.com
+User-agent: YouBot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# ✅ Allow Apple's crawler
+User-agent: Applebot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow LinkedIn
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Twitter
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Facebook
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Slack
+User-agent: Slackbot
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow WhatsApp
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 1
+
+# ✅ Allow Telegram
+User-agent: TelegramBot
+Allow: /
+Crawl-delay: 1
+
+# 🚫 Disallow aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# 📁 Important directories
+Allow: /services/
+Allow: /stack/
+Allow: /clients/
+Allow: /careers/
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.ttf
+Allow: /*.eot
 
 # ✅ Sitemap declaration
-Sitemap: https://acantix.com/sitemap.xml

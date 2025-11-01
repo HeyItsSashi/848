@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Target, Users, Heart, Infinity, ArrowRight, Building2, Lightbulb, Rocket, CheckCircle, Star } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
 import ParticleBackground from '../components/ParticleBackground';
@@ -29,6 +30,17 @@ const Stack = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-white relative">
+      <Helmet>
+        <title>Acantix Stack | Our Foundation for AI Excellence</title>
+        <meta name="description" content="Discover the Acantix Stack - our complete foundation built on Purpose, Strategy, and Culture that drives intelligent solutions and measurable impact." />
+        <meta name="keywords" content="Acantix Stack, AI foundation, purpose-driven AI, strategy stack, culture stack, AI methodology, intelligent systems, enterprise transformation" />
+        <link rel="canonical" href="https://acantix.com/stack" />
+        <meta property="og:title" content="Acantix Stack | Our Foundation for AI Excellence" />
+        <meta property="og:description" content="More than technology. More than process. A complete foundation for building intelligent systems that drive impact." />
+        <meta property="og:url" content="https://acantix.com/stack" />
+        <meta name="twitter:title" content="Acantix Stack | Our Foundation for AI Excellence" />
+        <meta name="twitter:description" content="Discover the complete DNA of how we think, work, and deliver impact through our three-layer foundation." />
+      </Helmet>
       {/* Particle Background */}
       <ParticleBackground />
       

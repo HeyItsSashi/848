@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Building2, Heart, Star, Quote, ArrowRight, Users, TrendingUp, Zap } from 'lucide-react';
 import HighlightOnScroll from '../components/HighlightOnScroll';
@@ -93,6 +94,17 @@ const Clients = () => {
     : clientProjects.filter(project => project.category === projectCategories[activeTab].key);
   return (
     <div className="min-h-screen pt-20 bg-white relative">
+      <Helmet>
+        <title>Client Success Stories | Acantix Case Studies & Results</title>
+        <meta name="description" content="Discover how Acantix has transformed businesses across healthcare, retail, manufacturing, finance, and education with AI-powered solutions. Real projects, real impact, real testimonials." />
+        <meta name="keywords" content="AI case studies, client success stories, AI implementation results, healthcare AI, retail AI, manufacturing automation, fintech solutions, education technology, AI transformation" />
+        <link rel="canonical" href="https://acantix.com/clients" />
+        <meta property="og:title" content="Client Success Stories | Transforming Industries with AI" />
+        <meta property="og:description" content="From startups to enterprises, we've partnered with organizations across industries to deliver measurable results through intelligent solutions." />
+        <meta property="og:url" content="https://acantix.com/clients" />
+        <meta name="twitter:title" content="Client Success Stories | AI Transformation Results" />
+        <meta name="twitter:description" content="50+ projects delivered with 100% success rate across 5 industries. See how we've transformed businesses with AI solutions." />
+      </Helmet>
       {/* Particle Background */}
       <ParticleBackground />
       

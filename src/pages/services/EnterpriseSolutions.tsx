@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Factory, Shield, Users, Cog, TrendingUp, Globe, BarChart3, Lock } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
@@ -10,6 +11,17 @@ const EnterpriseSolutions = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br from-purple/10 via-golden/5 to-teal/10">
+      <Helmet>
+        <title>Enterprise Solutions | Scalable AI for Global Operations</title>
+        <meta name="description" content="Transform your enterprise with AI-powered solutions that integrate seamlessly into existing infrastructure. Mobile apps, cybersecurity, and automation solutions delivering measurable ROI at scale." />
+        <meta name="keywords" content="enterprise AI solutions, AI mobile apps, AI cybersecurity, enterprise automation, AI assurance, scalable AI, global operations, digital transformation, enterprise modernization" />
+        <link rel="canonical" href="https://acantix.com/services/enterprise-solutions" />
+        <meta property="og:title" content="Enterprise Solutions | AI-Powered Global Operations" />
+        <meta property="og:description" content="Join global leaders who trust our AI-powered solutions to drive digital transformation at enterprise scale." />
+        <meta property="og:url" content="https://acantix.com/services/enterprise-solutions" />
+        <meta name="twitter:title" content="Enterprise Solutions | Scalable AI for Global Operations" />
+        <meta name="twitter:description" content="Transform your enterprise with AI solutions that deliver measurable ROI and competitive advantage at scale." />
+      </Helmet>
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Satellite, Eye, Cpu, Wifi, Shield, Zap, Camera, MapPin } from 'lucide-react';
 import ParticleBackground from '../../components/ParticleBackground';
@@ -10,6 +11,17 @@ const EdgeSystems = () => {
 
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br from-teal/10 via-sky/5 to-purple/10">
+      <Helmet>
+        <title>Edge Systems | Intelligence at the Speed of Life</title>
+        <meta name="description" content="When milliseconds matter and connectivity can't be guaranteed, our edge systems bring AI processing directly to where decisions need to be made. Computer vision, IoT integration, and embedded security." />
+        <meta name="keywords" content="edge systems, edge computing, computer vision, IoT integration, embedded security, real-time AI, edge AI processing, industrial IoT, smart sensors, autonomous systems" />
+        <link rel="canonical" href="https://acantix.com/services/edge-systems" />
+        <meta property="og:title" content="Edge Systems | AI Processing at the Point of Action" />
+        <meta property="og:description" content="Deploy edge systems that think and act in microseconds. Real-time AI processing without cloud dependency." />
+        <meta property="og:url" content="https://acantix.com/services/edge-systems" />
+        <meta name="twitter:title" content="Edge Systems | Intelligence at the Speed of Life" />
+        <meta name="twitter:description" content="Bring AI processing to where it matters most. Edge systems that make decisions in milliseconds, not minutes." />
+      </Helmet>
       {/* Back Button - Right Side */}
       <div className="fixed top-24 right-6 z-50">
         <Link
