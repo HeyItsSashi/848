@@ -145,7 +145,7 @@ const AINativePlatforms = () => {
                 <Cog className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-bold text-black mb-4 transition-colors duration-300">
-                AI System Modernizstion
+                AI System Modernisaion
               </h3>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Transform legacy systems into intelligent, adaptive platforms that learn from data and improve performance over time.
