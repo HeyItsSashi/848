@@ -60,7 +60,6 @@ const Header = () => {
     { name: 'Edge Systems', path: '/services/edge-systems' },
     { name: 'Enterprise Solutions', path: '/services/enterprise-solutions' },
     { name: 'Data & AI Engineering', path: '/services/data-ai-engineering' },
-    { name: 'Hiring Solutions', path: '/services/hiring-solutions' }
   ];
 
   return (
