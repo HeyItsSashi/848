@@ -114,4 +114,12 @@
     <mobile:mobile/>
   </url>
 
+  <url>
+    <loc>https://acantix.com/privacy-policy</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <mobile:mobile/>
+  </url>
+
 </urlset>

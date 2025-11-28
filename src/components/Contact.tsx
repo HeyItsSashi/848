@@ -281,6 +281,10 @@ const Contact = () => {
             <div className="flex flex-wrap items-center justify-center sm:justify-end space-x-2 sm:space-x-4 text-gray-500 text-xs sm:text-sm text-center">
               <span>© 2025 Acantix Global, LLC</span>
               <span>•</span>
+              <Link to="/privacy-policy" className="hover:text-black transition-colors duration-200">
+                Privacy Policy
+              </Link>
+              <span>•</span>
               <span>AI Product Engineering & Tech Consulting</span>
             </div>
           </div>
