@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
 
         <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 mb-8 sm:mb-12 max-w-4xl leading-relaxed text-left">
-          Acantix is an<HighlightOnScroll className="font-semibold text-black"> impact-first product engineering firm</HighlightOnScroll>  <HighlightOnScroll className="font-semibold text-black">converging AI, Edge, Cloud, Data, and Cybersecurity </HighlightOnScroll> to deliver high-performance platforms that accelerate business growth
+          Acantix is an <HighlightOnScroll className="font-semibold text-black"> impact-first product engineering firm</HighlightOnScroll>  <HighlightOnScroll className="font-semibold text-black"> converging AI, Edge, Cloud, Data, and Cybersecurity </HighlightOnScroll> to deliver high-performance platforms that accelerate business growth
 
         </p>
 
