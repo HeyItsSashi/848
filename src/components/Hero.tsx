@@ -18,7 +18,7 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto px-6 text-center relative z-20">
         <div className="mb-8 flex items-center justify-start space-x-2 text-gray-600">
-          <span className="text-sm font-medium tracking-wider uppercase">We are</span>
+          <span className="text-sm font-medium tracking-wider uppercase">We are your </span>
         </div>
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 tracking-tight text-left">
