@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Acantix Global | AI-Native Platforms & AI Solutions</title>
+        <title>Acantix | AI-Native Platforms & AI Solutions</title>
         <meta name="description" content="Next-generation AI company building intelligent systems that transform real-world data into decisive intelligence. AI-Native Platforms, Edge Systems, Enterprise Solutions & Data Engineering." />
         <meta name="keywords" content="AI-Native Platforms, Edge Systems, Enterprise AI Solutions, Data AI Engineering, artificial intelligence, intelligent automation, machine learning, edge computing, real-time analytics, predictive analytics, AI consulting, enterprise automation, data visualization, business intelligence, agentic AI systems" />
         <link rel="canonical" href="https://acantix.com/" />
