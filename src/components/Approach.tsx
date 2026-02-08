@@ -71,7 +71,7 @@ const Approach = () => {
                       'text-white'
                     }`}>{step.title}</h3>
                   </div>
-                  <p className="text-sm sm:text-base lg:text-lg text-black-600 leading-relaxed">
+                  <p className="text-sm sm:text-base lg:text-lg text-white-600 leading-relaxed">
                     {step.description}
                   </p>
                 </div>
