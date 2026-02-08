@@ -21,7 +21,7 @@ const Hero = () => {
           <span className="text-sm font-medium tracking-wider uppercase">We are your </span>
         </div>
         
-        <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black mb-6 tracking-tight text-left">
+        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-black mb-6 tracking-tight text-left">
           <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg hover:text-blue-400">
             Growth & Transformation<span className="text-black"> Partners</span>
           </span>
