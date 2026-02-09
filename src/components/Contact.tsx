@@ -196,6 +196,7 @@ const Contact = () => {
                   <label>
                     Don't fill this out if you're human: <input name="bot-field" />
                   </label>
+                </p>
 
                 <div>
                   <input
@@ -254,7 +255,6 @@ const Contact = () => {
                 alt="Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
-            
             </div>
             
             {/* Social Media Icons */}
