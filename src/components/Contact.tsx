@@ -182,8 +182,8 @@ const Contact = () => {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                data-netlify-emails="200@Acantix.com"
-                action="/success.html"
+                data-netlify-emails="ai@acantix.com"
+                onSubmit={handleSubmit}
               >
                 {/* Hidden input for Netlify Forms */}
                 <input type="hidden" name="form-name" value="contact" />
@@ -192,11 +192,10 @@ const Contact = () => {
                 <input type="hidden" name="subject" value="New Contact Form Submission - Acantix Website" />
                 
                 {/* Honeypot field for spam protection */}
-                <div style={{ display: 'none' }}>
+                <p style={{ display: 'none' }}>
                   <label>
                     Don't fill this out if you're human: <input name="bot-field" />
                   </label>
-                </div>
 
                 <div>
                   <input

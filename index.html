@@ -442,13 +442,11 @@
     <div id="root"></div>
     
     <!-- Hidden form for Netlify Forms detection -->
-    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-emails="ai@acantix.com" style="display: none;">
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="hidden" name="form-name" value="contact" />
-      <input type="hidden" name="subject" value="New Contact Form Submission - Acantix Website" />
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
-      <!-- Honeypot field for spam protection -->
       <input name="bot-field" />
     </form>
     
