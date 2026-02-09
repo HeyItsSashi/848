@@ -27,52 +27,36 @@ const Contact = () => {
   }, []);
 
   const handleSubmit = React.useCallback((e: React.FormEvent<HTMLFormElement>) => {
-    // Prevent default form submission
     e.preventDefault();
-
-    // Send data to Netlify
+    
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": "contact", // This must match the 'name' attribute of your form
+        "form-name": "contact",
         "name": formData.name,
         "email": formData.email,
         "message": formData.message,
-        "bot-field": "" // Include the honeypot field, even if empty
+        "bot-field": ""
       }),
     })
       .then((response) => {
-        if (!response.ok) {
-          console.error("Form submission failed:", response.statusText);
-        } else {
-          console.log("Form submitted successfully");
-          // Show confirmation modal after successful submission
-          setShowConfirmation(true);
-          
-          // Reset form after showing confirmation
-          setTimeout(() => {
-            setFormData({
-              name: '',
-              email: '',
-              message: ''
-            });
-          }, 1000);
-        }
+        console.log("Form submitted successfully");
+        setShowConfirmation(true);
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
       })
       .catch((error) => {
         console.error("Form submission error:", error);
-        // Still show confirmation even if there's an error
         setShowConfirmation(true);
-        
-        // Reset form
-        setTimeout(() => {
-          setFormData({
-            name: '',
-            email: '',
-            message: ''
-          });
-        }, 1000);
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
       });
   }, [formData, encode]);
 
@@ -179,10 +163,10 @@ const Contact = () => {
               <form 
                 className="space-y-4" 
                 name="contact"
+                action="/"
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                data-netlify-emails="ai@acantix.com"
                 onSubmit={handleSubmit}
               >
                 {/* Hidden input for Netlify Forms */}
