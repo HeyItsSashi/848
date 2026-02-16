@@ -18,24 +18,24 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto px-6 text-center relative z-20">
         <div className="mb-8 flex items-center justify-start space-x-2 text-gray-600">
-          <span className="text-sm font-medium tracking-wider uppercase">Leading AI Platform Company</span>
+          <span className="text-sm font-medium tracking-wider uppercase">Leading AI Solutions</span>
         </div>
         
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-6 tracking-tight text-left">
           <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg">
-            AI-Native Platforms for<span className="text-blue-600"> Enterprise Growth</span>
+            Growth & Transformation<span className="text-blue-600"> Partner</span>
           </span>
         </h1>
 
         <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-start space-y-2 sm:space-y-0 sm:space-x-4 text-gray-600">
           <Infinity className="w-6 h-6 animate-pulse" />
-          <span className="text-sm sm:text-base lg:text-lg font-medium">Transform Data into Decisions with Measurable ROI</span>
+          <span className="text-sm sm:text-base lg:text-lg font-medium">Transform with Measurable ROI</span>
           <Infinity className="w-6 h-6 animate-pulse" />
         </div>
 
         <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 mb-8 sm:mb-12 max-w-4xl leading-relaxed text-left">
-          Build intelligent systems where AI isn't an add-on—it's the <HighlightOnScroll className="font-semibold text-black">foundation</HighlightOnScroll>. 
-          Our <HighlightOnScroll className="font-semibold text-black">AI-native platforms</HighlightOnScroll> deliver <HighlightOnScroll className="font-semibold text-black">measurable business outcomes</HighlightOnScroll> through 
+          Build intelligent systems with <HighlightOnScroll className="font-semibold text-black">foundational aspects</HighlightOnScroll>. 
+Our <HighlightOnScroll className="font-semibold text-black">appraoch platforms</HighlightOnScroll> deliver <HighlightOnScroll className="font-semibold text-black">measurable business outcomes</HighlightOnScroll> through 
           enterprise-grade solutions that learn, adapt, and scale with your organization.
 
         </p>
