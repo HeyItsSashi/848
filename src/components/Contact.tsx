@@ -98,10 +98,10 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Get Expert AI Platform Development Services
+            Your Next Intelligent Move Starts Here
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            Partner with <HighlightOnScroll className="font-semibold text-black">Acantix Global</HighlightOnScroll> for enterprise AI platform development that delivers measurable business outcomes. Our AI consulting services drive growth, efficiency, and competitive advantage for your organization.
+            Partner with <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
           </p>
         </div>
 

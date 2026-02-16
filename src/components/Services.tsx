@@ -46,13 +46,13 @@ const Services = () => {
         <div className="text-left mb-16">
           <div className="inline-flex items-center space-x-2 text-gray-600 mb-4">
             <Bot className="w-5 h-5" />
-            <span className="text-sm font-medium tracking-wider uppercase">Enterprise AI Services</span>
+            <span className="text-sm font-medium tracking-wider uppercase">What We Do</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
-            AI Platform Development Services
+            Our Services
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            We deliver <HighlightOnScroll>complete AI transformation services</HighlightOnScroll> from strategy to implementation, building intelligent systems that deliver <HighlightOnScroll>measurable ROI</HighlightOnScroll> and competitive advantage.
+            We build <HighlightOnScroll>End-to-End Intelligence</HighlightOnScroll> across systems from Edge to Enterprise that sense, think, decide, and act.
           </p>
         </div>
 
