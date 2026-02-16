@@ -12,9 +12,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <mobile:mobile/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://acantix.com/" />
-    <xhtml:link rel="alternate" hreflang="en-us" href="https://acantix.com/en-us" />
-    <xhtml:link rel="alternate" hreflang="en-in" href="https://acantix.com/en-in" />
   </url>
 
   <url>
