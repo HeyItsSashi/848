@@ -18,24 +18,25 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto px-6 text-center relative z-20">
         <div className="mb-8 flex items-center justify-start space-x-2 text-gray-600">
-          <span className="text-sm font-medium tracking-wider uppercase">We are your </span>
+          <span className="text-sm font-medium tracking-wider uppercase">Leading AI Platform Company</span>
         </div>
         
-        <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-6 tracking-tight text-left">
-          <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg hover:text-blue-400">
-            Growth & Transformation<span className="text-black"> Partners</span>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-6 tracking-tight text-left">
+          <span className="hover:scale-110 inline-block transition-all duration-300 cursor-pointer hover:drop-shadow-lg">
+            AI-Native Platforms for<span className="text-blue-600"> Enterprise Growth</span>
           </span>
-          <span className="text-gray-600 hover:scale-110 hover:text-black inline-block transition-all duration-300 delay-225 cursor-pointer hover:drop-shadow-lg ml-2 sm:ml-4"></span>
-        </h3>
+        </h1>
 
         <div className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-start space-y-2 sm:space-y-0 sm:space-x-4 text-gray-600">
           <Infinity className="w-6 h-6 animate-pulse" />
-          <span className="text-sm sm:text-base lg:text-lg font-medium">HTTP/1.1 200 OK : Always ON for Businesses to build Intelligence</span>
+          <span className="text-sm sm:text-base lg:text-lg font-medium">Transform Data into Decisions with Measurable ROI</span>
           <Infinity className="w-6 h-6 animate-pulse" />
         </div>
 
         <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 mb-8 sm:mb-12 max-w-4xl leading-relaxed text-left">
-          Acantix is an <HighlightOnScroll className="font-semibold text-black"> impact-first product engineering firm</HighlightOnScroll>  <HighlightOnScroll className="font-semibold text-black"> converging AI, Edge, Cloud, Data, and Cybersecurity </HighlightOnScroll> to deliver high-performance platforms that accelerate business growth
+          Build intelligent systems where AI isn't an add-on—it's the <HighlightOnScroll className="font-semibold text-black">foundation</HighlightOnScroll>. 
+          Our <HighlightOnScroll className="font-semibold text-black">AI-native platforms</HighlightOnScroll> deliver <HighlightOnScroll className="font-semibold text-black">measurable business outcomes</HighlightOnScroll> through 
+          enterprise-grade solutions that learn, adapt, and scale with your organization.
 
         </p>
 
@@ -43,14 +44,14 @@ const Hero = () => {
           <button className="group bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 flex items-center space-x-2 hover:scale-105 hover:shadow-xl active:scale-95 relative overflow-hidden w-full sm:w-auto justify-center sm:justify-start">
             <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 bg-stone-600"></div>
             <span className="relative">
-Experience Intellegence </span>
+Get Started with AI Platforms</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
           
           <button className="group border-2 border-stone-300 text-stone-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:border-gray-700 hover:text-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95 relative overflow-hidden w-full sm:w-auto justify-center">
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
             <span className="relative">
-See it in Action            </span>
+See Case Studies</span>
           </button>
         </div>
 

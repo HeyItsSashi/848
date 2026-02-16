@@ -98,10 +98,10 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Your Next Intelligent Move Starts Here
+            Start Your AI Transformation Today
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            Partner with <HighlightOnScroll className="font-semibold text-black">Acantix</HighlightOnScroll> to scale impact powered by purposeful AI and actionable insights, scalable solutions that drive real-world impact.
+            Get expert AI consulting and platform development services that deliver measurable business outcomes. Partner with <HighlightOnScroll className="font-semibold text-black">Acantix Global</HighlightOnScroll> for enterprise AI solutions that drive growth and competitive advantage.
           </p>
         </div>
 

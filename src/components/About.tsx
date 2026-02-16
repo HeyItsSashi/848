@@ -11,7 +11,7 @@ const About = () => {
             The Intelligence Loop
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            In every intelligent system, there's a <HighlightOnScroll>loop</HighlightOnScroll>  input, analysis & feedback, output.
+            Every AI-native platform operates on three core principles: continuous learning, intelligent processing, and adaptive outcomes that drive measurable <HighlightOnScroll>business value</HighlightOnScroll>.
           </p>
         </div>
 
