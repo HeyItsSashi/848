@@ -8,10 +8,10 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-left mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
-            The Intelligence Loop
+            AI Platform Development Methodology
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl">
-            Every AI-native platform operates on three core principles: continuous learning, intelligent processing, and adaptive outcomes that drive measurable <HighlightOnScroll>business value</HighlightOnScroll>.
+            Our AI-native platform development follows three proven principles: continuous learning systems, intelligent data processing, and adaptive business outcomes that deliver measurable <HighlightOnScroll>ROI and competitive advantage</HighlightOnScroll>.
           </p>
         </div>
 
