@@ -235,7 +235,7 @@ const Contact = () => {
             {/* Logo and Brand */}
             <div className="flex items-center space-x-3 flex-shrink-0">
               <img 
-                src="/logo.png" 
+                src="/WhatsApp_Image_2026-03-04_at_3.23.54_PM.jpeg" 
                 alt="Logo" 
                 className="h-8 sm:h-10 w-auto hover:scale-110 transition-all duration-300"
               />
